@@ -32,6 +32,8 @@ nav:
           - Overview: questions/red-team/index.md
       - Security Engineer:
           - Overview: questions/security-engineer/index.md
+      - Blue Team / SOC:
+          - Overview: questions/blue-team/index.md
 
 markdown_extensions:
   - pymdownx.highlight:
