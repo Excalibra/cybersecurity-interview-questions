@@ -32,3 +32,13 @@ nav:
           - Overview: questions/red-team/index.md
       - Security Engineer:
           - Overview: questions/security-engineer/index.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
