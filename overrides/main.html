@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ super() }}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const selector = document.getElementById('category-selector');
+  if (!selector) return;
+
+  selector.addEventListener('change', function() {
+    const category = this.value;
+    const container = document.getElementById('questions-container');
+    
+    if (!category) {
+      container.innerHTML = '<p>Select a category above.</p>';
+      return;
+    }
+
+    // Simple mapping - expand as needed
+    let url = '';
+    if (category === 'web-penetration') url = '/questions/web-penetration/index.md';
+    else if (category === 'red-team') url = '/questions/red-team/index.md';
+    else if (category === 'security-engineer') url = '/questions/security-engineer/index.md';
+
+    if (url) {
+      window.location.href = url;
+    }
+  });
+});
+</script>
+{% endblock %}
