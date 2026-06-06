@@ -1,3 +1,3 @@
-# Web Application Penetration Testing Interview Questions
+# Web Application Penetration Testing
 
 Select a question from the left sidebar.
