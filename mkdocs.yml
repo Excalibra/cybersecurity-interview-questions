@@ -26,7 +26,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Interview Questions: questions/index.md   # we'll make this the category hub
+  - Interview Questions: questions/index.md
 
 markdown_extensions:
   - pymdownx.highlight:
