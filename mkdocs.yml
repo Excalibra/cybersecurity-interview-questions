@@ -26,9 +26,10 @@ theme:
 nav:
   - Home: index.md
   - Interview Questions:
-    - 21. HTTP Connection vs Persistent Connection: questions/21-http-short-long.md
-    - 22. How TCP Ensures Reliable Transmission: questions/22-tcp-reliable.md
-
+    - Web Application Penetration Testing: questions/web-penetration/index.md
+    - Red Team Operations: questions/red-team/index.md
+    - Security Engineer: questions/security-engineer/index.md
+    
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
