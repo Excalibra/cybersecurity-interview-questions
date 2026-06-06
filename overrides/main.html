@@ -6,46 +6,40 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const selector = document.getElementById('category-selector');
-  const listContainer = document.getElementById('questions-list');
+  const questionsList = document.getElementById('questions-list');
+  const mainContent = document.getElementById('main-content');
 
   const categories = {
     "web": {
       title: "Web Application Penetration Testing",
       items: [
-        { text: "21. HTTP Connection vs Persistent Connection", link: "/cybersecurity-interview-questions/questions/web-penetration/21-http-short-long/" },
-        { text: "22. How TCP Ensures Reliable Transmission", link: "/cybersecurity-interview-questions/questions/web-penetration/22-tcp-reliable/" }
+        {text: "21. HTTP Connection vs Persistent Connection", link: "/cybersecurity-interview-questions/questions/web-penetration/21-http-short-long/"},
+        {text: "22. How TCP Ensures Reliable Transmission", link: "/cybersecurity-interview-questions/questions/web-penetration/22-tcp-reliable/"}
       ]
     },
-    "red": {
-      title: "Red Team Operations",
-      items: []
-    },
-    "seceng": {
-      title: "Security Engineer",
-      items: []
-    }
+    "red": { title: "Red Team Operations", items: [] },
+    "seceng": { title: "Security Engineer", items: [] }
   };
 
   selector.addEventListener('change', function() {
-    const category = this.value;
-    if (!category) {
-      listContainer.innerHTML = '<p style="color:#9ca3af;">Select a category to see questions.</p>';
+    const val = this.value;
+    if (!val) {
+      questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
+      mainContent.innerHTML = '<p>Select a category above.</p>';
       return;
     }
 
-    const cat = categories[category];
-    let html = `<h2>${cat.title} Questions</h2><ul style="list-style:none; padding-left:0;">`;
+    const cat = categories[val];
+    let html = '';
 
     cat.items.forEach(item => {
-      html += `<li style="margin:8px 0;"><a href="${item.link}" style="color:#60a5fa; text-decoration:none;">${item.text}</a></li>`;
+      html += `<div style="margin:10px 0;"><a href="${item.link}" style="color:#60a5fa;">${item.text}</a></div>`;
     });
 
-    if (cat.items.length === 0) {
-      html += '<li>No questions added yet for this category.</li>';
-    }
+    if (cat.items.length === 0) html = '<p style="color:#9ca3af;">No questions yet for this category.</p>';
 
-    html += '</ul>';
-    listContainer.innerHTML = html;
+    questionsList.innerHTML = html;
+    mainContent.innerHTML = `<h2>${cat.title} Questions</h2>`;
   });
 });
 </script>
