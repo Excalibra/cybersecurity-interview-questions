@@ -21,31 +21,22 @@ document.addEventListener('DOMContentLoaded', function() {
     "seceng": { title: "Security Engineer", items: [] }
   };
   
-  function updateSidebar(category) {
-    if (!category) {
-      questionsList.innerHTML = '<p style="color:#9ca3af; font-style:italic;">No category selected.</p>';
-      mainContent.innerHTML = '<p>Select a category above.</p>';
+  function updateQuestions(val) {
+    if (!val) {
+      questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
       return;
     }
-    
-    const cat = categories[category];
+    const cat = categories[val];
     let html = '';
-    
     cat.items.forEach(item => {
-      html += `<div style="margin:6px 0;"><a href="${item.link}" style="color:#60a5fa; text-decoration:none; display:block; padding:6px 10px; border-radius:4px;">${item.text}</a></div>`;
+      html += `<div style="margin:8px 0;"><a href="${item.link}" style="color:#60a5fa;text-decoration:none;">${item.text}</a></div>`;
     });
-    
-    if (cat.items.length === 0) {
-      html = '<p style="color:#9ca3af;">No questions added yet for this category.</p>';
-    }
-    
+    if (cat.items.length === 0) html = '<p style="color:#9ca3af;">No questions yet.</p>';
     questionsList.innerHTML = html;
-    mainContent.innerHTML = `<h2>${cat.title} Interview Questions</h2>`;
+    mainContent.innerHTML = `<h2>${cat.title}</h2>`;
   }
   
-  selector.addEventListener('change', function() {
-    updateSidebar(this.value);
-  });
+  selector.addEventListener('change', (e) => updateQuestions(e.target.value));
 });
 </script>
 {% endblock %}
