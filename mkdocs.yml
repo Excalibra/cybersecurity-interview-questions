@@ -3,8 +3,6 @@ site_url: https://excalibra.github.io/cybersecurity-interview-questions/
 repo_name: Excalibra/cybersecurity-interview-questions
 repo_url: https://github.com/Excalibra/cybersecurity-interview-questions
 
-docs_dir: docs
-
 theme:
   name: material
   features:
@@ -26,10 +24,17 @@ theme:
 nav:
   - Home: index.md
   - Interview Questions:
-    - Web Application Penetration Testing: questions/web-penetration/index.md
-    - Red Team Operations: questions/red-team/index.md
-    - Security Engineer: questions/security-engineer/index.md
-    
+    - Web Application Penetration Testing:
+      - Overview: questions/web-penetration/index.md
+      - 21. HTTP Connection vs Persistent Connection: questions/web-penetration/21-http-short-long.md
+      - 22. How TCP Ensures Reliable Transmission: questions/web-penetration/22-tcp-reliable.md
+    - Red Team Operations:
+      - Overview: questions/red-team/index.md
+      # Add red team questions here
+    - Security Engineer:
+      - Overview: questions/security-engineer/index.md
+      # Add seceng questions here
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
