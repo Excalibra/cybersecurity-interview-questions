@@ -8,19 +8,26 @@ document.addEventListener('DOMContentLoaded', function() {
   const selector = document.getElementById('category-selector');
   const questionsList = document.getElementById('questions-list');
   const mainContent = document.getElementById('main-content');
-
+  
   const categories = {
     "web": {
       title: "Web Application Penetration Testing",
       items: [
         {text: "21. HTTP Connection vs Persistent Connection", link: "/cybersecurity-interview-questions/questions/web-penetration/21-http-short-long/"},
         {text: "22. How TCP Ensures Reliable Transmission", link: "/cybersecurity-interview-questions/questions/web-penetration/22-tcp-reliable/"}
+        // Add more here as you create files
       ]
     },
-    "red": { title: "Red Team Operations", items: [] },
-    "seceng": { title: "Security Engineer", items: [] }
+    "red": {
+      title: "Red Team Operations",
+      items: []
+    },
+    "seceng": {
+      title: "Security Engineer",
+      items: []
+    }
   };
-
+  
   selector.addEventListener('change', function() {
     const val = this.value;
     if (!val) {
@@ -28,18 +35,20 @@ document.addEventListener('DOMContentLoaded', function() {
       mainContent.innerHTML = '<p>Select a category above.</p>';
       return;
     }
-
+    
     const cat = categories[val];
     let html = '';
-
+    
     cat.items.forEach(item => {
-      html += `<div style="margin:10px 0;"><a href="${item.link}" style="color:#60a5fa;">${item.text}</a></div>`;
+      html += `<div style="margin:8px 0; padding:4px 0;"><a href="${item.link}" style="color:#60a5fa; text-decoration:none;">${item.text}</a></div>`;
     });
-
-    if (cat.items.length === 0) html = '<p style="color:#9ca3af;">No questions yet for this category.</p>';
-
+    
+    if (cat.items.length === 0) {
+      html = '<p style="color:#9ca3af;">No questions added yet for this category.</p>';
+    }
+    
     questionsList.innerHTML = html;
-    mainContent.innerHTML = `<h2>${cat.title} Questions</h2>`;
+    mainContent.innerHTML = `<h2>${cat.title} Interview Questions</h2><p>Choose a question from the left panel.</p>`;
   });
 });
 </script>
