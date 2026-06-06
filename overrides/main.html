@@ -17,20 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
         {text: "22. How TCP Ensures Reliable Transmission", link: "/cybersecurity-interview-questions/questions/web-penetration/22-tcp-reliable/"}
       ]
     },
-    "red": {
-      title: "Red Team Operations",
-      items: []
-    },
-    "seceng": {
-      title: "Security Engineer",
-      items: []
-    }
+    "red": { title: "Red Team Operations", items: [] },
+    "seceng": { title: "Security Engineer", items: [] }
   };
   
-  function updateQuestions(category) {
+  function updateSidebar(category) {
     if (!category) {
       questionsList.innerHTML = '<p style="color:#9ca3af; font-style:italic;">No category selected.</p>';
-      mainContent.innerHTML = '<p>Select a category to view questions.</p>';
+      mainContent.innerHTML = '<p>Select a category above.</p>';
       return;
     }
     
@@ -38,12 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let html = '';
     
     cat.items.forEach(item => {
-      html += `
-        <div style="margin: 6px 0;">
-          <a href="${item.link}" style="color:#60a5fa; text-decoration: none; display:block; padding:4px 8px; border-radius:4px;">
-            ${item.text}
-          </a>
-        </div>`;
+      html += `<div style="margin:6px 0;"><a href="${item.link}" style="color:#60a5fa; text-decoration:none; display:block; padding:6px 10px; border-radius:4px;">${item.text}</a></div>`;
     });
     
     if (cat.items.length === 0) {
@@ -55,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   selector.addEventListener('change', function() {
-    updateQuestions(this.value);
+    updateSidebar(this.value);
   });
 });
 </script>
