@@ -3,6 +3,8 @@ site_url: https://excalibra.github.io/cybersecurity-interview-questions/
 repo_name: Excalibra/cybersecurity-interview-questions
 repo_url: https://github.com/Excalibra/cybersecurity-interview-questions
 
+docs_dir: docs
+
 theme:
   name: material
   features:
