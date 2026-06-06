@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
       items: [
         {text: "21. HTTP Connection vs Persistent Connection", link: "/cybersecurity-interview-questions/questions/web-penetration/21-http-short-long/"},
         {text: "22. How TCP Ensures Reliable Transmission", link: "/cybersecurity-interview-questions/questions/web-penetration/22-tcp-reliable/"}
-        // Add more here as you create files
       ]
     },
     "red": {
@@ -28,19 +27,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   };
   
-  selector.addEventListener('change', function() {
-    const val = this.value;
-    if (!val) {
-      questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
-      mainContent.innerHTML = '<p>Select a category above.</p>';
+  function updateQuestions(category) {
+    if (!category) {
+      questionsList.innerHTML = '<p style="color:#9ca3af; font-style:italic;">No category selected.</p>';
+      mainContent.innerHTML = '<p>Select a category to view questions.</p>';
       return;
     }
     
-    const cat = categories[val];
+    const cat = categories[category];
     let html = '';
     
     cat.items.forEach(item => {
-      html += `<div style="margin:8px 0; padding:4px 0;"><a href="${item.link}" style="color:#60a5fa; text-decoration:none;">${item.text}</a></div>`;
+      html += `
+        <div style="margin: 6px 0;">
+          <a href="${item.link}" style="color:#60a5fa; text-decoration: none; display:block; padding:4px 8px; border-radius:4px;">
+            ${item.text}
+          </a>
+        </div>`;
     });
     
     if (cat.items.length === 0) {
@@ -48,7 +51,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     questionsList.innerHTML = html;
-    mainContent.innerHTML = `<h2>${cat.title} Interview Questions</h2><p>Choose a question from the left panel.</p>`;
+    mainContent.innerHTML = `<h2>${cat.title} Interview Questions</h2>`;
+  }
+  
+  selector.addEventListener('change', function() {
+    updateQuestions(this.value);
   });
 });
 </script>
