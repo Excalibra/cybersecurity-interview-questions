@@ -34,10 +34,16 @@ nav:
           - Overview: questions/red-team/index.md
       - Security Engineer:
           - Overview: questions/security-engineer/index.md
-          
+
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.superfences
   - pymdownx.tabbed
+  - admonition
+  - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
