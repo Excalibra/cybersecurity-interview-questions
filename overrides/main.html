@@ -6,26 +6,46 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const selector = document.getElementById('category-selector');
-  if (!selector) return;
+  const listContainer = document.getElementById('questions-list');
+
+  const categories = {
+    "web": {
+      title: "Web Application Penetration Testing",
+      items: [
+        { text: "21. HTTP Connection vs Persistent Connection", link: "/cybersecurity-interview-questions/questions/web-penetration/21-http-short-long/" },
+        { text: "22. How TCP Ensures Reliable Transmission", link: "/cybersecurity-interview-questions/questions/web-penetration/22-tcp-reliable/" }
+      ]
+    },
+    "red": {
+      title: "Red Team Operations",
+      items: []
+    },
+    "seceng": {
+      title: "Security Engineer",
+      items: []
+    }
+  };
 
   selector.addEventListener('change', function() {
     const category = this.value;
-    const container = document.getElementById('questions-container');
-    
     if (!category) {
-      container.innerHTML = '<p>Select a category above.</p>';
+      listContainer.innerHTML = '<p style="color:#9ca3af;">Select a category to see questions.</p>';
       return;
     }
 
-    // Simple mapping - expand as needed
-    let url = '';
-    if (category === 'web-penetration') url = '/questions/web-penetration/index.md';
-    else if (category === 'red-team') url = '/questions/red-team/index.md';
-    else if (category === 'security-engineer') url = '/questions/security-engineer/index.md';
+    const cat = categories[category];
+    let html = `<h2>${cat.title} Questions</h2><ul style="list-style:none; padding-left:0;">`;
 
-    if (url) {
-      window.location.href = url;
+    cat.items.forEach(item => {
+      html += `<li style="margin:8px 0;"><a href="${item.link}" style="color:#60a5fa; text-decoration:none;">${item.text}</a></li>`;
+    });
+
+    if (cat.items.length === 0) {
+      html += '<li>No questions added yet for this category.</li>';
     }
+
+    html += '</ul>';
+    listContainer.innerHTML = html;
   });
 });
 </script>
