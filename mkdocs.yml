@@ -7,6 +7,7 @@ docs_dir: docs
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
@@ -25,25 +26,14 @@ theme:
 
 nav:
   - Home: index.md
-  - Interview Questions:
-      - Web Application Penetration Testing:
-          - Overview: questions/web-penetration/index.md
-          - 21. HTTP Connection vs Persistent Connection: questions/web-penetration/21-http-short-long.md
-          - 22. How TCP Ensures Reliable Transmission: questions/web-penetration/22-tcp-reliable.md
-      - Red Team Operations:
-          - Overview: questions/red-team/index.md
-      - Security Engineer:
-          - Overview: questions/security-engineer/index.md
+  - Interview Questions: questions/index.md   # we'll make this the category hub
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.superfences
-  - pymdownx.tabbed
   - admonition
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed
   - toc:
       permalink: true
