@@ -6,42 +6,26 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const selector = document.getElementById('category-selector');
-  const container = document.getElementById('dynamic-content');
-
-  const categories = {
-    'web': {
-      title: 'Web Application Penetration Testing Interview Questions',
-      questions: [
-        {title: '21. HTTP Connection vs Persistent Connection', url: '/questions/web-penetration/21-http-short-long/'},
-        {title: '22. How TCP Ensures Reliable Transmission', url: '/questions/web-penetration/22-tcp-reliable/'}
-      ]
-    },
-    'red': {
-      title: 'Red Team Operations Interview Questions',
-      questions: [] // add later
-    },
-    'seceng': {
-      title: 'Security Engineer Interview Questions',
-      questions: [] // add later
-    }
-  };
+  if (!selector) return;
 
   selector.addEventListener('change', function() {
-    const val = this.value;
-    if (!val) {
-      container.innerHTML = '<p><em>Select a category above.</em></p>';
+    const category = this.value;
+    const container = document.getElementById('questions-container');
+    
+    if (!category) {
+      container.innerHTML = '<p>Select a category above.</p>';
       return;
     }
 
-    const cat = categories[val];
-    let html = `<h2>${cat.title}</h2><ul>`;
+    // Simple mapping - expand as needed
+    let url = '';
+    if (category === 'web-penetration') url = '/questions/web-penetration/index.md';
+    else if (category === 'red-team') url = '/questions/red-team/index.md';
+    else if (category === 'security-engineer') url = '/questions/security-engineer/index.md';
 
-    cat.questions.forEach(q => {
-      html += `<li><a href="${q.url}">${q.title}</a></li>`;
-    });
-
-    html += '</ul>';
-    container.innerHTML = html;
+    if (url) {
+      window.location.href = url;
+    }
   });
 });
 </script>
