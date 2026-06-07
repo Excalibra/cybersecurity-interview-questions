@@ -13,8 +13,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force
+
+      - name: Install MkDocs
+        run: pip install mkdocs-material
+
+      - name: Generate Questions List
+        run: python generate_questions.py
+
+      - name: Build and Deploy
+        run: mkdocs gh-deploy --force
