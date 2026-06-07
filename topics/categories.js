@@ -82,6 +82,10 @@ const topicCategories = {
       {
         "text": "19. What is the exploitation principle of the Fastjson vulnerability?",
         "link": "/cybersecurity-interview-questions/topics/web-security/19-exploitation-principle-of-fastjson-vulnerability/"
+      },
+      {
+        "text": "20. What can be done if you obtain a webshell but the target cannot initiate outbound connections?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/20-what-if-you-obtain-webshell-but-target-cannot-initiate-outbound/"
       }
     ]
   }
