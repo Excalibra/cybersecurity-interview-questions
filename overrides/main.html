@@ -8,16 +8,21 @@ document.addEventListener('DOMContentLoaded', function() {
   const selector = document.getElementById('category-selector');
   
   selector.addEventListener('change', function() {
-    const value = this.value;
-    if (!value) return;
+    const val = this.value;
+    if (!val) return;
     
-    // Redirect to category overview (this is the closest we can get to dynamic sidebar)
     let url = '';
-    if (value === 'web') url = '/cybersecurity-interview-questions/questions/web-penetration/index.md';
-    else if (value === 'red') url = '/cybersecurity-interview-questions/questions/red-team/index.md';
-    else if (value === 'seceng') url = '/cybersecurity-interview-questions/questions/security-engineer/index.md';
+    if (val === 'web') {
+      url = '/cybersecurity-interview-questions/questions/web-penetration/index.md';
+    } else if (val === 'red') {
+      url = '/cybersecurity-interview-questions/questions/red-team/index.md';
+    } else if (val === 'seceng') {
+      url = '/cybersecurity-interview-questions/questions/security-engineer/index.md';
+    }
     
-    if (url) window.location.href = url;
+    if (url) {
+      window.location.href = url;
+    }
   });
 });
 </script>
