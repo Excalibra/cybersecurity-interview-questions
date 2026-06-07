@@ -38,6 +38,10 @@ const topicCategories = {
       {
         "text": "8. What common middleware vulnerabilities are you aware of?",
         "link": "/cybersecurity-interview-questions/topics/web-security/8-common-middleware-vulnerabilities/"
+      },
+      {
+        "text": "9. What WAF bypass techniques are you familiar with?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/9-waf-bypass-techniques/"
       }
     ]
   }
