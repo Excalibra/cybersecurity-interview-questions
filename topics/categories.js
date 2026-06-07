@@ -36,16 +36,16 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/web-security/07-difference-between-cdn-and-dns/"
       },
       {
+        "text": "8. What common middleware vulnerabilities are you aware of?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/08-common-middleware-vulnerabilities/"
+      },
+      {
         "text": "10. How do you resolve the issue of command execution with no output (blind command execution)?",
         "link": "/cybersecurity-interview-questions/topics/web-security/10-resolve-command-execution-issue/"
       },
       {
         "text": "11. What are the scenarios in which port 3389 cannot be connected?",
         "link": "/cybersecurity-interview-questions/topics/web-security/11-what-scenarios-port-3389-cannot-be-connected/"
-      },
-      {
-        "text": "8. What common middleware vulnerabilities are you aware of?",
-        "link": "/cybersecurity-interview-questions/topics/web-security/8-common-middleware-vulnerabilities/"
       },
       {
         "text": "9. What WAF bypass techniques are you familiar with?",
