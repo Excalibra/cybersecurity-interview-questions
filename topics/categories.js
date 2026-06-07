@@ -18,6 +18,10 @@ const topicCategories = {
       {
         "text": "4. Are you familiar with XXE vulnerabilities?",
         "link": "/cybersecurity-interview-questions/topics/web-security/4-xxe-vulnerabilities/"
+      },
+      {
+        "text": "5. Are you familiar with PHP deserialisation?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/5-php-deserialisation/"
       }
     ]
   }
