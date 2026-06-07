@@ -70,6 +70,10 @@ const topicCategories = {
       {
         "text": "16. Which vulnerabilities do you typically use for initial compromise (\u201cscoring a hit\u201d)?",
         "link": "/cybersecurity-interview-questions/topics/web-security/16-which-vulnerabilities-do-you-use-for-initial-compromise/"
+      },
+      {
+        "text": "17. How do you usually discover Shiro vulnerabilities?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/17-how-do-you-discover-shiro-vulnerabilities/"
       }
     ]
   }
