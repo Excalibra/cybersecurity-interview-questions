@@ -529,19 +529,17 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
 });
 </script>
-<!-- Topics support -->
+<!-- Topics Support -->
 <script src="/cybersecurity-interview-questions/topics/categories.js"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Existing questions code remains unchanged...
-
-    // Topics handler
+    // === Topics Code ===
     const topicSelector = document.getElementById('topic-selector');
     const topicsList = document.getElementById('topics-list');
-    const topicsMain = document.getElementById('main-content');  // reuse or adjust
+    const mainContent = document.getElementById('main-content');
 
-    if (topicSelector) {
+    if (topicSelector && topicsList) {
         topicSelector.addEventListener('change', function() {
             const val = this.value;
             if (!val || typeof topicCategories === 'undefined') return;
@@ -555,15 +553,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>`;
             });
             
-            topicsList.innerHTML = html || '<p style="color:#9ca3af;">No items yet.</p>';
-            topicsMain.innerHTML = `<h2>${cat.title}</h2><p>Select an item from the left.</p>`;
+            topicsList.innerHTML = html || '<p style="color:#9ca3af;">No FAQs yet.</p>';
+            mainContent.innerHTML = `<h2>${cat.title}</h2><p>Select an FAQ from the left.</p>`;
         });
-        
-        // Similar click handler for topics...
+
         topicsList.addEventListener('click', async function(e) {
             if (e.target.classList.contains('topic-link')) {
                 e.preventDefault();
-                // Same fetch logic as questions...
+                const url = e.target.getAttribute('data-url');
+                try {
+                    mainContent.innerHTML = `<h2>Loading...</h2>`;
+                    const res = await fetch(url);
+                    const html = await res.text();
+                    const doc = new DOMParser().parseFromString(html, 'text/html');
+                    const content = doc.querySelector('.md-content__inner') || doc.body;
+                    mainContent.innerHTML = `<h2>${e.target.textContent}</h2>` + content.innerHTML;
+                } catch (err) {
+                    mainContent.innerHTML = `<h2>Error</h2><p>Failed to load content.</p>`;
+                }
             }
         });
     }
