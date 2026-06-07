@@ -8,6 +8,10 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/web-security/1-sql-injection/"
       },
       {
+        "text": "3. What are the differences between XSS, CSRF, and SSRF? (Very frequently asked)",
+        "link": "/cybersecurity-interview-questions/topics/web-security/2-differences-between-xss-csrf-ssrf/"
+      },
+      {
         "text": "2. What are the types of XSS? What are the differences between them? How can it be remediated?",
         "link": "/cybersecurity-interview-questions/topics/web-security/2-xxs/"
       }
