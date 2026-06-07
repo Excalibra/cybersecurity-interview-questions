@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/3-differences-between-xss-csrf-ssrf/">
+        <link rel="canonical" href="https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/04-xxe-vulnerabilities/">
       
       
       
@@ -21,7 +21,7 @@
     
     
       
-        <title>3. What are the differences between XSS, CSRF, and SSRF? (Very frequently asked) - Cybersecurity Interview Questions</title>
+        <title>4. Are you familiar with XXE vulnerabilities? - Cybersecurity Interview Questions</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#3-what-are-the-differences-between-xss-csrf-and-ssrf-very-frequently-asked" class="md-skip">
+        <a href="#4-are-you-familiar-with-xxe-vulnerabilities" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              3. What are the differences between XSS, CSRF, and SSRF? (Very frequently asked)
+              4. Are you familiar with XXE vulnerabilities?
             
           </span>
         </div>
@@ -407,21 +407,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#definitions" class="md-nav__link">
+  <a href="#explanation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Definitions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#differences" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Differences
+        Explanation
       
     </span>
   </a>
@@ -446,7 +435,7 @@
 
 
   
-    <a href="https://github.com/Excalibra/cybersecurity-interview-questions/edit/master/docs/topics/web-security/3-differences-between-xss-csrf-ssrf.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/Excalibra/cybersecurity-interview-questions/edit/master/docs/topics/web-security/04-xxe-vulnerabilities.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -454,19 +443,9 @@
   
 
 
-<h1 id="3-what-are-the-differences-between-xss-csrf-and-ssrf-very-frequently-asked">3. What are the differences between XSS, CSRF, and SSRF? (Very frequently asked)<a class="headerlink" href="#3-what-are-the-differences-between-xss-csrf-and-ssrf-very-frequently-asked" title="Permanent link">&para;</a></h1>
-<h2 id="definitions">Definitions<a class="headerlink" href="#definitions" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>XSS:</strong> Cross-Site Scripting</li>
-<li><strong>CSRF:</strong> Cross-Site Request Forgery</li>
-<li><strong>SSRF:</strong> Server-Side Request Forgery</li>
-</ul>
-<h2 id="differences">Differences<a class="headerlink" href="#differences" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>XSS</strong> occurs when the server fails to sufficiently filter user-supplied data, causing the client browser to execute unexpected script statements when rendering the HTML page returned by the server.</li>
-<li><strong>CSRF</strong> occurs when the server does not validate a random token (anti-CSRF token) for user-submitted data and loosely checks the <code>Referer</code> field within HTTP request packets, allowing an attacker to forge requests using the victim’s cookie information and send them to the server.</li>
-<li><strong>SSRF</strong> occurs when the server places excessive trust in a user-controlled URL, failing to apply address restrictions and adequate detection to the URL provided by the attacker. This enables the attacker to use the vulnerable server as a springboard to attack internal networks or other servers.</li>
-</ul>
+<h1 id="4-are-you-familiar-with-xxe-vulnerabilities">4. Are you familiar with XXE vulnerabilities?<a class="headerlink" href="#4-are-you-familiar-with-xxe-vulnerabilities" title="Permanent link">&para;</a></h1>
+<h2 id="explanation">Explanation<a class="headerlink" href="#explanation" title="Permanent link">&para;</a></h2>
+<p>The XXE (XML External Entity) vulnerability occurs when an application parses XML input without prohibiting the loading of external entities. This can lead to the loading of malicious external files, resulting in file disclosure, command execution, scanning of internal network ports, attacks on internal websites, and denial-of-service (DoS) attacks.</p>
 
 
 

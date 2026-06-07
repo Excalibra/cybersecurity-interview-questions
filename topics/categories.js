@@ -12,20 +12,20 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/web-security/02-xxs/"
       },
       {
+        "text": "3. What are the differences between XSS, CSRF, and SSRF? (Very frequently asked)",
+        "link": "/cybersecurity-interview-questions/topics/web-security/03-differences-between-xss-csrf-ssrf/"
+      },
+      {
+        "text": "4. Are you familiar with XXE vulnerabilities?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/04-xxe-vulnerabilities/"
+      },
+      {
         "text": "10. How do you resolve the issue of command execution with no output (blind command execution)?",
         "link": "/cybersecurity-interview-questions/topics/web-security/10-resolve-command-execution-issue/"
       },
       {
         "text": "11. What are the scenarios in which port 3389 cannot be connected?",
         "link": "/cybersecurity-interview-questions/topics/web-security/11-what-scenarios-port-3389-cannot-be-connected/"
-      },
-      {
-        "text": "3. What are the differences between XSS, CSRF, and SSRF? (Very frequently asked)",
-        "link": "/cybersecurity-interview-questions/topics/web-security/3-differences-between-xss-csrf-ssrf/"
-      },
-      {
-        "text": "4. Are you familiar with XXE vulnerabilities?",
-        "link": "/cybersecurity-interview-questions/topics/web-security/4-xxe-vulnerabilities/"
       },
       {
         "text": "5. Are you familiar with PHP deserialisation?",
