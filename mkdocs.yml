@@ -27,6 +27,7 @@ theme:
 nav:
   - Home: index.md
   - Interview Questions: questions/index.md
+  - Topics: topics/index.md
 
 markdown_extensions:
   - pymdownx.highlight:
