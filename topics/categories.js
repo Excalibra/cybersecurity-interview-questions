@@ -146,6 +146,10 @@ const topicCategories = {
       {
         "text": "35. With a shell already obtained, how can XSS be used to achieve persistent control over the target site?",
         "link": "/cybersecurity-interview-questions/topics/web-security/35-shell-already-obtained-how-xss-used-for-persistent-control-over-site/"
+      },
+      {
+        "text": "36. A target site has no protective measures; uploaded images can be accessed normally, but accessing uploaded script formats results in a 403 error. What might be the reason?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/36-why-uploaded-script-format-403-error-on-target-site/"
       }
     ]
   }
