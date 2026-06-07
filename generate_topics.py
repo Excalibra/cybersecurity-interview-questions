@@ -50,7 +50,7 @@ const topicCategories = {json.dumps(categories, indent=2)};
     with open(js_path, "w", encoding="utf-8") as f:
         f.write(js_content)
     
-    print(f"✅ Generated {total} topic items")
+    print(f"✅ Generated {total} topic items into {js_path}")
 
 if __name__ == "__main__":
     generate_topics_js()
