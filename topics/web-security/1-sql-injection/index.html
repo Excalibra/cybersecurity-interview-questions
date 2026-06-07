@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/1.%20What%20are%20the%20principles%20and%20types%20of%20SQL%20injection%3F%20How%20can%20it%20be%20defended%20against%3F%20What%20is%20the%20principle%20of%20prepared%20statements%3F/">
+        <link rel="canonical" href="https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/1-sql-injection/">
       
       
       
@@ -70,6 +70,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#1-what-are-the-principles-and-types-of-sql-injection-how-can-it-be-defended-against-what-is-the-principle-of-prepared-statements" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -392,6 +397,60 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#principle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remediation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remediation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principle-of-prepared-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle of Prepared Statements
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -409,7 +468,7 @@
 
 
   
-    <a href="https://github.com/Excalibra/cybersecurity-interview-questions/edit/master/docs/topics/web-security/1. What are the principles and types of SQL injection? How can it be defended against? What is the principle of prepared statements?.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/Excalibra/cybersecurity-interview-questions/edit/master/docs/topics/web-security/1-sql-injection.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -417,13 +476,31 @@
   
 
 
-  <h1>1. What are the principles and types of SQL injection? How can it be defended against? What is the principle of prepared statements?</h1>
-
-<p><strong>1. What are the principles and types of SQL injection? How can it be defended against? What is the principle of prepared statements?</strong></p>
-<p><em>Principle:</em> During data interaction, data input from the front end is transmitted to the backend for processing. Because the backend does not apply sufficiently strict validation, the incoming “data” is concatenated into an SQL statement and subsequently executed as part of that statement.</p>
-<p><em>Types:</em> Character-based, numeric, Boolean-based, error-based, time-based (delay), UNION-based, stacked queries, wide-byte, X-Forwarded-For (XFF), etc.</p>
-<p><em>Remediation:</em> Employ prepared statements, PDO, regular expression filtering, enable magic quotes, deploy a WAF, etc.</p>
-<p><em>Principle of prepared statements:</em> A prepared statement completes a single query via two interactions. The first interaction sends the query template, which the backend SQL engine parses into an Abstract Syntax Tree (AST) or Opcode. The second interaction sends the data, which is then substituted into the AST or Opcode for execution. Regardless of the parameters subsequently passed to the template, they are treated solely as string literals during query processing, thereby eliminating SQL injection.</p>
+<h1 id="1-what-are-the-principles-and-types-of-sql-injection-how-can-it-be-defended-against-what-is-the-principle-of-prepared-statements">1. What are the principles and types of SQL injection? How can it be defended against? What is the principle of prepared statements?<a class="headerlink" href="#1-what-are-the-principles-and-types-of-sql-injection-how-can-it-be-defended-against-what-is-the-principle-of-prepared-statements" title="Permanent link">&para;</a></h1>
+<h2 id="principle">Principle<a class="headerlink" href="#principle" title="Permanent link">&para;</a></h2>
+<p>During data interaction, data input from the front end is transmitted to the backend for processing. Because the backend does not apply sufficiently strict validation, the incoming “data” is concatenated into an SQL statement and subsequently executed as part of that statement.</p>
+<h2 id="types">Types<a class="headerlink" href="#types" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Character-based</li>
+<li>Numeric</li>
+<li>Boolean-based</li>
+<li>Error-based</li>
+<li>Time-based (delay)</li>
+<li>UNION-based</li>
+<li>Stacked queries</li>
+<li>Wide-byte</li>
+<li>X-Forwarded-For (XFF), etc.</li>
+</ul>
+<h2 id="remediation">Remediation<a class="headerlink" href="#remediation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Use <strong>prepared statements</strong> / parameterized queries</li>
+<li>Use PDO (in PHP) or equivalent in other languages</li>
+<li>Regular expression / input validation</li>
+<li>Web Application Firewall (WAF)</li>
+<li>Enable proper escaping</li>
+</ul>
+<h2 id="principle-of-prepared-statements">Principle of Prepared Statements<a class="headerlink" href="#principle-of-prepared-statements" title="Permanent link">&para;</a></h2>
+<p>A prepared statement completes a single query via two interactions. The first interaction sends the query template, which the backend SQL engine parses into an Abstract Syntax Tree (AST) or Opcode. The second interaction sends the data, which is then substituted into the AST or Opcode for execution. Regardless of the parameters subsequently passed to the template, they are treated solely as string literals during query processing, thereby eliminating SQL injection.</p>
 
 
 
