@@ -20,20 +20,20 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/web-security/04-xxe-vulnerabilities/"
       },
       {
+        "text": "5. Are you familiar with PHP deserialisation?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/05-php-deserialisation/"
+      },
+      {
+        "text": "5.1 Are you familiar with Java deserialisation? Have you encountered Shiro deserialisation? (Most frequently asked, both in HVV and job interviews)",
+        "link": "/cybersecurity-interview-questions/topics/web-security/05.1-java-deserialisation/"
+      },
+      {
         "text": "10. How do you resolve the issue of command execution with no output (blind command execution)?",
         "link": "/cybersecurity-interview-questions/topics/web-security/10-resolve-command-execution-issue/"
       },
       {
         "text": "11. What are the scenarios in which port 3389 cannot be connected?",
         "link": "/cybersecurity-interview-questions/topics/web-security/11-what-scenarios-port-3389-cannot-be-connected/"
-      },
-      {
-        "text": "5. Are you familiar with PHP deserialisation?",
-        "link": "/cybersecurity-interview-questions/topics/web-security/5-php-deserialisation/"
-      },
-      {
-        "text": "5.1 Are you familiar with Java deserialisation? Have you encountered Shiro deserialisation? (Most frequently asked, both in HVV and job interviews)",
-        "link": "/cybersecurity-interview-questions/topics/web-security/5.1-java-deserialisation/"
       },
       {
         "text": "6. Which logic vulnerabilities have you encountered? Given a login form, what is your general approach?",
