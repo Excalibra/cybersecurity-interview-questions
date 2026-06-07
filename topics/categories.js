@@ -130,6 +130,10 @@ const topicCategories = {
       {
         "text": "31. Describe some recent or representative vulnerabilities.",
         "link": "/cybersecurity-interview-questions/topics/web-security/31-describe-some-recent-vulnerabilities/"
+      },
+      {
+        "text": "32. Are you familiar with parsing vulnerabilities? What are the different types?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/32-are-you-familiar-with-parsing-vulnerabilities/"
       }
     ]
   }
