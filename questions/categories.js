@@ -7,17 +7,14 @@ const categories = {
         "text": "21 Http Short Long",
         "link": "/cybersecurity-interview-questions/questions/web-penetration/21-http-short-long/"
       }
-    ],
-    "section": "questions"
+    ]
   },
   "red": {
     "title": "Red Team Operations",
-    "items": [],
-    "section": "questions"
+    "items": []
   },
   "seceng": {
     "title": "Security Engineer",
-    "items": [],
-    "section": "questions"
+    "items": []
   }
 };
