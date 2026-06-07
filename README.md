@@ -1,3 +1,3 @@
-# CV Writing and Memorising Interview Questions
+# Cybersecurity CV Writing and Interview Questions
 Cybersecurity Interview Questions &amp; Answers
 
