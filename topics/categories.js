@@ -106,6 +106,10 @@ const topicCategories = {
       {
         "text": "25. How can SSRF be bypassed when 127.0.0.1 is blocked? What protocols are supported?",
         "link": "/cybersecurity-interview-questions/topics/web-security/25-how-can-ssrf-bypass-when-127.0.0.1-is-blocked/"
+      },
+      {
+        "text": "26. How can the `phar://` protocol be exploited? What is the difference between the `php://input` pseudo\u2011protocol and POST data delivery?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/26-how-can-the-phar-protocol-be-exploited/"
       }
     ]
   }
