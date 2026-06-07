@@ -8,11 +8,11 @@
       <option value="">-- Select Category --</option>
       <option value="web">Web Security</option>
       <option value="red">Tools</option>
-      <option value="seceng">Internal Network Penetration: Frequently Asked Questions</option>
-      <option value="red">Computer Networks: Frequently Asked Questions</option>
-      <option value="red">Systems (Windows & Linux): Frequently Asked Questions</option>
-      <option value="red">Incident Response: Frequently Asked Questions</option>
-      <option value="red">Traceability and Traffic Analysis: Frequently Asked Questions</option>
+      <option value="seceng">Internal Network Penetration</option>
+      <option value="red">Computer Networks</option>
+      <option value="red">Systems (Windows & Linux)</option>
+      <option value="red">Incident Response</option>
+      <option value="red">Traceability and Traffic Analysis</option>
     </select>
 
     <h3 style="margin:0 0 16px 0; color:#e5e7eb; font-size:1.1em;">Questions</h3>
