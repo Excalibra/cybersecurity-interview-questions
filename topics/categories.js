@@ -5,7 +5,11 @@ const topicCategories = {
     "items": [
       {
         "text": "1. What are the principles and types of SQL injection? How can it be defended against? What is the principle of prepared statements?",
-        "link": "/cybersecurity-interview-questions/topics/web-security/1-sql-injection/"
+        "link": "/cybersecurity-interview-questions/topics/web-security/01-sql-injection/"
+      },
+      {
+        "text": "2. What are the types of XSS? What are the differences between them? How can it be remediated?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/02-xxs/"
       },
       {
         "text": "10. How do you resolve the issue of command execution with no output (blind command execution)?",
@@ -14,10 +18,6 @@ const topicCategories = {
       {
         "text": "11. What are the scenarios in which port 3389 cannot be connected?",
         "link": "/cybersecurity-interview-questions/topics/web-security/11-what-scenarios-port-3389-cannot-be-connected/"
-      },
-      {
-        "text": "2. What are the types of XSS? What are the differences between them? How can it be remediated?",
-        "link": "/cybersecurity-interview-questions/topics/web-security/2-xxs/"
       },
       {
         "text": "3. What are the differences between XSS, CSRF, and SSRF? (Very frequently asked)",
