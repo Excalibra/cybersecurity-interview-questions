@@ -78,6 +78,10 @@ const topicCategories = {
       {
         "text": "18. WebLogic permission bypass?",
         "link": "/cybersecurity-interview-questions/topics/web-security/18-weblogic-permission-bypass/"
+      },
+      {
+        "text": "19. What is the exploitation principle of the Fastjson vulnerability?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/19-exploitation-principle-of-fastjson-vulnerability/"
       }
     ]
   }
