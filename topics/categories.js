@@ -34,6 +34,10 @@ const topicCategories = {
       {
         "text": "7. What is the difference between CDN and DNS? What are the approaches for bypassing CDN?",
         "link": "/cybersecurity-interview-questions/topics/web-security/7-difference-between-cdn-and-dns/"
+      },
+      {
+        "text": "8. What common middleware vulnerabilities are you aware of?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/8-common-middleware-vulnerabilities/"
       }
     ]
   }
