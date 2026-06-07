@@ -18,10 +18,11 @@ def generate_topics_js():
             continue
             
         folder_name = category_dir.name
+        # Better key generation
         key = folder_name.lower().replace(" ", "-").replace("_", "-")
         title = folder_name.replace("-", " ").title()
         
-        print(f"📁 Processing: {folder_name}")
+        print(f"📁 Processing: {folder_name} → key: {key}")
         
         md_files = sorted([f for f in category_dir.glob("*.md") if f.name != "index.md"])
         print(f"   Found {len(md_files)} files")
