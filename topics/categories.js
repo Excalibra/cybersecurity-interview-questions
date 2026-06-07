@@ -126,6 +126,10 @@ const topicCategories = {
       {
         "text": "30. Are you familiar with privilege escalation? What is the principle of UDF privilege escalation?",
         "link": "/cybersecurity-interview-questions/topics/web-security/30-are-you-familiar-with-privilage-escalation/"
+      },
+      {
+        "text": "31. Describe some recent or representative vulnerabilities.",
+        "link": "/cybersecurity-interview-questions/topics/web-security/31-describe-some-recent-vulnerabilities/"
       }
     ]
   }
