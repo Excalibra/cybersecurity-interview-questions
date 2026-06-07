@@ -50,6 +50,10 @@ const topicCategories = {
       {
         "text": "11. What are the scenarios in which port 3389 cannot be connected?",
         "link": "/cybersecurity-interview-questions/topics/web-security/11-what-scenarios-port-3389-cannot-be-connected/"
+      },
+      {
+        "text": "12. Common port information?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/12-common-port-information/"
       }
     ]
   }
