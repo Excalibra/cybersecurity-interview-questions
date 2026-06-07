@@ -30,6 +30,10 @@ const topicCategories = {
       {
         "text": "6. Which logic vulnerabilities have you encountered? Given a login form, what is your general approach?",
         "link": "/cybersecurity-interview-questions/topics/web-security/6-logic-vulnerabilities/"
+      },
+      {
+        "text": "7. What is the difference between CDN and DNS? What are the approaches for bypassing CDN?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/7-difference-between-cdn-and-dns/"
       }
     ]
   }
