@@ -12,6 +12,10 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/web-security/10-resolve-command-execution-issue/"
       },
       {
+        "text": "11. What are the scenarios in which port 3389 cannot be connected?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/11-what-scenarios-port-3389-cannot-be-connected/"
+      },
+      {
         "text": "2. What are the types of XSS? What are the differences between them? How can it be remediated?",
         "link": "/cybersecurity-interview-questions/topics/web-security/2-xxs/"
       },
