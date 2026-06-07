@@ -102,6 +102,10 @@ const topicCategories = {
       {
         "text": "24. What is the principle of buffer overflow?",
         "link": "/cybersecurity-interview-questions/topics/web-security/24-principle-of-buffer-overflow/"
+      },
+      {
+        "text": "25. How can SSRF be bypassed when 127.0.0.1 is blocked? What protocols are supported?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/25-how-can-ssrf-bypass-when-127.0.0.1-is-blocked/"
       }
     ]
   }

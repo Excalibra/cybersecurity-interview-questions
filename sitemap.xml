@@ -128,4 +128,8 @@
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/24-principle-of-buffer-overflow/</loc>
          <lastmod>2026-06-07</lastmod>
     </url>
+    <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/25-how-can-ssrf-bypass-when-127.0.0.1-is-blocked/</loc>
+         <lastmod>2026-06-07</lastmod>
+    </url>
 </urlset>
