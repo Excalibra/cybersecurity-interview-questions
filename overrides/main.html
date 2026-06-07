@@ -6,37 +6,19 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const selector = document.getElementById('category-selector');
-  const questionsList = document.getElementById('questions-list');
-  const mainContent = document.getElementById('main-content');
   
-  const categories = {
-    "web": {
-      title: "Web Application Penetration Testing",
-      items: [
-        {text: "21. HTTP Connection vs Persistent Connection", link: "/cybersecurity-interview-questions/questions/web-penetration/21-http-short-long/"},
-        {text: "22. How TCP Ensures Reliable Transmission", link: "/cybersecurity-interview-questions/questions/web-penetration/22-tcp-reliable/"}
-      ]
-    },
-    "red": { title: "Red Team Operations", items: [] },
-    "seceng": { title: "Security Engineer", items: [] }
-  };
-  
-  function updateQuestions(val) {
-    if (!val) {
-      questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
-      return;
-    }
-    const cat = categories[val];
-    let html = '';
-    cat.items.forEach(item => {
-      html += `<div style="margin:8px 0;"><a href="${item.link}" style="color:#60a5fa;text-decoration:none;">${item.text}</a></div>`;
-    });
-    if (cat.items.length === 0) html = '<p style="color:#9ca3af;">No questions yet.</p>';
-    questionsList.innerHTML = html;
-    mainContent.innerHTML = `<h2>${cat.title}</h2>`;
-  }
-  
-  selector.addEventListener('change', (e) => updateQuestions(e.target.value));
+  selector.addEventListener('change', function() {
+    const value = this.value;
+    if (!value) return;
+    
+    // Redirect to category overview (this is the closest we can get to dynamic sidebar)
+    let url = '';
+    if (value === 'web') url = '/cybersecurity-interview-questions/questions/web-penetration/index.md';
+    else if (value === 'red') url = '/cybersecurity-interview-questions/questions/red-team/index.md';
+    else if (value === 'seceng') url = '/cybersecurity-interview-questions/questions/security-engineer/index.md';
+    
+    if (url) window.location.href = url;
+  });
 });
 </script>
 {% endblock %}
