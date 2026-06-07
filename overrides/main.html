@@ -4,24 +4,8 @@
 {{ super() }}
 
 <style>
-  /* Completely hide default MkDocs left sidebar and navigation */
-  .md-sidebar--primary,
-  .md-nav--primary,
-  .md-sidebar__scrollwrap,
-  .md-nav__list,
-  .md-nav__title {
-    display: none !important;
-  }
-  
-  /* Adjust main content to take more space */
-  .md-main__inner {
-    margin-left: 0 !important;
-    max-width: 100% !important;
-  }
-  
-  .md-content {
-    margin-left: 0 !important;
-  }
+  .md-sidebar--primary, .md-nav--primary, .md-sidebar__scrollwrap { display: none !important; }
+  .md-main__inner { margin-left: 0 !important; }
 </style>
 
 <script>
@@ -42,11 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
     "seceng": { title: "Security Engineer", items: [] }
   };
 
-  selector.addEventListener('change', function() {
-    const val = this.value;
+  function loadCategory(val) {
     if (!val) {
       questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
-      mainContent.innerHTML = '<p>Select a category above to load questions on the left.</p>';
       return;
     }
 
@@ -55,16 +37,45 @@ document.addEventListener('DOMContentLoaded', function() {
 
     cat.items.forEach(item => {
       html += `<div style="margin:8px 0; padding:6px 10px; border-radius:4px;">
-        <a href="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
+        <a href="#" class="question-link" data-url="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
       </div>`;
     });
 
     if (cat.items.length === 0) {
-      html = '<p style="color:#9ca3af;">No questions added yet for this category.</p>';
+      html = '<p style="color:#9ca3af;">No questions added yet.</p>';
     }
 
     questionsList.innerHTML = html;
-    mainContent.innerHTML = `<h2>${cat.title} Interview Questions</h2>`;
+    mainContent.innerHTML = `<h2>${cat.title} Interview Questions</h2><p>Select a question from the left.</p>`;
+  }
+
+  // Handle category change
+  selector.addEventListener('change', function() {
+    loadCategory(this.value);
+  });
+
+  // Handle clicking a question → load content dynamically
+  questionsList.addEventListener('click', async function(e) {
+    if (e.target.classList.contains('question-link')) {
+      e.preventDefault();
+      const url = e.target.getAttribute('data-url');
+
+      try {
+        mainContent.innerHTML = `<h2>Loading...</h2>`;
+        
+        const response = await fetch(url);
+        const html = await response.text();
+        
+        // Extract main content from the loaded page
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        const article = doc.querySelector('.md-content__inner') || doc.querySelector('article') || doc.body;
+        
+        mainContent.innerHTML = `<h2>${e.target.textContent}</h2>` + article.innerHTML;
+      } catch (err) {
+        mainContent.innerHTML = `<h2>Error</h2><p>Failed to load question content.</p>`;
+      }
+    }
   });
 });
 </script>
