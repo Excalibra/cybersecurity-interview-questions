@@ -86,6 +86,10 @@ const topicCategories = {
       {
         "text": "20. What can be done if you obtain a webshell but the target cannot initiate outbound connections?",
         "link": "/cybersecurity-interview-questions/topics/web-security/20-what-if-you-obtain-webshell-but-target-cannot-initiate-outbound/"
+      },
+      {
+        "text": "21. What are the dangerous functions for PHP code execution and PHP command execution?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/21-dangerous-functions-for-php-code-and-php-command-execution/"
       }
     ]
   }
