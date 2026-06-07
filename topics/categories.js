@@ -54,6 +54,10 @@ const topicCategories = {
       {
         "text": "12. Common port information?",
         "link": "/cybersecurity-interview-questions/topics/web-security/12-common-port-information/"
+      },
+      {
+        "text": "13. What is the penetration testing process?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/13-what-is-the-penetration-testing-process/"
       }
     ]
   }
