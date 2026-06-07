@@ -94,6 +94,10 @@ const topicCategories = {
       {
         "text": "22. When SQL injection yields no visible output, how can DNSLog be utilised, and what constructs can be used under MySQL and MSSQL respectively?",
         "link": "/cybersecurity-interview-questions/topics/web-security/22-how-can-dnslog-be-utilised-when-sql-yields-no-input/"
+      },
+      {
+        "text": "23. What are the methods to write a shell via phpMyAdmin?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/23-methods-to-write-a-shell-via-phpmyadmin/"
       }
     ]
   }
