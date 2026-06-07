@@ -453,7 +453,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // === QUESTIONS (already working) ===
+    // QUESTIONS
     const selector = document.getElementById('category-selector');
     const questionsList = document.getElementById('questions-list');
     const mainContent = document.getElementById('main-content');
@@ -491,14 +491,19 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // === TOPICS ===
+    // TOPICS
     const topicSelector = document.getElementById('topic-selector');
     const topicsList = document.getElementById('topics-list');
 
     if (topicSelector && topicsList) {
+        console.log("Topics JS loaded"); // for debugging
         topicSelector.addEventListener('change', function() {
             const val = this.value;
-            if (!val || typeof topicCategories === 'undefined') return;
+            if (!val || typeof topicCategories === 'undefined') {
+                console.log("No topicCategories or no val");
+                return;
+            }
+            console.log("Selected topic:", val, topicCategories[val]);
             
             const cat = topicCategories[val];
             let html = '';
