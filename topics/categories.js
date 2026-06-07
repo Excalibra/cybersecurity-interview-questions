@@ -58,6 +58,10 @@ const topicCategories = {
       {
         "text": "13. What is the penetration testing process?",
         "link": "/cybersecurity-interview-questions/topics/web-security/13-what-is-the-penetration-testing-process/"
+      },
+      {
+        "text": "14. What is a logic vulnerability? Name at least three types of business logic vulnerabilities and how to remediate them.",
+        "link": "/cybersecurity-interview-questions/topics/web-security/14-logic-vulnerability/"
       }
     ]
   }
