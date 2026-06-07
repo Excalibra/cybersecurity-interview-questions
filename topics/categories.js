@@ -28,20 +28,20 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/web-security/05.1-java-deserialisation/"
       },
       {
+        "text": "6. Which logic vulnerabilities have you encountered? Given a login form, what is your general approach?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/06-logic-vulnerabilities/"
+      },
+      {
+        "text": "7. What is the difference between CDN and DNS? What are the approaches for bypassing CDN?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/07-difference-between-cdn-and-dns/"
+      },
+      {
         "text": "10. How do you resolve the issue of command execution with no output (blind command execution)?",
         "link": "/cybersecurity-interview-questions/topics/web-security/10-resolve-command-execution-issue/"
       },
       {
         "text": "11. What are the scenarios in which port 3389 cannot be connected?",
         "link": "/cybersecurity-interview-questions/topics/web-security/11-what-scenarios-port-3389-cannot-be-connected/"
-      },
-      {
-        "text": "6. Which logic vulnerabilities have you encountered? Given a login form, what is your general approach?",
-        "link": "/cybersecurity-interview-questions/topics/web-security/6-logic-vulnerabilities/"
-      },
-      {
-        "text": "7. What is the difference between CDN and DNS? What are the approaches for bypassing CDN?",
-        "link": "/cybersecurity-interview-questions/topics/web-security/7-difference-between-cdn-and-dns/"
       },
       {
         "text": "8. What common middleware vulnerabilities are you aware of?",
