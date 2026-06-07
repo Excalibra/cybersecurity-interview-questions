@@ -154,6 +154,10 @@ const topicCategories = {
       {
         "text": "37. When an Access database file with an `.asp` extension is discovered and displays garbled characters upon access, how can it be retrieved locally for use?",
         "link": "/cybersecurity-interview-questions/topics/web-security/37-how-to-retrieve-locally-when-access-database-file-asp-garbled-characters/"
+      },
+      {
+        "text": "38. How can you operate when you possess a command\u2011line\u2011only shell that does not support direct file uploads?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/38-how-to-operate-comman-line-only-shell-with-no-file-upload-support/"
       }
     ]
   }
