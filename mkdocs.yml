@@ -10,6 +10,12 @@ theme:
   custom_dir: overrides
   features:
     - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.highlight
     - content.code.copy
     - content.action.edit
   palette:
@@ -20,5 +26,14 @@ theme:
 
 nav:
   - Home: index.md
-  - Topics: topics/index.md
   - Interview Questions: questions/index.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
