@@ -22,6 +22,10 @@ const topicCategories = {
       {
         "text": "5. Are you familiar with PHP deserialisation?",
         "link": "/cybersecurity-interview-questions/topics/web-security/5-php-deserialisation/"
+      },
+      {
+        "text": "5.1 Are you familiar with Java deserialisation? Have you encountered Shiro deserialisation? (Most frequently asked, both in HVV and job interviews)",
+        "link": "/cybersecurity-interview-questions/topics/web-security/5.1-java-deserialisation/"
       }
     ]
   }
