@@ -2,32 +2,31 @@
 
 {% block content %}
 {{ super() }}
-<script src="/cybersecurity-interview-questions/questions/categories.js"></script>
+
 <style>
   .md-sidebar--primary, .md-nav--primary, .md-sidebar__scrollwrap { display: none !important; }
   .md-main__inner { margin-left: 0 !important; }
 </style>
 
-<script>
-const categories = {
-  "web": {
-    title: "Web Application Penetration Testing",
-    items: []
-  },
-  "red": { title: "Red Team Operations", items: [] },
-  "seceng": { title: "Security Engineer", items: [] }
-};
+<!-- Load auto-generated categories -->
+<script src="/cybersecurity-interview-questions/questions/categories.js"></script>
 
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   const selector = document.getElementById('category-selector');
   const questionsList = document.getElementById('questions-list');
   const mainContent = document.getElementById('main-content');
 
   function loadCategory(val) {
-    if (!val) return;
-    const cat = categories[val];
-    let html = '';
+    if (!val || typeof categories === 'undefined') {
+      questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
+      return;
+    }
 
+    const cat = categories[val];
+    if (!cat) return;
+
+    let html = '';
     cat.items.forEach(item => {
       html += `<div style="margin:8px 0; padding:6px 10px; border-radius:4px;">
         <a href="#" class="question-link" data-url="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
@@ -40,19 +39,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
   selector.addEventListener('change', (e) => loadCategory(e.target.value));
 
+  // Click handler for loading question content
   questionsList.addEventListener('click', async function(e) {
     if (e.target.classList.contains('question-link')) {
       e.preventDefault();
       const url = e.target.getAttribute('data-url');
       try {
-        mainContent.innerHTML = `<h2>Loading ${e.target.textContent}...</h2>`;
+        mainContent.innerHTML = `<h2>Loading...</h2>`;
         const res = await fetch(url);
         const html = await res.text();
         const doc = new DOMParser().parseFromString(html, 'text/html');
         const content = doc.querySelector('.md-content__inner') || doc.body;
         mainContent.innerHTML = `<h2>${e.target.textContent}</h2>` + content.innerHTML;
       } catch (err) {
-        mainContent.innerHTML = `<h2>Error loading question</h2>`;
+        mainContent.innerHTML = `<h2>Error</h2><p>Failed to load content.</p>`;
       }
     }
   });
