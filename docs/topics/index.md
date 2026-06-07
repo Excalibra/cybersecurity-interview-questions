@@ -15,6 +15,6 @@
 
 <!-- Main Content -->
 <div id="main-content" style="flex:1; padding-top:20px;">
-<p style="color:#9ca3af;">Select a topic to load FAQs on the left.</p>
+<p style="color:#9ca3af;">Select a topic above to load FAQs on the left.</p>
 </div>
 </div>
