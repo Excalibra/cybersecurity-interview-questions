@@ -158,6 +158,10 @@ const topicCategories = {
       {
         "text": "38. How can you operate when you possess a command\u2011line\u2011only shell that does not support direct file uploads?",
         "link": "/cybersecurity-interview-questions/topics/web-security/38-how-to-operate-comman-line-only-shell-with-no-file-upload-support/"
+      },
+      {
+        "text": "39. How can a Shiro vulnerability be exploited if the target cannot initiate outbound connections?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/39-how-can-shiro-vulnerability-exploited-if-target-cannot-initiate-outbound/"
       }
     ]
   }
