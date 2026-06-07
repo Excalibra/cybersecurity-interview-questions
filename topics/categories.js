@@ -8,6 +8,10 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/web-security/1-sql-injection/"
       },
       {
+        "text": "10. How do you resolve the issue of command execution with no output (blind command execution)?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/10-resolve-command-execution-issue/"
+      },
+      {
         "text": "2. What are the types of XSS? What are the differences between them? How can it be remediated?",
         "link": "/cybersecurity-interview-questions/topics/web-security/2-xxs/"
       },
