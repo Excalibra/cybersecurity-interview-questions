@@ -114,6 +114,10 @@ const topicCategories = {
       {
         "text": "27. How does SSRF write a shell using Redis?",
         "link": "/cybersecurity-interview-questions/topics/web-security/27-how-does-ssrf-write-a-shell-using-redis/"
+      },
+      {
+        "text": "28. What built\u2011in tamper scripts of sqlmap are you aware of? Have you ever written any?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/28-what-tamper-scripts-of-sqlmap-are-you-aware-of/"
       }
     ]
   }
