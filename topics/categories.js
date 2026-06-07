@@ -134,6 +134,10 @@ const topicCategories = {
       {
         "text": "32. Are you familiar with parsing vulnerabilities? What are the different types?",
         "link": "/cybersecurity-interview-questions/topics/web-security/32-are-you-familiar-with-parsing-vulnerabilities/"
+      },
+      {
+        "text": "33. Why might a site using a MySQL database expose only port 80?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/33-why-a-site-using-mysql-expose-only-port-80/"
       }
     ]
   }
