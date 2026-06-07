@@ -2,7 +2,7 @@
 
 <div style="display: flex; gap: 24px; align-items: flex-start;">
   <!-- Dynamic Left Sidebar with Dropdown Inside -->
-  <div id="dynamic-sidebar" style="width: 280px; background:#1f2937; padding:20px; border-radius:8px; border:1px solid #374151; min-height: 700px; min-width: 350px; flex-shrink: 0;">
+  <div id="dynamic-sidebar" style="width: 280px; background:#1f2937; padding:20px; border-radius:8px; border:1px solid #374151; min-height: 700px; min-width: 380px; flex-shrink: 0;">
     
     <select id="category-selector" style="width:100%; padding:12px 16px; font-size:1.05em; background:#374151; color:white; border:1px solid #4b5563; border-radius:6px; margin-bottom:20px;">
       <option value="">-- Select Category --</option>
