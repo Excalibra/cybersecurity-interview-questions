@@ -480,66 +480,63 @@
 .md-main__inner { margin-left: 0 !important; }
 </style>
 
-<!-- Load auto-generated categories -->
+<!-- Questions Support -->
 <script src="/cybersecurity-interview-questions/questions/categories.js"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-	const selector = document.getElementById('category-selector');
-	const questionsList = document.getElementById('questions-list');
-	const mainContent = document.getElementById('main-content');
-	
-	function loadCategory(val) {
-		if (!val || typeof categories === 'undefined') {
-			questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
-			return;
-		}
-		
-		const cat = categories[val];
-		if (!cat) return;
-		
-		let html = '';
-		cat.items.forEach(item => {
-			html += `<div style="margin:8px 0; padding:6px 10px; border-radius:4px;">
-			<a href="#" class="question-link" data-url="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
-			</div>`;
-		});
-		
-		questionsList.innerHTML = html || '<p style="color:#9ca3af;">No items yet.</p>';
-		mainContent.innerHTML = `<h2>${cat.title}</h2><p>Select an item from the left.</p>`;
-	}
-	
-	selector.addEventListener('change', (e) => loadCategory(e.target.value));
-	
-	questionsList.addEventListener('click', async function(e) {
-		if (e.target.classList.contains('question-link')) {
-			e.preventDefault();
-			const url = e.target.getAttribute('data-url');
-			try {
-				mainContent.innerHTML = `<h2>Loading...</h2>`;
-				const res = await fetch(url);
-				const html = await res.text();
-				const doc = new DOMParser().parseFromString(html, 'text/html');
-				const content = doc.querySelector('.md-content__inner') || doc.body;
-				mainContent.innerHTML = `<h2>${e.target.textContent}</h2>` + content.innerHTML;
-			} catch (err) {
-				mainContent.innerHTML = `<h2>Error</h2><p>Failed to load content.</p>`;
-			}
-		}
-	});
-});
-</script>
-<!-- Topics Support -->
-<script src="/cybersecurity-interview-questions/topics/categories.js"></script>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // === Topics Code ===
-    const topicSelector = document.getElementById('topic-selector');
-    const topicsList = document.getElementById('topics-list');
+    // === QUESTIONS ===
+    const selector = document.getElementById('category-selector');
+    const questionsList = document.getElementById('questions-list');
     const mainContent = document.getElementById('main-content');
 
+    if (selector && questionsList) {
+        function loadCategory(val) {
+            if (!val || typeof categories === 'undefined') {
+                questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
+                return;
+            }
+            const cat = categories[val];
+            if (!cat) return;
+            
+            let html = '';
+            cat.items.forEach(item => {
+                html += `<div style="margin:8px 0; padding:6px 10px; border-radius:4px;">
+                <a href="#" class="question-link" data-url="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
+                </div>`;
+            });
+            
+            questionsList.innerHTML = html || '<p style="color:#9ca3af;">No items yet.</p>';
+            mainContent.innerHTML = `<h2>${cat.title}</h2><p>Select an item from the left.</p>`;
+        }
+        
+        selector.addEventListener('change', (e) => loadCategory(e.target.value));
+        
+        questionsList.addEventListener('click', async function(e) {
+            if (e.target.classList.contains('question-link')) {
+                e.preventDefault();
+                const url = e.target.getAttribute('data-url');
+                try {
+                    mainContent.innerHTML = `<h2>Loading...</h2>`;
+                    const res = await fetch(url);
+                    const html = await res.text();
+                    const doc = new DOMParser().parseFromString(html, 'text/html');
+                    const content = doc.querySelector('.md-content__inner') || doc.body;
+                    mainContent.innerHTML = `<h2>${e.target.textContent}</h2>` + content.innerHTML;
+                } catch (err) {
+                    mainContent.innerHTML = `<h2>Error</h2><p>Failed to load content.</p>`;
+                }
+            }
+        });
+    }
+
+    // === TOPICS ===
+    const topicSelector = document.getElementById('topic-selector');
+    const topicsList = document.getElementById('topics-list');
+
     if (topicSelector && topicsList) {
+        const topicMain = mainContent;  // reuse same main area
+
         topicSelector.addEventListener('change', function() {
             const val = this.value;
             if (!val || typeof topicCategories === 'undefined') return;
@@ -554,7 +551,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             
             topicsList.innerHTML = html || '<p style="color:#9ca3af;">No FAQs yet.</p>';
-            mainContent.innerHTML = `<h2>${cat.title}</h2><p>Select an FAQ from the left.</p>`;
+            topicMain.innerHTML = `<h2>${cat.title}</h2><p>Select an FAQ from the left.</p>`;
         });
 
         topicsList.addEventListener('click', async function(e) {
@@ -562,14 +559,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 e.preventDefault();
                 const url = e.target.getAttribute('data-url');
                 try {
-                    mainContent.innerHTML = `<h2>Loading...</h2>`;
+                    topicMain.innerHTML = `<h2>Loading...</h2>`;
                     const res = await fetch(url);
                     const html = await res.text();
                     const doc = new DOMParser().parseFromString(html, 'text/html');
                     const content = doc.querySelector('.md-content__inner') || doc.body;
-                    mainContent.innerHTML = `<h2>${e.target.textContent}</h2>` + content.innerHTML;
+                    topicMain.innerHTML = `<h2>${e.target.textContent}</h2>` + content.innerHTML;
                 } catch (err) {
-                    mainContent.innerHTML = `<h2>Error</h2><p>Failed to load content.</p>`;
+                    topicMain.innerHTML = `<h2>Error loading content</h2>`;
                 }
             }
         });
