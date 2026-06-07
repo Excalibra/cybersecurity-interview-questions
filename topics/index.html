@@ -476,16 +476,16 @@
 
 <!-- Questions -->
 <script src="/cybersecurity-interview-questions/questions/categories.js"></script>
-
 <!-- Topics -->
 <script src="/cybersecurity-interview-questions/topics/categories.js"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // QUESTIONS
+    const mainContent = document.getElementById('main-content');
+
+    // === QUESTIONS ===
     const selector = document.getElementById('category-selector');
     const questionsList = document.getElementById('questions-list');
-    const mainContent = document.getElementById('main-content');
 
     if (selector && questionsList) {
         function loadCategory(val) {
@@ -505,34 +505,19 @@ document.addEventListener('DOMContentLoaded', function() {
         questionsList.addEventListener('click', async function(e) {
             if (e.target.classList.contains('question-link')) {
                 e.preventDefault();
-                const url = e.target.getAttribute('data-url');
-                try {
-                    mainContent.innerHTML = `<h2>Loading...</h2>`;
-                    const res = await fetch(url);
-                    const html = await res.text();
-                    const doc = new DOMParser().parseFromString(html, 'text/html');
-                    const content = doc.querySelector('.md-content__inner') || doc.body;
-                    mainContent.innerHTML = `<h2>${e.target.textContent}</h2>` + content.innerHTML;
-                } catch (err) {
-                    mainContent.innerHTML = `<h2>Error</h2>`;
-                }
+                loadPageContent(e.target);
             }
         });
     }
 
-    // TOPICS
+    // === TOPICS ===
     const topicSelector = document.getElementById('topic-selector');
     const topicsList = document.getElementById('topics-list');
 
     if (topicSelector && topicsList) {
-        console.log("Topics JS loaded"); // for debugging
         topicSelector.addEventListener('change', function() {
             const val = this.value;
-            if (!val || typeof topicCategories === 'undefined') {
-                console.log("No topicCategories or no val");
-                return;
-            }
-            console.log("Selected topic:", val, topicCategories[val]);
+            if (!val || typeof topicCategories === 'undefined') return;
             
             const cat = topicCategories[val];
             let html = '';
@@ -548,19 +533,29 @@ document.addEventListener('DOMContentLoaded', function() {
         topicsList.addEventListener('click', async function(e) {
             if (e.target.classList.contains('topic-link')) {
                 e.preventDefault();
-                const url = e.target.getAttribute('data-url');
-                try {
-                    mainContent.innerHTML = `<h2>Loading...</h2>`;
-                    const res = await fetch(url);
-                    const html = await res.text();
-                    const doc = new DOMParser().parseFromString(html, 'text/html');
-                    const content = doc.querySelector('.md-content__inner') || doc.body;
-                    mainContent.innerHTML = `<h2>${e.target.textContent}</h2>` + content.innerHTML;
-                } catch (err) {
-                    mainContent.innerHTML = `<h2>Error loading content</h2>`;
-                }
+                loadPageContent(e.target);
             }
         });
+    }
+
+    // Shared function to load content without duplicating title
+    async function loadPageContent(linkElement) {
+        const url = linkElement.getAttribute('data-url');
+        try {
+            mainContent.innerHTML = `<h2>Loading...</h2>`;
+            const res = await fetch(url);
+            const html = await res.text();
+            const doc = new DOMParser().parseFromString(html, 'text/html');
+            
+            // Get main content and remove the original h1 title
+            let content = doc.querySelector('.md-content__inner') || doc.body;
+            const h1 = content.querySelector('h1');
+            if (h1) h1.remove();   // Remove duplicate title
+            
+            mainContent.innerHTML = `<h2>${linkElement.textContent}</h2>` + content.innerHTML;
+        } catch (err) {
+            mainContent.innerHTML = `<h2>Error loading content</h2><p>Failed to load the page.</p>`;
+        }
     }
 });
 </script>
