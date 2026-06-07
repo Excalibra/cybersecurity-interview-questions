@@ -66,6 +66,10 @@ const topicCategories = {
       {
         "text": "15. Can you briefly explain unauthorised access?",
         "link": "/cybersecurity-interview-questions/topics/web-security/15-explain-unauthorised-access/"
+      },
+      {
+        "text": "16. Which vulnerabilities do you typically use for initial compromise (\u201cscoring a hit\u201d)?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/16-which-vulnerabilities-do-you-use-for-initial-compromise/"
       }
     ]
   }
