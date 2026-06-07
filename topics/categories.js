@@ -118,6 +118,10 @@ const topicCategories = {
       {
         "text": "28. What built\u2011in tamper scripts of sqlmap are you aware of? Have you ever written any?",
         "link": "/cybersecurity-interview-questions/topics/web-security/28-what-tamper-scripts-of-sqlmap-are-you-aware-of/"
+      },
+      {
+        "text": "29. What is SVN/GIT source code disclosure?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/29-what-is-svn-git-source-code-disclosure/"
       }
     ]
   }
