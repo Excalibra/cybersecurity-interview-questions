@@ -142,6 +142,10 @@ const topicCategories = {
       {
         "text": "34. When performing injection, is it possible to start directly with `ORDER BY` without using `AND`, `OR`, or `XOR`?",
         "link": "/cybersecurity-interview-questions/topics/web-security/34-when-performing-injection-possible-to-start-order-by-without-using/"
+      },
+      {
+        "text": "35. With a shell already obtained, how can XSS be used to achieve persistent control over the target site?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/35-shell-already-obtained-how-xss-used-for-persistent-control-over-site/"
       }
     ]
   }
