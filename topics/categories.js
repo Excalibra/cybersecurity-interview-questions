@@ -138,6 +138,10 @@ const topicCategories = {
       {
         "text": "33. Why might a site using a MySQL database expose only port 80?",
         "link": "/cybersecurity-interview-questions/topics/web-security/33-why-a-site-using-mysql-expose-only-port-80/"
+      },
+      {
+        "text": "34. When performing injection, is it possible to start directly with `ORDER BY` without using `AND`, `OR`, or `XOR`?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/34-when-performing-injection-possible-to-start-order-by-without-using/"
       }
     ]
   }
