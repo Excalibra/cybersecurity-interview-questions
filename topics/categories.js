@@ -8,7 +8,7 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/Web Security/1. What are the principles and types of SQL injection? How can it be defended against? What is the principle of prepared statements?/"
       },
       {
-        "text": "What Are The Types Of Xss",
+        "text": "2. What are the types of XSS? What are the differences between them? How can it be remediated?",
         "link": "/cybersecurity-interview-questions/topics/Web Security/What are the types of XSS/"
       }
     ]
