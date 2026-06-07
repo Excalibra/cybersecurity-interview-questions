@@ -110,6 +110,10 @@ const topicCategories = {
       {
         "text": "26. How can the `phar://` protocol be exploited? What is the difference between the `php://input` pseudo\u2011protocol and POST data delivery?",
         "link": "/cybersecurity-interview-questions/topics/web-security/26-how-can-the-phar-protocol-be-exploited/"
+      },
+      {
+        "text": "27. How does SSRF write a shell using Redis?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/27-how-does-ssrf-write-a-shell-using-redis/"
       }
     ]
   }
