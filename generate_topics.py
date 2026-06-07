@@ -18,7 +18,7 @@ def generate_topics_js():
             continue
             
         folder_name = category_dir.name
-        key = folder_name.replace(" ", "-").replace("-", "").lower()  # safer key
+        key = folder_name.lower().replace(" ", "-").replace("_", "-")
         title = folder_name.replace("-", " ").title()
         
         print(f"📁 Processing: {folder_name}")
