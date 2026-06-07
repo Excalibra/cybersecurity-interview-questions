@@ -492,6 +492,46 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
 });
 </script>
+<!-- Topics support -->
+<script src="/cybersecurity-interview-questions/topics/categories.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Existing questions code remains unchanged...
+
+    // Topics handler
+    const topicSelector = document.getElementById('topic-selector');
+    const topicsList = document.getElementById('topics-list');
+    const topicsMain = document.getElementById('main-content');  // reuse or adjust
+
+    if (topicSelector) {
+        topicSelector.addEventListener('change', function() {
+            const val = this.value;
+            if (!val || typeof topicCategories === 'undefined') return;
+            
+            const cat = topicCategories[val];
+            let html = '';
+            
+            cat.items.forEach(item => {
+                html += `<div style="margin:8px 0; padding:6px 10px; border-radius:4px;">
+                <a href="#" class="topic-link" data-url="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
+                </div>`;
+            });
+            
+            topicsList.innerHTML = html || '<p style="color:#9ca3af;">No items yet.</p>';
+            topicsMain.innerHTML = `<h2>${cat.title}</h2><p>Select an item from the left.</p>`;
+        });
+        
+        // Similar click handler for topics...
+        topicsList.addEventListener('click', async function(e) {
+            if (e.target.classList.contains('topic-link')) {
+                e.preventDefault();
+                // Same fetch logic as questions...
+            }
+        });
+    }
+});
+</script>
 
               </article>
             </div>
