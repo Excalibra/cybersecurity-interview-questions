@@ -3,11 +3,18 @@
 {% block content %}
 {{ super() }}
 
+<style>
+/* Hide default MkDocs sidebar and table of contents */
+.md-sidebar--primary, .md-nav--primary {
+  display: none !important;
+}
+</style>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const selector = document.getElementById('category-selector');
   const questionsList = document.getElementById('questions-list');
-  const mainArea = document.getElementById('main-area');
+  const mainContent = document.getElementById('main-content');
 
   const categories = {
     "web": {
@@ -25,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const val = this.value;
     if (!val) {
       questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
-      mainArea.innerHTML = '<p>Select a category to load questions.</p>';
+      mainContent.innerHTML = '<p>Select a category above.</p>';
       return;
     }
 
@@ -33,8 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let html = '';
 
     cat.items.forEach(item => {
-      html += `<div style="margin: 8px 0; padding: 6px 10px; border-radius: 4px;">
-        <a href="${item.link}" style="color: #60a5fa; text-decoration: none;">${item.text}</a>
+      html += `<div style="margin:8px 0;">
+        <a href="${item.link}" style="color:#60a5fa; text-decoration:none; display:block; padding:6px 10px; border-radius:4px;">${item.text}</a>
       </div>`;
     });
 
@@ -43,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     questionsList.innerHTML = html;
-    mainArea.innerHTML = `<h2>${cat.title} Interview Questions</h2>`;
+    mainContent.innerHTML = `<h2>${cat.title} Interview Questions</h2>`;
   });
 });
 </script>
