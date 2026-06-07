@@ -62,6 +62,10 @@ const topicCategories = {
       {
         "text": "14. What is a logic vulnerability? Name at least three types of business logic vulnerabilities and how to remediate them.",
         "link": "/cybersecurity-interview-questions/topics/web-security/14-logic-vulnerability/"
+      },
+      {
+        "text": "15. Can you briefly explain unauthorised access?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/15-explain-unauthorised-access/"
       }
     ]
   }
