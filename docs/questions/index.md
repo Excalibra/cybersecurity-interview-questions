@@ -9,7 +9,6 @@
 <option value="web">Web Application Penetration Testing</option>
 <option value="red">Red Team Operations</option>
 <option value="seceng">Security Engineer</option>
-<option value="websec">Web Security (Topics)</option>
 </select>
 
 <h3 style="margin:0 0 16px 0; color:#e5e7eb; font-size:1.1em;">Items</h3>
