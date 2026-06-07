@@ -90,6 +90,10 @@ const topicCategories = {
       {
         "text": "21. What are the dangerous functions for PHP code execution and PHP command execution?",
         "link": "/cybersecurity-interview-questions/topics/web-security/21-dangerous-functions-for-php-code-and-php-command-execution/"
+      },
+      {
+        "text": "22. When SQL injection yields no visible output, how can DNSLog be utilised, and what constructs can be used under MySQL and MSSQL respectively?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/22-how-can-dnslog-be-utilised-when-sql-yields-no-input/"
       }
     ]
   }
