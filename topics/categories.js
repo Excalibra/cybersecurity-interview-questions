@@ -74,6 +74,10 @@ const topicCategories = {
       {
         "text": "17. How do you usually discover Shiro vulnerabilities?",
         "link": "/cybersecurity-interview-questions/topics/web-security/17-how-do-you-discover-shiro-vulnerabilities/"
+      },
+      {
+        "text": "18. WebLogic permission bypass?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/18-weblogic-permission-bypass/"
       }
     ]
   }
