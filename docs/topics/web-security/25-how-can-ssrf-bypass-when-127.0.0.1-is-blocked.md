@@ -7,3 +7,6 @@
 4. Using `[::]` (e.g., `http://[::]:80/`)
 5. Using `@` (e.g., `http://example.com@127.0.0.1`)
 6. Shortened URLs (e.g., `http://dwz.cn/11SMa`)
+
+## Supported Protocols
+`dict://`, `sftp://`, `tftp://`, `ldap://`, `gopher://`
