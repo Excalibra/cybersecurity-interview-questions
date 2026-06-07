@@ -24,10 +24,10 @@ jobs:
       - name: Install MkDocs
         run: pip install mkdocs-material
 
-      - name: Generate Questions & Topics List
+      - name: Generate Questions & Topics
         run: |
           python generate_questions.py
           python generate_topics.py
-
+          
       - name: Build and Deploy
         run: mkdocs gh-deploy --force
