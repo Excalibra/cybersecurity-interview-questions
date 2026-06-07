@@ -98,6 +98,10 @@ const topicCategories = {
       {
         "text": "23. What are the methods to write a shell via phpMyAdmin?",
         "link": "/cybersecurity-interview-questions/topics/web-security/23-methods-to-write-a-shell-via-phpmyadmin/"
+      },
+      {
+        "text": "24. What is the principle of buffer overflow?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/24-principle-of-buffer-overflow/"
       }
     ]
   }
