@@ -40,4 +40,8 @@
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/3-differences-between-xss-csrf-ssrf/</loc>
          <lastmod>2026-06-07</lastmod>
     </url>
+    <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/4-xxe-vulnerabilities/</loc>
+         <lastmod>2026-06-07</lastmod>
+    </url>
 </urlset>

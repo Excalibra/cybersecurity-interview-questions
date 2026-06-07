@@ -14,6 +14,10 @@ const topicCategories = {
       {
         "text": "3. What are the differences between XSS, CSRF, and SSRF? (Very frequently asked)",
         "link": "/cybersecurity-interview-questions/topics/web-security/3-differences-between-xss-csrf-ssrf/"
+      },
+      {
+        "text": "4. Are you familiar with XXE vulnerabilities?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/4-xxe-vulnerabilities/"
       }
     ]
   }
