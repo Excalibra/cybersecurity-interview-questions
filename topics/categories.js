@@ -150,6 +150,10 @@ const topicCategories = {
       {
         "text": "36. A target site has no protective measures; uploaded images can be accessed normally, but accessing uploaded script formats results in a 403 error. What might be the reason?",
         "link": "/cybersecurity-interview-questions/topics/web-security/36-why-uploaded-script-format-403-error-on-target-site/"
+      },
+      {
+        "text": "37. When an Access database file with an `.asp` extension is discovered and displays garbled characters upon access, how can it be retrieved locally for use?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/37-how-to-retrieve-locally-when-access-database-file-asp-garbled-characters/"
       }
     ]
   }
