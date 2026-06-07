@@ -10,12 +10,6 @@ theme:
   custom_dir: overrides
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.indexes
-    - navigation.top
-    - toc.follow
-    - search.highlight
     - content.code.copy
     - content.action.edit
   palette:
