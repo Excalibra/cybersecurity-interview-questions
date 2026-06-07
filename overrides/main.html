@@ -6,23 +6,44 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const selector = document.getElementById('category-selector');
-  
+  const questionsList = document.getElementById('questions-list');
+  const mainArea = document.getElementById('main-area');
+
+  const categories = {
+    "web": {
+      title: "Web Application Penetration Testing",
+      items: [
+        {text: "21. HTTP Connection vs Persistent Connection", link: "/cybersecurity-interview-questions/questions/web-penetration/21-http-short-long/"},
+        {text: "22. How TCP Ensures Reliable Transmission", link: "/cybersecurity-interview-questions/questions/web-penetration/22-tcp-reliable/"}
+      ]
+    },
+    "red": { title: "Red Team Operations", items: [] },
+    "seceng": { title: "Security Engineer", items: [] }
+  };
+
   selector.addEventListener('change', function() {
     const val = this.value;
-    if (!val) return;
-    
-    let url = '';
-    if (val === 'web') {
-      url = '/cybersecurity-interview-questions/questions/web-penetration/';
-    } else if (val === 'red') {
-      url = '/cybersecurity-interview-questions/questions/red-team/';
-    } else if (val === 'seceng') {
-      url = '/cybersecurity-interview-questions/questions/security-engineer/';
+    if (!val) {
+      questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
+      mainArea.innerHTML = '<p>Select a category to load questions.</p>';
+      return;
     }
-    
-    if (url) {
-      window.location.href = url;
+
+    const cat = categories[val];
+    let html = '';
+
+    cat.items.forEach(item => {
+      html += `<div style="margin: 8px 0; padding: 6px 10px; border-radius: 4px;">
+        <a href="${item.link}" style="color: #60a5fa; text-decoration: none;">${item.text}</a>
+      </div>`;
+    });
+
+    if (cat.items.length === 0) {
+      html = '<p style="color:#9ca3af;">No questions added yet for this category.</p>';
     }
+
+    questionsList.innerHTML = html;
+    mainArea.innerHTML = `<h2>${cat.title} Interview Questions</h2>`;
   });
 });
 </script>
