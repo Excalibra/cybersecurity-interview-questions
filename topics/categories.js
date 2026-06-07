@@ -122,6 +122,10 @@ const topicCategories = {
       {
         "text": "29. What is SVN/GIT source code disclosure?",
         "link": "/cybersecurity-interview-questions/topics/web-security/29-what-is-svn-git-source-code-disclosure/"
+      },
+      {
+        "text": "30. Are you familiar with privilege escalation? What is the principle of UDF privilege escalation?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/30-are-you-familiar-with-privilage-escalation/"
       }
     ]
   }
