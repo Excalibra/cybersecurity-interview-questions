@@ -9,7 +9,7 @@ const topicCategories = {
       },
       {
         "text": "2. What are the types of XSS? What are the differences between them? How can it be remediated?",
-        "link": "/cybersecurity-interview-questions/topics/web-security/1-xxs/"
+        "link": "/cybersecurity-interview-questions/topics/web-security/2-xxs/"
       }
     ]
   }
