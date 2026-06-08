@@ -192,4 +192,8 @@
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/40-obtaining-shell-via-file-inclusion/</loc>
          <lastmod>2026-06-08</lastmod>
     </url>
+    <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/41-bypassing-waf-during-file-upload/</loc>
+         <lastmod>2026-06-08</lastmod>
+    </url>
 </urlset>

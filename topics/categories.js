@@ -166,6 +166,10 @@ const topicCategories = {
       {
         "text": "40. Approaches to obtaining a shell via file inclusion?",
         "link": "/cybersecurity-interview-questions/topics/web-security/40-obtaining-shell-via-file-inclusion/"
+      },
+      {
+        "text": "41. Approaches to bypassing WAF during file upload?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/41-bypassing-waf-during-file-upload/"
       }
     ]
   }
