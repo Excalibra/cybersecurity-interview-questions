@@ -476,8 +476,8 @@
                 
 
 <style>
-.md-sidebar--primary, .md-nav--primary, .md-sidebar__scrollwrap { display: none !important; }
-.md-main__inner { margin-left: 0 !important; }
+  .md-sidebar--primary, .md-nav--primary, .md-sidebar__scrollwrap { display: none !important; }
+  .md-main__inner { margin-left: 0 !important; }
 </style>
 
 <!-- Questions -->
@@ -489,25 +489,31 @@
 document.addEventListener('DOMContentLoaded', function() {
     const mainContent = document.getElementById('main-content');
 
-    // === QUESTIONS ===
-    const selector = document.getElementById('question-selector');
+    // ==================== QUESTIONS SECTION ====================
+    const questionSelector = document.getElementById('question-selector');
     const questionsList = document.getElementById('questions-list');
 
-    if (selector && questionsList) {
-        function loadCategory(val) {
-            if (!val || typeof categories === 'undefined') return;
+    if (questionSelector && questionsList) {
+        function loadQuestionCategory(val) {
+            if (!val || typeof categories === 'undefined') {
+                questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
+                return;
+            }
             const cat = categories[val];
+            if (!cat) return;
+
             let html = '';
             cat.items.forEach(item => {
                 html += `<div style="margin:8px 0; padding:6px 10px; border-radius:4px;">
-                <a href="#" class="question-link" data-url="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
+                    <a href="#" class="question-link" data-url="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
                 </div>`;
             });
-            questionsList.innerHTML = html || '<p style="color:#9ca3af;">No items yet.</p>';
-            mainContent.innerHTML = `<h2>${cat.title}</h2><p>Select from left.</p>`;
+            questionsList.innerHTML = html || '<p style="color:#9ca3af;">No questions yet.</p>';
+            mainContent.innerHTML = `<h2>${cat.title}</h2><p>Select a question from the left.</p>`;
         }
-        selector.addEventListener('change', (e) => loadCategory(e.target.value));
-        
+
+        questionSelector.addEventListener('change', (e) => loadQuestionCategory(e.target.value));
+
         questionsList.addEventListener('click', async function(e) {
             if (e.target.classList.contains('question-link')) {
                 e.preventDefault();
@@ -516,25 +522,30 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // === TOPICS ===
+    // ==================== TOPICS SECTION ====================
     const topicSelector = document.getElementById('topic-selector');
     const topicsList = document.getElementById('topics-list');
 
     if (topicSelector && topicsList) {
-        topicSelector.addEventListener('change', function() {
-            const val = this.value;
-            if (!val || typeof topicCategories === 'undefined') return;
-            
+        function loadTopicCategory(val) {
+            if (!val || typeof topicCategories === 'undefined') {
+                topicsList.innerHTML = '<p style="color:#9ca3af;">No topic selected.</p>';
+                return;
+            }
             const cat = topicCategories[val];
+            if (!cat) return;
+
             let html = '';
             cat.items.forEach(item => {
                 html += `<div style="margin:8px 0; padding:6px 10px; border-radius:4px;">
-                <a href="#" class="topic-link" data-url="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
+                    <a href="#" class="topic-link" data-url="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
                 </div>`;
             });
             topicsList.innerHTML = html || '<p style="color:#9ca3af;">No FAQs yet.</p>';
             mainContent.innerHTML = `<h2>${cat.title}</h2><p>Select an FAQ from the left.</p>`;
-        });
+        }
+
+        topicSelector.addEventListener('change', (e) => loadTopicCategory(e.target.value));
 
         topicsList.addEventListener('click', async function(e) {
             if (e.target.classList.contains('topic-link')) {
@@ -544,7 +555,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Shared function to load content without duplicating title
+    // Shared content loader
     async function loadPageContent(linkElement) {
         const url = linkElement.getAttribute('data-url');
         try {
@@ -552,15 +563,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const res = await fetch(url);
             const html = await res.text();
             const doc = new DOMParser().parseFromString(html, 'text/html');
-            
-            // Get main content and remove the original h1 title
             let content = doc.querySelector('.md-content__inner') || doc.body;
             const h1 = content.querySelector('h1');
-            if (h1) h1.remove();   // Remove duplicate title
-            
+            if (h1) h1.remove();
             mainContent.innerHTML = `<h2>${linkElement.textContent}</h2>` + content.innerHTML;
         } catch (err) {
-            mainContent.innerHTML = `<h2>Error loading content</h2><p>Failed to load the page.</p>`;
+            mainContent.innerHTML = `<h2>Error</h2><p>Failed to load content.</p>`;
         }
     }
 });
