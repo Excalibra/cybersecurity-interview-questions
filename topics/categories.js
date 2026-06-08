@@ -162,6 +162,10 @@ const topicCategories = {
       {
         "text": "39. How can a Shiro vulnerability be exploited if the target cannot initiate outbound connections?",
         "link": "/cybersecurity-interview-questions/topics/web-security/39-how-can-shiro-vulnerability-exploited-if-target-cannot-initiate-outbound/"
+      },
+      {
+        "text": "40. Approaches to obtaining a shell via file inclusion?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/40-obtaining-shell-via-file-inclusion/"
       }
     ]
   }
