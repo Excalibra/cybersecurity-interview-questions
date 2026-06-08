@@ -170,6 +170,10 @@ const topicCategories = {
       {
         "text": "41. Approaches to bypassing WAF during file upload?",
         "link": "/cybersecurity-interview-questions/topics/web-security/41-bypassing-waf-during-file-upload/"
+      },
+      {
+        "text": "42. What are the methods for XSS protection? How can the HttpOnly flag be bypassed?",
+        "link": "/cybersecurity-interview-questions/topics/web-security/42-methods-for-xss-protection/"
       }
     ]
   }
