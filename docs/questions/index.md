@@ -4,7 +4,7 @@
 <!-- Dynamic Left Sidebar -->
 <div id="dynamic-sidebar" style="width: 340px; background:#1f2937; padding:20px; border-radius:8px; border:1px solid #374151; min-height: 700px; flex-shrink: 0;">
 
-<select id="category-selector" style="width:100%; padding:12px 16px; font-size:1.05em; background:#374151; color:white; border:1px solid #4b5563; border-radius:6px; margin-bottom:20px;">
+<select id="question-selector" style="width:100%; padding:12px 16px; font-size:1.05em; background:#374151; color:white; border:1px solid #4b5563; border-radius:6px; margin-bottom:20px;">
 <option value="">-- Select Category --</option>
 <option value="web">Web Application Penetration Testing</option>
 <option value="red">Red Team Operations</option>
