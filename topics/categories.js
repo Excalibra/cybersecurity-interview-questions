@@ -6,6 +6,10 @@ const topicCategories = {
       {
         "text": "1. What penetration testing tools or vulnerability scanners do you commonly use?",
         "link": "/cybersecurity-interview-questions/topics/tools/1-what-pentest-tools-do-you-use/"
+      },
+      {
+        "text": "2. What is the principle and prerequisite for sqlmap\u2019s `--os-shell`?",
+        "link": "/cybersecurity-interview-questions/topics/tools/2-principle-prerequisite-for-sqlmap-os-shell/"
       }
     ]
   },
