@@ -12,6 +12,10 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/10-what-should-be-done-with-encrypted-password-file/"
       },
       {
+        "text": "11. What are the methods for gaining control of a domain controller?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/11-methods-for-gaining-control-of-domain-controller/"
+      },
+      {
         "text": "2. What are the differences between psexec, wmic, and others?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/2-differences-between-psexec-wmic/"
       },
