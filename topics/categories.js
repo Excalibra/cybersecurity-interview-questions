@@ -16,6 +16,14 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/03-how-does-dcom-operate/"
       },
       {
+        "text": "4. How would you capture passwords?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/04-how-would-you-capture-passwords/"
+      },
+      {
+        "text": "5. After which Windows version can passwords no longer be captured in plaintext?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/05-which-windows-version-passwords-no-longer-capture-in-plaintext/"
+      },
+      {
         "text": "10. If there is an encrypted password file on the current machine, what should be done?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/10-what-should-be-done-with-encrypted-password-file/"
       },
@@ -26,14 +34,6 @@ const topicCategories = {
       {
         "text": "12. Please explain Golden Ticket and Silver Ticket.",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/12-explain-golden-ticket-and-silver-ticket/"
-      },
-      {
-        "text": "4. How would you capture passwords?",
-        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/4-how-would-you-capture-passwords/"
-      },
-      {
-        "text": "5. After which Windows version can passwords no longer be captured in plaintext?",
-        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/5-which-windows-version-passwords-no-longer-capture-in-plaintext/"
       },
       {
         "text": "6. If you cannot capture the password, what alternatives are there?",
