@@ -54,6 +54,10 @@ const topicCategories = {
       {
         "text": "13. What are the methods for maintaining persistence on Windows and on Linux?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/13-methods-for-maintaining-persistence-on-windows-linux/"
+      },
+      {
+        "text": "14. Are you familiar with shellcode obfuscation and evasion? What methods exist?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/14-familiar-with-shellcode-obfuscation-evasion/"
       }
     ]
   },
