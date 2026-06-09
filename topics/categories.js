@@ -10,6 +10,10 @@ const topicCategories = {
       {
         "text": "2. What are the differences between psexec, wmic, and others?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/2-differences-between-psexec-wmic/"
+      },
+      {
+        "text": "3. How does DCOM operate?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/3-how-does-dcom-operate/"
       }
     ]
   },
