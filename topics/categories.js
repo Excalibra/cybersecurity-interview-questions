@@ -6,6 +6,10 @@ const topicCategories = {
       {
         "text": "1. What are the methods for lateral movement command execution?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/1-methods-for-lateral-movement-command-execution/"
+      },
+      {
+        "text": "2. What are the differences between psexec, wmic, and others?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/2-differences-between-psexec-wmic/"
       }
     ]
   },
