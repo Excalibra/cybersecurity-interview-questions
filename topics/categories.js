@@ -16,6 +16,10 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/11-methods-for-gaining-control-of-domain-controller/"
       },
       {
+        "text": "12. Please explain Golden Ticket and Silver Ticket.",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/12-explain-golden-ticket-and-silver-ticket/"
+      },
+      {
         "text": "2. What are the differences between psexec, wmic, and others?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/2-differences-between-psexec-wmic/"
       },
