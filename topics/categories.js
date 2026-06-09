@@ -74,11 +74,11 @@ const topicCategories = {
       },
       {
         "text": "5. Are you familiar with or have you used any vendor security appliances?",
-        "link": "/cybersecurity-interview-questions/topics/tools/5-familiarity-vendor-security-appliances/"
+        "link": "/cybersecurity-interview-questions/topics/tools/05-familiarity-vendor-security-appliances/"
       },
       {
         "text": "6. What are the common Nmap parameters? Describe them.",
-        "link": "/cybersecurity-interview-questions/topics/tools/6-common-nmap-parameters/"
+        "link": "/cybersecurity-interview-questions/topics/tools/06-common-nmap-parameters/"
       }
     ]
   },
