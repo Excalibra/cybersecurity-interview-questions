@@ -66,6 +66,10 @@ const topicCategories = {
       {
         "text": "16. What are the commonly used tools for proxy and tunnelling?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/16-commonly-used-tools-for-proxy-and-tunneling/"
+      },
+      {
+        "text": "17. If the target machine cannot ping external networks and cannot utilise network\u2011layer protocols, how can a tunnel be established?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/17-if-cannot-ping-external-networks-layer-protocols-how-to-establish-tunnel/"
       }
     ]
   },
