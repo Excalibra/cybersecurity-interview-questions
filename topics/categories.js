@@ -26,6 +26,10 @@ const topicCategories = {
       {
         "text": "6. If you cannot capture the password, what alternatives are there?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/6-alternatives-to-capture-passwords/"
+      },
+      {
+        "text": "7. Are you familiar with domain attack techniques?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/7-familiar-with-domain-attack-techniques/"
       }
     ]
   },
