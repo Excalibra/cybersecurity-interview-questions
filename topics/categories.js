@@ -62,6 +62,10 @@ const topicCategories = {
       {
         "text": "15. What is the approach for domain information gathering?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/15-what-is-this-approach-for-domain-information-gathering/"
+      },
+      {
+        "text": "16. What are the commonly used tools for proxy and tunnelling?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/16-commonly-used-tools-for-proxy-and-tunneling/"
       }
     ]
   },
