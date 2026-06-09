@@ -70,7 +70,7 @@ const topicCategories = {
       },
       {
         "text": "4. What are the similarities and differences among the various webshell management tools available on the market?",
-        "link": "/cybersecurity-interview-questions/topics/tools/4-webshell-management-tools-similarities-differences/"
+        "link": "/cybersecurity-interview-questions/topics/tools/04-webshell-management-tools-similarities-differences/"
       },
       {
         "text": "5. Are you familiar with or have you used any vendor security appliances?",
