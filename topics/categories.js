@@ -36,6 +36,10 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/08-session-hijacking-active-administrator/"
       },
       {
+        "text": "9. What is the thought process for internal network penetration?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/09-thought-process-for-internal-network-penetration/"
+      },
+      {
         "text": "10. If there is an encrypted password file on the current machine, what should be done?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/10-what-should-be-done-with-encrypted-password-file/"
       },
@@ -46,10 +50,6 @@ const topicCategories = {
       {
         "text": "12. Please explain Golden Ticket and Silver Ticket.",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/12-explain-golden-ticket-and-silver-ticket/"
-      },
-      {
-        "text": "9. What is the thought process for internal network penetration?",
-        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/9-thought-process-for-internal-network-penetration/"
       }
     ]
   },
