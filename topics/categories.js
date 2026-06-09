@@ -10,6 +10,10 @@ const topicCategories = {
       {
         "text": "2. What is the principle and prerequisite for sqlmap\u2019s `--os-shell`?",
         "link": "/cybersecurity-interview-questions/topics/tools/2-principle-prerequisite-for-sqlmap-os-shell/"
+      },
+      {
+        "text": "3. Which tools do you use for information gathering, and for what specific purposes?",
+        "link": "/cybersecurity-interview-questions/topics/tools/3-which-tools-for-info-gathering/"
       }
     ]
   },
