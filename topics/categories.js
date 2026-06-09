@@ -20,12 +20,12 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/tools/4-webshell-management-tools-similarities-differences/"
       },
       {
-        "text": "6. What are the common Nmap parameters? Describe them.",
-        "link": "/cybersecurity-interview-questions/topics/tools/6-common-nmap-parameters/"
+        "text": "5. Are you familiar with or have you used any vendor security appliances?",
+        "link": "/cybersecurity-interview-questions/topics/tools/5-familiarity-vendor-security-appliances/"
       },
       {
-        "text": "5. Are you familiar with or have you used any vendor security appliances?",
-        "link": "/cybersecurity-interview-questions/topics/tools/familiarity-vendor-security-appliances/"
+        "text": "6. What are the common Nmap parameters? Describe them.",
+        "link": "/cybersecurity-interview-questions/topics/tools/6-common-nmap-parameters/"
       }
     ]
   },
