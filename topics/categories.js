@@ -32,6 +32,10 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/07-familiar-with-domain-attack-techniques/"
       },
       {
+        "text": "8. If a desktop has an active administrator session and you wish to perform session hijacking, how would you proceed?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/08-session-hijacking-active-administrator/"
+      },
+      {
         "text": "10. If there is an encrypted password file on the current machine, what should be done?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/10-what-should-be-done-with-encrypted-password-file/"
       },
@@ -42,10 +46,6 @@ const topicCategories = {
       {
         "text": "12. Please explain Golden Ticket and Silver Ticket.",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/12-explain-golden-ticket-and-silver-ticket/"
-      },
-      {
-        "text": "8. If a desktop has an active administrator session and you wish to perform session hijacking, how would you proceed?",
-        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/8-session-hijacking-active-administrator/"
       },
       {
         "text": "9. What is the thought process for internal network penetration?",
