@@ -8,6 +8,10 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/1-methods-for-lateral-movement-command-execution/"
       },
       {
+        "text": "10. If there is an encrypted password file on the current machine, what should be done?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/10-what-should-be-done-with-encrypted-password-file/"
+      },
+      {
         "text": "2. What are the differences between psexec, wmic, and others?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/2-differences-between-psexec-wmic/"
       },
