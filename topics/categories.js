@@ -30,6 +30,10 @@ const topicCategories = {
       {
         "text": "7. Are you familiar with domain attack techniques?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/7-familiar-with-domain-attack-techniques/"
+      },
+      {
+        "text": "8. If a desktop has an active administrator session and you wish to perform session hijacking, how would you proceed?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/8-session-hijacking-active-administrator/"
       }
     ]
   },
