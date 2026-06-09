@@ -50,6 +50,10 @@ const topicCategories = {
       {
         "text": "12. Please explain Golden Ticket and Silver Ticket.",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/12-explain-golden-ticket-and-silver-ticket/"
+      },
+      {
+        "text": "13. What are the methods for maintaining persistence on Windows and on Linux?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/13-methods-for-maintaining-persistence-on-windows-linux/"
       }
     ]
   },
