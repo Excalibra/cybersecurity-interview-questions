@@ -66,7 +66,7 @@ const topicCategories = {
       },
       {
         "text": "3. Which tools do you use for information gathering, and for what specific purposes?",
-        "link": "/cybersecurity-interview-questions/topics/tools/3-which-tools-for-info-gathering/"
+        "link": "/cybersecurity-interview-questions/topics/tools/03-which-tools-for-info-gathering/"
       },
       {
         "text": "4. What are the similarities and differences among the various webshell management tools available on the market?",
