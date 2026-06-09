@@ -14,6 +14,10 @@ const topicCategories = {
       {
         "text": "3. How does DCOM operate?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/3-how-does-dcom-operate/"
+      },
+      {
+        "text": "4. How would you capture passwords?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/4-how-would-you-capture-passwords/"
       }
     ]
   },
