@@ -70,6 +70,10 @@ const topicCategories = {
       {
         "text": "17. If the target machine cannot ping external networks and cannot utilise network\u2011layer protocols, how can a tunnel be established?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/17-if-cannot-ping-external-networks-layer-protocols-how-to-establish-tunnel/"
+      },
+      {
+        "text": "18. How can one rapidly locate a domain controller? Describe three methods.",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/18-how-can-one-rapidly-locate-domain-controller/"
       }
     ]
   },
