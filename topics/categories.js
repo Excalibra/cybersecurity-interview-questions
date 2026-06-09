@@ -74,6 +74,10 @@ const topicCategories = {
       {
         "text": "18. How can one rapidly locate a domain controller? Describe three methods.",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/18-how-can-one-rapidly-locate-domain-controller/"
+      },
+      {
+        "text": "19. What are the differences between PTH (Pass\u2011the\u2011Hash), PTT (Pass\u2011the\u2011Ticket), and PTK (Pass\u2011the\u2011Key)?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/19-differences-between-pth-ptt-ptk/"
       }
     ]
   },
