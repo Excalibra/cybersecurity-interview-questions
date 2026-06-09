@@ -1,4 +1,4 @@
-# Interview Questions & Topics
+# Interview Questions
 
 <div style="display: flex; gap: 24px; align-items: flex-start;">
 <!-- Dynamic Left Sidebar -->
@@ -11,7 +11,7 @@
 <option value="seceng">Security Engineer</option>
 </select>
 
-<h3 style="margin:0 0 16px 0; color:#e5e7eb; font-size:1.1em;">Items</h3>
+<h3 style="margin:0 0 16px 0; color:#e5e7eb; font-size:1.1em;">Q&As</h3>
 <div id="questions-list" style="font-size:0.95em; line-height:1.6;"></div>
 </div>
 
