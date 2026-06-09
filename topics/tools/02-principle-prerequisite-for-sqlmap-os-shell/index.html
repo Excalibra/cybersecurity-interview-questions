@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://excalibra.github.io/cybersecurity-interview-questions/topics/tools/1-what-pentest-tools-do-you-use/">
+        <link rel="canonical" href="https://excalibra.github.io/cybersecurity-interview-questions/topics/tools/02-principle-prerequisite-for-sqlmap-os-shell/">
       
       
       
@@ -21,7 +21,7 @@
     
     
       
-        <title>1. What penetration testing tools or vulnerability scanners do you commonly use? - Cybersecurity Interview Questions</title>
+        <title>2. What is the principle and prerequisite for sqlmap’s --os-shell? - Cybersecurity Interview Questions</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#1-what-penetration-testing-tools-or-vulnerability-scanners-do-you-commonly-use" class="md-skip">
+        <a href="#2-what-is-the-principle-and-prerequisite-for-sqlmaps-os-shell" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1. What penetration testing tools or vulnerability scanners do you commonly use?
+              2. What is the principle and prerequisite for sqlmap’s --os-shell?
             
           </span>
         </div>
@@ -407,10 +407,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#penetration-testing-tools" class="md-nav__link">
+  <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Penetration Testing Tools
+        Prerequisites
       
     </span>
   </a>
@@ -418,10 +418,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#vulnerability-scanners" class="md-nav__link">
+  <a href="#principle" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Vulnerability Scanners
+        Principle
       
     </span>
   </a>
@@ -446,7 +446,7 @@
 
 
   
-    <a href="https://github.com/Excalibra/cybersecurity-interview-questions/edit/master/docs/topics/tools/1-what-pentest-tools-do-you-use.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/Excalibra/cybersecurity-interview-questions/edit/master/docs/topics/tools/02-principle-prerequisite-for-sqlmap-os-shell.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -454,23 +454,17 @@
   
 
 
-<h1 id="1-what-penetration-testing-tools-or-vulnerability-scanners-do-you-commonly-use">1. What penetration testing tools or vulnerability scanners do you commonly use?<a class="headerlink" href="#1-what-penetration-testing-tools-or-vulnerability-scanners-do-you-commonly-use" title="Permanent link">&para;</a></h1>
-<h2 id="penetration-testing-tools">Penetration Testing Tools<a class="headerlink" href="#penetration-testing-tools" title="Permanent link">&para;</a></h2>
+<h1 id="2-what-is-the-principle-and-prerequisite-for-sqlmaps-os-shell">2. What is the principle and prerequisite for sqlmap’s <code>--os-shell</code>?<a class="headerlink" href="#2-what-is-the-principle-and-prerequisite-for-sqlmaps-os-shell" title="Permanent link">&para;</a></h1>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Metasploit (MSF)</li>
-<li>Cobalt Strike (CS)</li>
-<li>Nmap</li>
-<li>sqlmap</li>
-<li>dirsearch</li>
-<li>Burp Suite</li>
+<li>Root database privileges</li>
+<li>Knowledge of the absolute path</li>
+<li><code>GPC</code> (magic_quotes_gpc) turned off</li>
+<li><code>secure_file_priv</code> parameter empty or set to a specified path</li>
 </ul>
-<h2 id="vulnerability-scanners">Vulnerability Scanners<a class="headerlink" href="#vulnerability-scanners" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Xray</li>
-<li>AWVS</li>
-<li>Nessus</li>
-<li>AppScan</li>
-</ul>
+<h2 id="principle">Principle<a class="headerlink" href="#principle" title="Permanent link">&para;</a></h2>
+<p>sqlmap probes basic target information, uploads a shell to the target web server, uses the shell to pass parameters for command execution, and deletes the shell upon exit. For SQL Server, it relies on <code>SA</code> privileges and <code>xp_cmdshell</code>.
+(Detailed analysis: )</p>
 
 
 
