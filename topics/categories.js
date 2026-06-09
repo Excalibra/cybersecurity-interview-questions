@@ -5,7 +5,7 @@ const topicCategories = {
     "items": [
       {
         "text": "1. What are the methods for lateral movement command execution?",
-        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/1-methods-for-lateral-movement-command-execution/"
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/01-methods-for-lateral-movement-command-execution/"
       },
       {
         "text": "10. If there is an encrypted password file on the current machine, what should be done?",
