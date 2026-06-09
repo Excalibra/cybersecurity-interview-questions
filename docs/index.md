@@ -4,13 +4,9 @@ Choose your path:
 
 Use the navigation above to explore:
 
-## Interview Questions
+## [Interview Questions](https://excalibra.github.io/cybersecurity-interview-questions/questions/)
 Structured Q&A organised by career path.
 
-## Topics / Knowledge Base
+## [Topics & FAQs](https://excalibra.github.io/cybersecurity-interview-questions/topics/)
 In-depth explanations and frequently asked questions.
 
-**Quick Links:**
-
-- [Interview Questions](https://excalibra.github.io/cybersecurity-interview-questions/questions/)
-- [Topics & FAQs](https://excalibra.github.io/cybersecurity-interview-questions/topics/)
