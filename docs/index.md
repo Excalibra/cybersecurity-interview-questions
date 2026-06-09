@@ -2,15 +2,10 @@
 
 Choose your path:
 
-<div class="grid cards" markdown>
+Use the navigation above to explore:
 
-- **🕸️ Web Application Penetration Testing**  
-  [Go to Category →](questions/web-penetration/index.md)
+## Interview Questions
+Structured Q&A organised by career path.
 
-- **🔴 Red Team Operations**  
-  [Go to Category →](questions/red-team/index.md)
-
-- **🛡️ Security Engineer**  
-  [Go to Category →](questions/security-engineer/index.md)
-
-</div>
+## Topics / Knowledge Base
+In-depth explanations and frequently asked questions.
