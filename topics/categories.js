@@ -22,6 +22,10 @@ const topicCategories = {
       {
         "text": "5. After which Windows version can passwords no longer be captured in plaintext?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/5-which-windows-version-passwords-no-longer-capture-in-plaintext/"
+      },
+      {
+        "text": "6. If you cannot capture the password, what alternatives are there?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/6-alternatives-to-capture-passwords/"
       }
     ]
   },
