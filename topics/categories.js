@@ -18,6 +18,10 @@ const topicCategories = {
       {
         "text": "4. How would you capture passwords?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/4-how-would-you-capture-passwords/"
+      },
+      {
+        "text": "5. After which Windows version can passwords no longer be captured in plaintext?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/5-which-windows-version-passwords-no-longer-capture-in-plaintext/"
       }
     ]
   },
