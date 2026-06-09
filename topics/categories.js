@@ -8,6 +8,14 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/01-methods-for-lateral-movement-command-execution/"
       },
       {
+        "text": "2. What are the differences between psexec, wmic, and others?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/02-differences-between-psexec-wmic/"
+      },
+      {
+        "text": "3. How does DCOM operate?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/03-how-does-dcom-operate/"
+      },
+      {
         "text": "10. If there is an encrypted password file on the current machine, what should be done?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/10-what-should-be-done-with-encrypted-password-file/"
       },
@@ -18,14 +26,6 @@ const topicCategories = {
       {
         "text": "12. Please explain Golden Ticket and Silver Ticket.",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/12-explain-golden-ticket-and-silver-ticket/"
-      },
-      {
-        "text": "2. What are the differences between psexec, wmic, and others?",
-        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/2-differences-between-psexec-wmic/"
-      },
-      {
-        "text": "3. How does DCOM operate?",
-        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/3-how-does-dcom-operate/"
       },
       {
         "text": "4. How would you capture passwords?",
