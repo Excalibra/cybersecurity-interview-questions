@@ -58,6 +58,10 @@ const topicCategories = {
       {
         "text": "14. Are you familiar with shellcode obfuscation and evasion? What methods exist?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/14-familiar-with-shellcode-obfuscation-evasion/"
+      },
+      {
+        "text": "15. What is the approach for domain information gathering?",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/15-what-is-this-approach-for-domain-information-gathering/"
       }
     ]
   },
