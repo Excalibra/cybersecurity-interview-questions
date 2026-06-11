@@ -90,6 +90,10 @@ const categories = {
       {
         "text": "21. In internal network domain penetration, what are the utilisation conditions and the principle of the latest CVE-2022-26923 ADCS privilege escalation vulnerability? What are its advantages compared to the earlier ESC8 vulnerability?",
         "link": "/cybersecurity-interview-questions/questions/red-team/21-utilisation-conditions-of-adcs-privilege-escalation-vulnerability/"
+      },
+      {
+        "text": "22. In internal network penetration, if you have obtained a set of vCenter credentials, how would you further deepen your exploitation? How can the database file be decrypted, and what is the principle?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/22-how-would-you-deepen-exploitation-after-obtaining-vcenter-credentials/"
       }
     ]
   },
