@@ -14,6 +14,10 @@ const categories = {
       {
         "text": "2. How to determine whether a Shiro deserialisation vulnerability exists when the target cannot initiate outbound connections?",
         "link": "/cybersecurity-interview-questions/questions/red-team/02-how-to-determine-if-shiro-deserialisation-vulnerability-exists-if-target-cannot-initiate-outbound-connections/"
+      },
+      {
+        "text": "3. What should one do if, when attacking a WebLogic target, the first payload is blocked by a WAF and the IP is banned?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/03-when-attacking-weblogic-target-what-should-one-do-if-first-payload-blocked-by-waf-ip-banned/"
       }
     ]
   },
