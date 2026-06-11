@@ -108,6 +108,10 @@ const topicCategories = {
       {
         "text": "4. What are some commands for downloading files in Windows?",
         "link": "/cybersecurity-interview-questions/topics/systems/4-what-are-commands-for-downloading-files-in-windows/"
+      },
+      {
+        "text": "5. Describe your investigation process if a backdoor file has been implanted on a Windows or Linux system.",
+        "link": "/cybersecurity-interview-questions/topics/systems/5-describe-investigation-process-backdoor-file-implanted-on-windows-or-linux/"
       }
     ]
   },
