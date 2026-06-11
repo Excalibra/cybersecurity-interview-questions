@@ -15,6 +15,10 @@ const topicCategories = {
       {
         "text": "1. What are some commonly used threat intelligence platforms?",
         "link": "/cybersecurity-interview-questions/topics/incident-response/1-commonly-used-threat-intelligence-platforms/"
+      },
+      {
+        "text": "2. How do you handle false positives from security devices (log analysis)?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/2-handle-false-positives-from-security-devices/"
       }
     ]
   },
