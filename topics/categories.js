@@ -9,6 +9,15 @@ const topicCategories = {
       }
     ]
   },
+  "incident-response": {
+    "title": "Incident Response",
+    "items": [
+      {
+        "text": "1. What are some commonly used threat intelligence platforms?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/1-commonly-used-threat-intelligence-platforms/"
+      }
+    ]
+  },
   "internal-network-penetration": {
     "title": "Internal Network Penetration",
     "items": [
