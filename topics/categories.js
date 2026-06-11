@@ -215,6 +215,10 @@ const topicCategories = {
       {
         "text": "1. How do you locate the attacking IP address?",
         "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/01-how-do-you-locate-the-attacking-ip-address/"
+      },
+      {
+        "text": "2. Suppose you discover an abnormal increase in files on a web application server and suspect a webshell has been uploaded. Describe the thought process for traffic analysis and traceability.",
+        "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/09-describe-thought-process-for-traffic-analysis-traceability-on-web-application-server-webshell-uploaded/"
       }
     ]
   },
