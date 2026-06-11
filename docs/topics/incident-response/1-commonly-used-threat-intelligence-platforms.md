@@ -2,38 +2,6 @@
 
 Here’s the restructured list of threat intelligence platforms, organized by region:
 
-### 🌏 China
-*   **ThreatBook (微步在线)**
-    *   [https://x.threatbook.cn/](https://x.threatbook.cn/)
-*   **Qi‑AnXin TI (奇安信威胁情报)**
-    *   [https://ti.qianxin.com/](https://ti.qianxin.com/)
-*   **NSFOCUS TI (绿盟科技)**
-    *   [https://nti.nsfocus.com/apt/home](https://nti.nsfocus.com/apt/home)
-*   **360 TI (360数字安全)**
-    *   [https://ti.360.net/](https://ti.360.net/)
-*   **Tencent Threat Intelligence (腾讯威胁情报)**
-    *   [https://cloud.tencent.com/product/tae](https://cloud.tencent.com/product/tae)
-*   **Venusense Threat Intelligence (启明星辰)**
-    *   [https://www.venuseye.com.cn/](https://www.venuseye.com.cn/)
-*   **DBAPPSecurity (安恒信息)**
-    *   [https://ti.dbappsecurity.com.cn/](https://ti.dbappsecurity.com.cn/)
-*   **Sangfor (深信服)**
-    *   [https://ti.sangfor.com.cn/](https://ti.sangfor.com.cn/)
-*   **Antiy (安天)**
-    *   [https://www.antiycloud.com/](https://www.antiycloud.com/)
-*   **Rising Threat Intelligence (瑞星)**
-    *   [https://ti.rising.com.cn/](https://ti.rising.com.cn/)
-*   **Kingsoft Eagle Eye (金山鹰眼)**
-    *   [https://ti.duba.net/](https://ti.duba.net/)
-*   **Huawei Threat Intelligence (华为)**
-    *   [https://www.huaweicloud.com/](https://www.huaweicloud.com/)
-*   **Aliyun Threat Intelligence (阿里云)**
-    *   [https://www.aliyun.com/](https://www.aliyun.com/)
-*   **Tianji Youmeng RedQueen (天际友盟)**
-    *   [https://redqueen.tj-un.com/](https://redqueen.tj-un.com/)
-*   **NVDB (国家信息安全漏洞共享平台)**
-    *   [https://www.nvdb.org.cn/](https://www.nvdb.org.cn/)
-
 ### 🇺🇸 United States
 *   **Recorded Future**
     *   [https://www.recordedfuture.com/](https://www.recordedfuture.com/)
@@ -75,9 +43,8 @@ Here’s the restructured list of threat intelligence platforms, organized by re
     *   [https://www.proofpoint.com/](https://www.proofpoint.com/)
 *   **DarkFeed**
     *   [https://darkfeed.io/](https://darkfeed.io/)
-*   **Zeroth**
-    *   The correct product name appears to be **ZeroThreat**.
-    *   [https://zerothreat.ai/](https://zerothreat.ai/)
+*   **Zerothreat**
+    * [https://zerothreat.ai/](https://zerothreat.ai/)
 
 ### 🇪🇺 Europe
 *   **MISP**
@@ -107,7 +74,7 @@ Here’s the restructured list of threat intelligence platforms, organized by re
 *   **Sber X-Threat Intelligence Platform**
     *   [https://www.sberbank.ru/](https://www.sberbank.ru/)
 *   **Gard TI Feeds**
-    *   Official website not found.
+    *   [https://garda.ai/products/network-security/threat-intelligence](https://garda.ai/products/network-security/threat-intelligence)
 
 ### 🇮🇳 India
 *   **Foresiet Xtreme**
