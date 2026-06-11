@@ -62,6 +62,10 @@ const categories = {
       {
         "text": "14. Suppose you attacked a machine on port 17010, and the machine restarted during the attack. After it successfully restarted, you attacked it again and succeeded, but you were unable to capture the password. Why is that, and how can this problem be resolved?",
         "link": "/cybersecurity-interview-questions/questions/red-team/14-why-were-you-unable-to-capture-password-on-port-17010-after-restart/"
+      },
+      {
+        "text": "15. In an internal network, you have permissions on a workgroup machine outside the domain, but you have no domain user. Lateral movement via vulnerabilities cannot grant you domain user permissions. However, you know for certain that a domain exists. How can you enter the domain and locate the domain controller?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/15-how-can-you-enter-domain-and-locate-domain-controller/"
       }
     ]
   },
