@@ -98,16 +98,16 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/systems/01-how-to-manually-determine-target-operating-system/"
       },
       {
-        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
-        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
-      },
-      {
         "text": "2. What commands are used to view open ports and running services on Windows and Linux?",
-        "link": "/cybersecurity-interview-questions/topics/systems/2-commands-used-to-view-open-ports-services-windows-linux/"
+        "link": "/cybersecurity-interview-questions/topics/systems/02-commands-used-to-view-open-ports-services-windows-linux/"
       },
       {
         "text": "3. What is the default log directory in Linux?",
-        "link": "/cybersecurity-interview-questions/topics/systems/3-default-log-directory-in-linux/"
+        "link": "/cybersecurity-interview-questions/topics/systems/03-default-log-directory-in-linux/"
+      },
+      {
+        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
+        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
       },
       {
         "text": "4. What are some commands for downloading files in Windows?",
