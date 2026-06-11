@@ -128,9 +128,5 @@ const categories = {
         "link": "/cybersecurity-interview-questions/questions/red-team/30-how-to-exploit-compromised-host-via-phishing/"
       }
     ]
-  },
-  "seceng": {
-    "title": "Security Engineer",
-    "items": []
   }
 };
