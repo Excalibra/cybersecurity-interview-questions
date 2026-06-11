@@ -223,6 +223,10 @@ const topicCategories = {
       {
         "text": "3. What are some basic Wireshark display filters?",
         "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/03-what-are-some-basic-wireshark-display-filters/"
+      },
+      {
+        "text": "4. What are the traffic characteristics of webshell interaction?",
+        "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/04-traffic-characteristics-of-webshell-interaction/"
       }
     ]
   },
