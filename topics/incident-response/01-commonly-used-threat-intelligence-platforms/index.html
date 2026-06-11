@@ -990,11 +990,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (questionSelector && questionsList) {
         function loadQuestionCategory(val) {
-            if (!val || typeof categories === 'undefined') {
+            if (!val || typeof questionCategories === 'undefined') {
                 questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
                 return;
             }
-            const cat = categories[val];
+            const cat = questionCategories[val];
             if (!cat) return;
 
             let html = '';
