@@ -231,6 +231,10 @@ const topicCategories = {
       {
         "text": "5. What is the approach for analysing abnormal SQL query traffic?",
         "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/05-approach-for-analysing-abnormal-sql-query-traffic/"
+      },
+      {
+        "text": "6. How can you batch\u2011check HTTP services?",
+        "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/06-how-can-you-batch-check-http-services/"
       }
     ]
   },
