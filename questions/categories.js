@@ -98,6 +98,10 @@ const categories = {
       {
         "text": "23. You have obtained the administrator password for a vCenter machine and have successfully logged in. However, some internal machines are in a locked state and require a password. How can you exploit this situation?",
         "link": "/cybersecurity-interview-questions/questions/red-team/23-how-can-you-exploit-locked-state-after-obtaining-admin-password-for-vcenter/"
+      },
+      {
+        "text": "24. During internal network persistence maintenance, if 360 has enabled \u201cCrystal Core\u201d mode, how should one attempt to maintain persistence? What if scheduled tasks are blocked?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/24-how-should-you-maintain-persistence-if-360-crystal-core-mode-enabled/"
       }
     ]
   },
