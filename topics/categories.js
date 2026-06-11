@@ -35,6 +35,10 @@ const topicCategories = {
       {
         "text": "6. What is your understanding of honeypots?",
         "link": "/cybersecurity-interview-questions/topics/incident-response/6-what-is-your-understanding-of-honeypots/"
+      },
+      {
+        "text": "7. How can a firewall determine that traffic is a deserialisation attack?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/7-how-can-firewall-determine-that-traffic-is-a-deserialisation-attack/"
       }
     ]
   },
