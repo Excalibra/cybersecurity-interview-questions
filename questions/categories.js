@@ -114,6 +114,10 @@ const categories = {
       {
         "text": "27. In evasion, how can one bypass domestic antivirus software? What exactly are antivirus products detecting? Why can the same methods not bypass foreign antivirus software such as Kaspersky?",
         "link": "/cybersecurity-interview-questions/questions/red-team/27-how-can-one-bypass-domestic-antivirus-software-in-evasion/"
+      },
+      {
+        "text": "28. In internal network lateral movement, do you directly obtain a machine\u2019s permissions and then start scanning, or are there other methods?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/28-do-you-directly-obtain-machine-permissions-then-start-scanning/"
       }
     ]
   },
