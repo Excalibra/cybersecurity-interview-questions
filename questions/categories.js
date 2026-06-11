@@ -129,7 +129,7 @@ const questionCategories = {
     "title": "Red Team Interview Experience",
     "items": [
       {
-        "text": "**Q: What is the principle of Java deserialisation?**",
+        "text": "Q: What is the principle of Java deserialisation?",
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/01-java-deserialisation-principle/"
       },
       {
