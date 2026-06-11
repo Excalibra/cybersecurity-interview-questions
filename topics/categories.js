@@ -90,6 +90,15 @@ const topicCategories = {
       }
     ]
   },
+  "systems": {
+    "title": "Systems",
+    "items": [
+      {
+        "text": "1. How can one manually determine the target operating system?",
+        "link": "/cybersecurity-interview-questions/topics/systems/1-how-to-manually-determine-target-operating-system/"
+      }
+    ]
+  },
   "tools": {
     "title": "Tools",
     "items": [

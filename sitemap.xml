@@ -2,306 +2,310 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/questions/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/questions/red-team/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/questions/security-engineer/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/questions/web-penetration/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/questions/web-penetration/21-http-short-long/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/computer-networks/1-describe-osi-model-and-tcp-ip/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/01-methods-for-lateral-movement-command-execution/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/02-differences-between-psexec-wmic/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/03-how-does-dcom-operate/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/04-how-would-you-capture-passwords/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/05-which-windows-version-passwords-no-longer-capture-in-plaintext/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/06-alternatives-to-capture-passwords/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/07-familiar-with-domain-attack-techniques/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/08-session-hijacking-active-administrator/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/09-thought-process-for-internal-network-penetration/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/10-what-should-be-done-with-encrypted-password-file/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/11-methods-for-gaining-control-of-domain-controller/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/12-explain-golden-ticket-and-silver-ticket/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/13-methods-for-maintaining-persistence-on-windows-linux/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/14-familiar-with-shellcode-obfuscation-evasion/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/15-what-is-this-approach-for-domain-information-gathering/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/16-commonly-used-tools-for-proxy-and-tunneling/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/17-if-cannot-ping-external-networks-layer-protocols-how-to-establish-tunnel/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/18-how-can-one-rapidly-locate-domain-controller/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/19-differences-between-pth-ptt-ptk/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
+    </url>
+    <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/systems/1-how-to-manually-determine-target-operating-system/</loc>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/tools/01-what-pentest-tools-do-you-use/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/tools/02-principle-prerequisite-for-sqlmap-os-shell/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/tools/03-which-tools-for-info-gathering/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/tools/04-webshell-management-tools-similarities-differences/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/tools/05-familiarity-vendor-security-appliances/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/tools/06-common-nmap-parameters/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/01-sql-injection/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/02-xxs/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/03-differences-between-xss-csrf-ssrf/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/04-xxe-vulnerabilities/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/05-php-deserialisation/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/05.1-java-deserialisation/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/06-logic-vulnerabilities/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/07-difference-between-cdn-and-dns/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/08-common-middleware-vulnerabilities/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/09-waf-bypass-techniques/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/10-resolve-command-execution-issue/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/11-what-scenarios-port-3389-cannot-be-connected/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/12-common-port-information/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/13-what-is-the-penetration-testing-process/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/14-logic-vulnerability/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/15-explain-unauthorised-access/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/16-which-vulnerabilities-do-you-use-for-initial-compromise/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/17-how-do-you-discover-shiro-vulnerabilities/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/18-weblogic-permission-bypass/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/19-exploitation-principle-of-fastjson-vulnerability/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/20-what-if-you-obtain-webshell-but-target-cannot-initiate-outbound/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/21-dangerous-functions-for-php-code-and-php-command-execution/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/22-how-can-dnslog-be-utilised-when-sql-yields-no-input/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/23-methods-to-write-a-shell-via-phpmyadmin/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/24-principle-of-buffer-overflow/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/25-how-can-ssrf-bypass-when-127.0.0.1-is-blocked/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/26-how-can-the-phar-protocol-be-exploited/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/27-how-does-ssrf-write-a-shell-using-redis/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/28-what-tamper-scripts-of-sqlmap-are-you-aware-of/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/29-what-is-svn-git-source-code-disclosure/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/30-are-you-familiar-with-privilage-escalation/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/31-describe-some-recent-vulnerabilities/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/32-are-you-familiar-with-parsing-vulnerabilities/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/33-why-a-site-using-mysql-expose-only-port-80/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/34-when-performing-injection-possible-to-start-order-by-without-using/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/35-shell-already-obtained-how-xss-used-for-persistent-control-over-site/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/36-why-uploaded-script-format-403-error-on-target-site/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/37-how-to-retrieve-locally-when-access-database-file-asp-garbled-characters/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/38-how-to-operate-comman-line-only-shell-with-no-file-upload-support/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/39-how-can-shiro-vulnerability-exploited-if-target-cannot-initiate-outbound/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/40-obtaining-shell-via-file-inclusion/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/41-bypassing-waf-during-file-upload/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/42-methods-for-xss-protection/</loc>
-         <lastmod>2026-06-10</lastmod>
+         <lastmod>2026-06-11</lastmod>
     </url>
 </urlset>
