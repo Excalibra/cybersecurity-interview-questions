@@ -209,6 +209,15 @@ const topicCategories = {
       }
     ]
   },
+  "traceability-and-traffic-analysis": {
+    "title": "Traceability And Traffic Analysis",
+    "items": [
+      {
+        "text": "1. How do you locate the attacking IP address?",
+        "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/1-how-do-you-locate-the-attacking-ip-address/"
+      }
+    ]
+  },
   "web-security": {
     "title": "Web Security",
     "items": [
