@@ -27,6 +27,10 @@ const topicCategories = {
       {
         "text": "4. How should an internal network alert be handled, and what is the general process?",
         "link": "/cybersecurity-interview-questions/topics/incident-response/4-how-should-internal-network-alert-be-handled/"
+      },
+      {
+        "text": "5. What is the general process for incident response?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/5-what-is-the-general-process-for-incident-response/"
       }
     ]
   },
