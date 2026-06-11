@@ -100,6 +100,10 @@ const topicCategories = {
       {
         "text": "2. What commands are used to view open ports and running services on Windows and Linux?",
         "link": "/cybersecurity-interview-questions/topics/systems/2-commands-used-to-view-open-ports-services-windows-linux/"
+      },
+      {
+        "text": "3. What is the default log directory in Linux?",
+        "link": "/cybersecurity-interview-questions/topics/systems/3-default-log-directory-in-linux/"
       }
     ]
   },
