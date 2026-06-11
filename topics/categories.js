@@ -110,12 +110,12 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/systems/04-what-are-commands-for-downloading-files-in-windows/"
       },
       {
-        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
-        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
+        "text": "5. Describe your investigation process if a backdoor file has been implanted on a Windows or Linux system.",
+        "link": "/cybersecurity-interview-questions/topics/systems/05-describe-investigation-process-backdoor-file-implanted-on-windows-or-linux/"
       },
       {
-        "text": "5. Describe your investigation process if a backdoor file has been implanted on a Windows or Linux system.",
-        "link": "/cybersecurity-interview-questions/topics/systems/5-describe-investigation-process-backdoor-file-implanted-on-windows-or-linux/"
+        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
+        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
       },
       {
         "text": "6. What are the methods and approaches for Windows privilege escalation?",
