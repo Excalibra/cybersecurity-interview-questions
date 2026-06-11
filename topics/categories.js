@@ -25,16 +25,16 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/incident-response/03-can-scanned-traffic-be-distinguished-from-manual-attack-traffic/"
       },
       {
-        "text": "9. How can one view the commands executed after a system intrusion?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/"
-      },
-      {
         "text": "4. How should an internal network alert be handled, and what is the general process?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/4-how-should-internal-network-alert-be-handled/"
+        "link": "/cybersecurity-interview-questions/topics/incident-response/04-how-should-internal-network-alert-be-handled/"
       },
       {
         "text": "5. What is the general process for incident response?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/5-what-is-the-general-process-for-incident-response/"
+        "link": "/cybersecurity-interview-questions/topics/incident-response/05-what-is-the-general-process-for-incident-response/"
+      },
+      {
+        "text": "9. How can one view the commands executed after a system intrusion?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/"
       },
       {
         "text": "6. What is your understanding of honeypots?",
