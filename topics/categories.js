@@ -218,7 +218,7 @@ const topicCategories = {
       },
       {
         "text": "2. Suppose you discover an abnormal increase in files on a web application server and suspect a webshell has been uploaded. Describe the thought process for traffic analysis and traceability.",
-        "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/09-describe-thought-process-for-traffic-analysis-traceability-on-web-application-server-webshell-uploaded/"
+        "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/02-describe-thought-process-for-traffic-analysis-traceability-on-web-application-server-webshell-uploaded/"
       }
     ]
   },
