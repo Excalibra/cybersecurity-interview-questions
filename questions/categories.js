@@ -168,6 +168,10 @@ const questionCategories = {
       {
         "text": "Set One",
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-questions-two-sets/01-set-one/"
+      },
+      {
+        "text": "Set Two",
+        "link": "/cybersecurity-interview-questions/questions/red-team-interview-questions-two-sets/02-set-two/"
       }
     ]
   }
