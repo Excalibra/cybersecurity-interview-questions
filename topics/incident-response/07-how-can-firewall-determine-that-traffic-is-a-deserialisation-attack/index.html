@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://excalibra.github.io/cybersecurity-interview-questions/topics/incident-response/8-locate-crypto-mining-malware-during-incident-response/">
+        <link rel="canonical" href="https://excalibra.github.io/cybersecurity-interview-questions/topics/incident-response/07-how-can-firewall-determine-that-traffic-is-a-deserialisation-attack/">
       
       
       
@@ -21,7 +21,7 @@
     
     
       
-        <title>8. How do you locate crypto‑mining malware during incident response? How do you trace the mining process to its associated file? - Cybersecurity Interview Questions</title>
+        <title>7. How can a firewall determine that traffic is a deserialisation attack? - Cybersecurity Interview Questions</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#8-how-do-you-locate-cryptomining-malware-during-incident-response-how-do-you-trace-the-mining-process-to-its-associated-file" class="md-skip">
+        <a href="#7-how-can-a-firewall-determine-that-traffic-is-a-deserialisation-attack" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              8. How do you locate crypto‑mining malware during incident response? How do you trace the mining process to its associated file?
+              7. How can a firewall determine that traffic is a deserialisation attack?
             
           </span>
         </div>
@@ -416,7 +416,7 @@
 
 
   
-    <a href="https://github.com/Excalibra/cybersecurity-interview-questions/edit/master/docs/topics/incident-response/8-locate-crypto-mining-malware-during-incident-response.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/Excalibra/cybersecurity-interview-questions/edit/master/docs/topics/incident-response/07-how-can-firewall-determine-that-traffic-is-a-deserialisation-attack.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -424,12 +424,9 @@
   
 
 
-<h1 id="8-how-do-you-locate-cryptomining-malware-during-incident-response-how-do-you-trace-the-mining-process-to-its-associated-file">8. How do you locate crypto‑mining malware during incident response? How do you trace the mining process to its associated file?<a class="headerlink" href="#8-how-do-you-locate-cryptomining-malware-during-incident-response-how-do-you-trace-the-mining-process-to-its-associated-file" title="Permanent link">&para;</a></h1>
-<ol>
-<li>Use Task Manager or <code>netstat -anp</code> to find abnormal PID and port.</li>
-<li>Locate file: <code>cd /proc/PID</code> and <code>ls -l</code>. Disable suspicious services.</li>
-<li>On Windows, <code>wmic</code> can analyse process parameters.</li>
-</ol>
+<h1 id="7-how-can-a-firewall-determine-that-traffic-is-a-deserialisation-attack">7. How can a firewall determine that traffic is a deserialisation attack?<a class="headerlink" href="#7-how-can-a-firewall-determine-that-traffic-is-a-deserialisation-attack" title="Permanent link">&para;</a></h1>
+<p>By inspecting for fixed‑format strings in the payload:
+<code>O:length:"value":attribute_count:{attribute_type:attribute_length:attribute_value;...}</code></p>
 
 
 

@@ -37,16 +37,16 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/incident-response/06-what-is-your-understanding-of-honeypots/"
       },
       {
-        "text": "9. How can one view the commands executed after a system intrusion?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/"
-      },
-      {
         "text": "7. How can a firewall determine that traffic is a deserialisation attack?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/7-how-can-firewall-determine-that-traffic-is-a-deserialisation-attack/"
+        "link": "/cybersecurity-interview-questions/topics/incident-response/07-how-can-firewall-determine-that-traffic-is-a-deserialisation-attack/"
       },
       {
         "text": "8. How do you locate crypto\u2011mining malware during incident response? How do you trace the mining process to its associated file?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/8-locate-crypto-mining-malware-during-incident-response/"
+        "link": "/cybersecurity-interview-questions/topics/incident-response/08-locate-crypto-mining-malware-during-incident-response/"
+      },
+      {
+        "text": "9. How can one view the commands executed after a system intrusion?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/"
       }
     ]
   },
