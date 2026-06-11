@@ -11,6 +11,8 @@
       <option value="internal-network-penetration">Internal Network Penetration</option>
       <option value="computer-networks">Computer Networks</option>
       <option value="systems">Systems</option>
+      <option value="incident-response">Incident Response</option>
+      <option value="traceability-and-traffic-analysis">Traceability and Traffic Analysis</option>
     </select>
 
     <h3 style="margin:0 0 16px 0; color:#e5e7eb; font-size:1.1em;">FAQs</h3>
