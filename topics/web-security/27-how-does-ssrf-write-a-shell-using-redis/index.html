@@ -481,6 +481,38 @@
 <style>
   .md-sidebar--primary, .md-nav--primary, .md-sidebar__scrollwrap { display: none !important; }
   .md-main__inner { margin-left: 0 !important; }
+
+  /* Force full width for dynamically loaded content */
+  #main-content .md-content__inner,
+  #main-content .md-typeset {
+      max-width: 100% !important;
+      margin: 0 !important;
+  }
+
+  /* Relax the main grid and content area for these pages */
+  .md-grid {
+      max-width: 100% !important;
+  }
+
+  .md-main__inner {
+      max-width: 100% !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+  }
+
+  /* Ensure the flex container can expand fully */
+  .md-content {
+      width: 100% !important;
+  }
+
+  /* Override content padding for the custom sidebar pages */
+  .md-content__inner {
+      padding: 0 !important;
+  }
+
+  .md-main {
+      padding: 0 !important;
+  }
 </style>
 
 <!-- Questions -->
