@@ -33,12 +33,12 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/incident-response/05-what-is-the-general-process-for-incident-response/"
       },
       {
-        "text": "9. How can one view the commands executed after a system intrusion?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/"
+        "text": "6. What is your understanding of honeypots?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/06-what-is-your-understanding-of-honeypots/"
       },
       {
-        "text": "6. What is your understanding of honeypots?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/6-what-is-your-understanding-of-honeypots/"
+        "text": "9. How can one view the commands executed after a system intrusion?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/"
       },
       {
         "text": "7. How can a firewall determine that traffic is a deserialisation attack?",
