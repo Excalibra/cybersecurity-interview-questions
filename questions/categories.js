@@ -50,6 +50,10 @@ const categories = {
       {
         "text": "11. In an attack\u2011defence scenario, if you have taken control of a machine but it is only a cloud host with no internal network connection and no cloud internal network, how would you further exploit this cloud host?",
         "link": "/cybersecurity-interview-questions/questions/red-team/11-how-would-you-exploit-cloud-host-with-no-internal-network-connection-cloud-internal-network/"
+      },
+      {
+        "text": "12. How to attack Redis? Conditions for master\u2011slave replication exploitation, why can it lead to shell acquisition, what is the underlying principle, does it affect business, and what is the principle of master\u2011slave replication?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/12-how-to-attack-redis/"
       }
     ]
   },
