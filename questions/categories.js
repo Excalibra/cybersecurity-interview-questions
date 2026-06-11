@@ -82,6 +82,10 @@ const categories = {
       {
         "text": "19. How to perform file deployment in an internal network, and which commands are used? What if the target host cannot initiate outbound connections?",
         "link": "/cybersecurity-interview-questions/questions/red-team/19-how-to-perform-file-deployment-in-an-internal-network/"
+      },
+      {
+        "text": "20. In internal network domain penetration, when using NTLM relay in combination with the ADCS vulnerability, what are the utilisation conditions? On which machine should the Responder host be deployed, and why? Why can the ADCS vulnerability be used to gain domain administrator privileges, and what is the principle?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/20-utilisatopm-conditions-in-ntlm-relay-with-adcs-vulnerability/"
       }
     ]
   },
