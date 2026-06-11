@@ -126,12 +126,12 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/systems/08-methods-for-hardening-windows-systems/"
       },
       {
-        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
-        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
+        "text": "9. What are the methods for hardening a Linux system?",
+        "link": "/cybersecurity-interview-questions/topics/systems/09-methods-for-hardening-linux-system/"
       },
       {
-        "text": "9. What are the methods for hardening a Linux system?",
-        "link": "/cybersecurity-interview-questions/topics/systems/9-methods-for-hardening-linux-system/"
+        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
+        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
       }
     ]
   },
