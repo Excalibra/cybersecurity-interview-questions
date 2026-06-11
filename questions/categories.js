@@ -6,7 +6,12 @@ const categories = {
   },
   "red": {
     "title": "Red Team Operations",
-    "items": []
+    "items": [
+      {
+        "text": "1. How to bypass WAF for Shiro",
+        "link": "/cybersecurity-interview-questions/questions/red-team/1-how-to-bypass-waf-for-shiro/"
+      }
+    ]
   },
   "seceng": {
     "title": "Security Engineer",
