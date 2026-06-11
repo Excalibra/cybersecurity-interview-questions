@@ -42,6 +42,10 @@ const categories = {
       {
         "text": "9. Brief description of the code frameworks of enterprise systems",
         "link": "/cybersecurity-interview-questions/questions/red-team/09-description-of-the-code-frameworks-of-enterprise-systems/"
+      },
+      {
+        "text": "10. How to bypass `disable_functions` in PHP, and what is the underlying principle?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/10-bypass-disable_functions-in-php/"
       }
     ]
   },
