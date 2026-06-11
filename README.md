@@ -39,6 +39,6 @@ Content is organised into two main sections:
 
 | Topics Section | Dynamic Content Loading |
 |----------------|-------------------------|
-| ![3](https://github.com/user-attachments/assets/3dfd3727-79be-4b0e-8db1-7f92ff5d6da7) | ![4](https://github.com/user-attachments/assets/338f46ba-9758-45dd-8488-d320e005e243) |
+| ![3](https://github.com/user-attachments/assets/d547b2c9-0445-4f74-8736-4c92cdc9c2cf) | ![4](https://github.com/user-attachments/assets/338f46ba-9758-45dd-8488-d320e005e243) |
 
 ---
