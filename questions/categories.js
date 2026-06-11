@@ -86,6 +86,10 @@ const categories = {
       {
         "text": "20. In internal network domain penetration, when using NTLM relay in combination with the ADCS vulnerability, what are the utilisation conditions? On which machine should the Responder host be deployed, and why? Why can the ADCS vulnerability be used to gain domain administrator privileges, and what is the principle?",
         "link": "/cybersecurity-interview-questions/questions/red-team/20-utilisatopm-conditions-in-ntlm-relay-with-adcs-vulnerability/"
+      },
+      {
+        "text": "21. In internal network domain penetration, what are the utilisation conditions and the principle of the latest CVE-2022-26923 ADCS privilege escalation vulnerability? What are its advantages compared to the earlier ESC8 vulnerability?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/21-utilisation-conditions-of-adcs-privilege-escalation-vulnerability/"
       }
     ]
   },
