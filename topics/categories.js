@@ -114,16 +114,16 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/systems/05-describe-investigation-process-backdoor-file-implanted-on-windows-or-linux/"
       },
       {
-        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
-        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
-      },
-      {
         "text": "6. What are the methods and approaches for Windows privilege escalation?",
-        "link": "/cybersecurity-interview-questions/topics/systems/6-methods-and-approaches-for-windows-privilege-escalation/"
+        "link": "/cybersecurity-interview-questions/topics/systems/06-methods-and-approaches-for-windows-privilege-escalation/"
       },
       {
         "text": "7. What are the approaches and methods for Linux privilege escalation?",
-        "link": "/cybersecurity-interview-questions/topics/systems/7-what-approaches-methods-for-linux-privilege-escalation/"
+        "link": "/cybersecurity-interview-questions/topics/systems/07-what-approaches-methods-for-linux-privilege-escalation/"
+      },
+      {
+        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
+        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
       },
       {
         "text": "8. What are the methods for hardening a Windows system?",
