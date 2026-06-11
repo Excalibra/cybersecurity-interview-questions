@@ -8,8 +8,9 @@
       <option value="">-- Select Interview Type --</option>
       <option value="red-team">Red Team</option>
       <option value="red-team-interview-experience">Red Team Interview Experience</option>
+      <option value="red-team-interview-questions-two-sets">Red Team Interview Questions (Two Sets)</option>
     </select>
-
+    
     <h3 style="margin:0 0 16px 0; color:#e5e7eb; font-size:1.1em;">FAQs</h3>
     <div id="questions-list" style="font-size:0.95em; line-height:1.6;"></div>
   </div>
