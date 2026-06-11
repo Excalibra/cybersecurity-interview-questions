@@ -106,6 +106,10 @@ const categories = {
       {
         "text": "25. If the command `net group \u201cDomain Admins\u201d /domain` fails to return domain administrators, what might be the problem and how can it be resolved?",
         "link": "/cybersecurity-interview-questions/questions/red-team/25-what-is-the-problem-if-command-net-group-domain-admins-fails/"
+      },
+      {
+        "text": "26. Where does the command to query domain administrators essentially look for the information, and why does entering it return results?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/26-where-does-command-to-query-domain-admin-look-for-information/"
       }
     ]
   },
