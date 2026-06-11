@@ -9,7 +9,7 @@ const categories = {
     "items": [
       {
         "text": "1. How to bypass WAF for Shiro",
-        "link": "/cybersecurity-interview-questions/questions/red-team/1-how-to-bypass-waf-for-shiro/"
+        "link": "/cybersecurity-interview-questions/questions/red-team/01-how-to-bypass-waf-for-shiro/"
       }
     ]
   },
