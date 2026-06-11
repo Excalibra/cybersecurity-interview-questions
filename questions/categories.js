@@ -22,6 +22,10 @@ const categories = {
       {
         "text": "4. Principle of JBoss deserialisation",
         "link": "/cybersecurity-interview-questions/questions/red-team/04-principle-of-jboss-deserialisation/"
+      },
+      {
+        "text": "5. Principle of WebLogic deserialisation \u2013 choose any vulnerability and explain its trigger mechanism",
+        "link": "/cybersecurity-interview-questions/questions/red-team/05-weblogic-deserialisation-choose-vulnerability-and-explain-its-trigger-mechanism/"
       }
     ]
   },
