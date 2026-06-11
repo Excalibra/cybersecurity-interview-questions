@@ -10,6 +10,10 @@ const categories = {
       {
         "text": "1. How to bypass WAF for Shiro",
         "link": "/cybersecurity-interview-questions/questions/red-team/01-how-to-bypass-waf-for-shiro/"
+      },
+      {
+        "text": "2. How to determine whether a Shiro deserialisation vulnerability exists when the target cannot initiate outbound connections?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/02-how-to-determine-if-shiro-deserialisation-vulnerability-exists-if-target-cannot-initiate-outbound-connections/"
       }
     ]
   },
