@@ -4,7 +4,7 @@
   <!-- Dynamic Left Sidebar -->
   <div id="dynamic-sidebar" style="width: 360px; background:#1f2937; padding:20px; border-radius:8px; border:1px solid #374151; min-height: 700px; flex-shrink: 0;">
 
-    <select id="question-selector" style="width:100%; padding:12px 16px; font-size:1.05em; background:#374151; color:white; border:1px solid #4b5563; border-radius:6px; margin-bottom:20px;">
+    <select id="question-selector" style="width:100%; padding:12px 16px; font-size:1.05em; background:#374151; color:white; border:1px solid #4b5563; border-radius:6px; margin-bottom:20px; width:700px">
       <option value="">-- Select Interview Type --</option>
       <option value="red-team">Red Team</option>
       <option value="red-team-interview-experience">Red Team Interview Experience</option>
