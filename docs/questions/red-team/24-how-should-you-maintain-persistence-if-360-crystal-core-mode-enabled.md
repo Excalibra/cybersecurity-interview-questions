@@ -1,0 +1,7 @@
+# 24. During internal network persistence maintenance, if 360 has enabled “Crystal Core” mode, how should one attempt to maintain persistence? What if scheduled tasks are blocked?
+
+("Crystal Core" is the name given to a hardware-assisted security feature developed by 360. It's a proprietary technology used in 360 Total Security and 360 Safe Guard that leverages your CPU's virtualization capabilities to create a more secure and robust defense environment on your PC.)
+
+1. **Create an evasion‑capable malware:** Create a backdoor that is undetectable by the antivirus, use Cobalt Strike (CS) to establish a connection, and then attempt to create a scheduled task to maintain persistence. If direct creation of scheduled tasks is blocked, try injecting into specific processes to bypass security software detection.
+2. **COM interface initialisation:** Use the COM interface to initialise the task service object, connect to the task service, and obtain a pointer to the Root Task Folder, which points to the newly registered task. In this way, even if the scheduled task creation is blocked, you can still manipulate tasks through the task service object.
+3. **Utilise LOLBins to blind the AV:** During penetration testing, if 360’s Crystal Core mode causes post‑exploitation actions to be blocked, specific techniques can be used to bypass it. For example, use LOLBins (Living‑Off‑the‑Land Binaries) to blind the detection mechanisms of 360.
