@@ -124,6 +124,10 @@ const topicCategories = {
       {
         "text": "8. What are the methods for hardening a Windows system?",
         "link": "/cybersecurity-interview-questions/topics/systems/8-methods-for-hardening-windows-systems/"
+      },
+      {
+        "text": "9. What are the methods for hardening a Linux system?",
+        "link": "/cybersecurity-interview-questions/topics/systems/9-methods-for-hardening-linux-system/"
       }
     ]
   },
