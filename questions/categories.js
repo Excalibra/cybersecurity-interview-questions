@@ -118,6 +118,10 @@ const categories = {
       {
         "text": "28. In internal network lateral movement, do you directly obtain a machine\u2019s permissions and then start scanning, or are there other methods?",
         "link": "/cybersecurity-interview-questions/questions/red-team/28-do-you-directly-obtain-machine-permissions-then-start-scanning/"
+      },
+      {
+        "text": "29. If the defenders have discovered your activity but the webshell on vCenter remains, yet you can no longer log in to the Web console, what other exploitation methods exist?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/29-what-other-exploit-methods-exist-after-defenders-discover-your-activity/"
       }
     ]
   },
