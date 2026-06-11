@@ -219,6 +219,10 @@ const topicCategories = {
       {
         "text": "2. Suppose you discover an abnormal increase in files on a web application server and suspect a webshell has been uploaded. Describe the thought process for traffic analysis and traceability.",
         "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/02-describe-thought-process-for-traffic-analysis-traceability-on-web-application-server-webshell-uploaded/"
+      },
+      {
+        "text": "3. What are some basic Wireshark display filters?",
+        "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/03-what-are-some-basic-wireshark-display-filters/"
       }
     ]
   },
