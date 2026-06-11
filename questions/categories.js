@@ -94,6 +94,10 @@ const categories = {
       {
         "text": "22. In internal network penetration, if you have obtained a set of vCenter credentials, how would you further deepen your exploitation? How can the database file be decrypted, and what is the principle?",
         "link": "/cybersecurity-interview-questions/questions/red-team/22-how-would-you-deepen-exploitation-after-obtaining-vcenter-credentials/"
+      },
+      {
+        "text": "23. You have obtained the administrator password for a vCenter machine and have successfully logged in. However, some internal machines are in a locked state and require a password. How can you exploit this situation?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/23-how-can-you-exploit-locked-state-after-obtaining-admin-password-for-vcenter/"
       }
     ]
   },
