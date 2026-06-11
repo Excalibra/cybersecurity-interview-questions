@@ -21,7 +21,7 @@
     
     
       
-        <title>06 what are approaches for testing dom based xxs - Cybersecurity Interview Questions</title>
+        <title>Q: What are the approaches for manual and automated testing of DOM‑based XSS? - Cybersecurity Interview Questions</title>
       
     
     
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              06 what are approaches for testing dom based xxs
+              Q: What are the approaches for manual and automated testing of DOM‑based XSS?
             
           </span>
         </div>
@@ -397,25 +397,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#q-what-are-the-approaches-for-manual-and-automated-testing-of-dombased-xss" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Q: What are the approaches for manual and automated testing of DOM‑based XSS?
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -441,9 +424,7 @@
   
 
 
-  <h1>06 what are approaches for testing dom based xxs</h1>
-
-<h2 id="q-what-are-the-approaches-for-manual-and-automated-testing-of-dombased-xss"><strong>Q: What are the approaches for manual and automated testing of DOM‑based XSS?</strong><a class="headerlink" href="#q-what-are-the-approaches-for-manual-and-automated-testing-of-dombased-xss" title="Permanent link">&para;</a></h2>
+<h1 id="q-what-are-the-approaches-for-manual-and-automated-testing-of-dombased-xss">Q: What are the approaches for manual and automated testing of DOM‑based XSS?<a class="headerlink" href="#q-what-are-the-approaches-for-manual-and-automated-testing-of-dombased-xss" title="Permanent link">&para;</a></h1>
 <p><strong>A:</strong> Manual testing approach: identify functions that directly execute or manipulate DOM content, such as <code>document.write</code>, <code>innerHTML</code> assignment, <code>outerHTML</code> assignment, <code>window.location</code> operations, writing content after <code>javascript:</code>, <code>eval</code>, <code>setTimeout</code>, <code>setInterval</code>, etc. Locate the variables involved and trace their origin to determine whether they are controllable and whether they have passed through security functions.</p>
 <p>Automated testing approach: start from the input, observe the variable propagation process, and finally check whether the output reaches any dangerous function, and whether intermediate security functions have been applied. This requires a JavaScript parser; otherwise, some parts of the execution that are introduced via JavaScript may be missed.</p>
 

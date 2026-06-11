@@ -21,7 +21,7 @@
     
     
       
-        <title>07 what is memcache unauthorised access - Cybersecurity Interview Questions</title>
+        <title>Q: What is Memcache unauthorised access, and how can it be exploited? - Cybersecurity Interview Questions</title>
       
     
     
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              07 what is memcache unauthorised access
+              Q: What is Memcache unauthorised access, and how can it be exploited?
             
           </span>
         </div>
@@ -397,25 +397,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#q-what-is-memcache-unauthorised-access-and-how-can-it-be-exploited" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Q: What is Memcache unauthorised access, and how can it be exploited?
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -441,9 +424,7 @@
   
 
 
-  <h1>07 what is memcache unauthorised access</h1>
-
-<h2 id="q-what-is-memcache-unauthorised-access-and-how-can-it-be-exploited"><strong>Q: What is Memcache unauthorised access, and how can it be exploited?</strong><a class="headerlink" href="#q-what-is-memcache-unauthorised-access-and-how-can-it-be-exploited" title="Permanent link">&para;</a></h2>
+<h1 id="q-what-is-memcache-unauthorised-access-and-how-can-it-be-exploited">Q: What is Memcache unauthorised access, and how can it be exploited?<a class="headerlink" href="#q-what-is-memcache-unauthorised-access-and-how-can-it-be-exploited" title="Permanent link">&para;</a></h1>
 <p><strong>A:</strong> Memcached is a popular key‑value caching system. Because it lacks any built‑in access control module, Memcached services exposed to the public internet are easily discovered by attackers. Attackers can interact directly with the service via command-line interfaces to read sensitive information stored in Memcached.</p>
 <p>Exploitation method: execute <code>netstat -an | more</code> on the target machine to inspect open ports. If <code>0.0.0.0:11211</code> is displayed, the service is listening on all network interfaces, indicating a Memcached unauthorised access vulnerability. Subsequently, use <code>telnet &lt;target&gt; 11211</code> or <code>nc -vv &lt;target&gt; 11211</code>; a successful connection confirms the vulnerability.</p>
 

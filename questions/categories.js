@@ -149,11 +149,11 @@ const questionCategories = {
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/05-differences-between-mysql-5.0-and-above-vs-below-5.0-regarding-website-injection/"
       },
       {
-        "text": "06 What Are Approaches For Testing Dom Based Xxs",
+        "text": "Q: What are the approaches for manual and automated testing of DOM\u2011based XSS?",
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/06-what-are-approaches-for-testing-dom-based-xxs/"
       },
       {
-        "text": "07 What Is Memcache Unauthorised Access",
+        "text": "Q: What is Memcache unauthorised access, and how can it be exploited?",
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/07-what-is-memcache-unauthorised-access/"
       },
       {
