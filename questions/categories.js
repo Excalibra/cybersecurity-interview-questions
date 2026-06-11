@@ -54,6 +54,10 @@ const categories = {
       {
         "text": "12. How to attack Redis? Conditions for master\u2011slave replication exploitation, why can it lead to shell acquisition, what is the underlying principle, does it affect business, and what is the principle of master\u2011slave replication?",
         "link": "/cybersecurity-interview-questions/questions/red-team/12-how-to-attack-redis/"
+      },
+      {
+        "text": "13. Conditions and principle of the BCEL exploitation chain; have you traced the underlying code? How is it invoked?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/13-principle-of-bcel-exploitation-chain/"
       }
     ]
   },
