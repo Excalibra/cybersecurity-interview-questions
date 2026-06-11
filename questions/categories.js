@@ -74,6 +74,10 @@ const categories = {
       {
         "text": "17. What is an MSSQL stored procedure, what is its essence, and why can it execute commands?",
         "link": "/cybersecurity-interview-questions/questions/red-team/17-what-is-an-mssql-stored-procedure/"
+      },
+      {
+        "text": "18. If you wish to upload a file via MSSQL, which stored procedure\u2019s permission needs to be enabled?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/18-which-stored-procedure-permission-need-to-be-enabled-when-uploading-file-via-mssql/"
       }
     ]
   },
