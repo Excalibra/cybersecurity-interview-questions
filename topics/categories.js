@@ -13,12 +13,12 @@ const topicCategories = {
     "title": "Incident Response",
     "items": [
       {
-        "text": "9. How can one view the commands executed after a system intrusion?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/"
+        "text": "1. What are some commonly used threat intelligence platforms?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/01-commonly-used-threat-intelligence-platforms/"
       },
       {
-        "text": "1. What are some commonly used threat intelligence platforms?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/1-commonly-used-threat-intelligence-platforms/"
+        "text": "9. How can one view the commands executed after a system intrusion?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/"
       },
       {
         "text": "2. How do you handle false positives from security devices (log analysis)?",
