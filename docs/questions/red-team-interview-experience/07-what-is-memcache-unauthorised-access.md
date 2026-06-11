@@ -1,4 +1,4 @@
-## **Q: What is Memcache unauthorised access, and how can it be exploited?**
+# Q: What is Memcache unauthorised access, and how can it be exploited?
 
 **A:** Memcached is a popular key‑value caching system. Because it lacks any built‑in access control module, Memcached services exposed to the public internet are easily discovered by attackers. Attackers can interact directly with the service via command-line interfaces to read sensitive information stored in Memcached.
 
