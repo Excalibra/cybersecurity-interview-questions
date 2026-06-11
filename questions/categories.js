@@ -38,6 +38,10 @@ const categories = {
       {
         "text": "8. Code auditing frameworks",
         "link": "/cybersecurity-interview-questions/questions/red-team/08-code-auditing-frameworks/"
+      },
+      {
+        "text": "9. Brief description of the code frameworks of enterprise systems",
+        "link": "/cybersecurity-interview-questions/questions/red-team/09-description-of-the-code-frameworks-of-enterprise-systems/"
       }
     ]
   },
