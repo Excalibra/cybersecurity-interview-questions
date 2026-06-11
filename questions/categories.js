@@ -2,12 +2,7 @@
 const categories = {
   "web": {
     "title": "Web Application Penetration Testing",
-    "items": [
-      {
-        "text": "21 Http Short Long",
-        "link": "/cybersecurity-interview-questions/questions/web-penetration/21-http-short-long/"
-      }
-    ]
+    "items": []
   },
   "red": {
     "title": "Red Team Operations",
