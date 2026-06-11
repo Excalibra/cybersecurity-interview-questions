@@ -19,6 +19,10 @@ const topicCategories = {
       {
         "text": "2. How do you handle false positives from security devices (log analysis)?",
         "link": "/cybersecurity-interview-questions/topics/incident-response/2-handle-false-positives-from-security-devices/"
+      },
+      {
+        "text": "3. How can scanning traffic be distinguished from manual attack traffic?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/3-can-scanned-traffic-be-distinguished-from-manual-attack-traffic/"
       }
     ]
   },
