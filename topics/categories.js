@@ -116,6 +116,14 @@ const topicCategories = {
       {
         "text": "6. What are the methods and approaches for Windows privilege escalation?",
         "link": "/cybersecurity-interview-questions/topics/systems/6-methods-and-approaches-for-windows-privilege-escalation/"
+      },
+      {
+        "text": "7. What are the approaches and methods for Linux privilege escalation?",
+        "link": "/cybersecurity-interview-questions/topics/systems/7-what-approaches-methods-for-linux-privilege-escalation/"
+      },
+      {
+        "text": "8. What are the methods for hardening a Windows system?",
+        "link": "/cybersecurity-interview-questions/topics/systems/8-methods-for-hardening-windows-systems/"
       }
     ]
   },
