@@ -1,4 +1,4 @@
-## **Q: What are the approaches for manual and automated testing of DOM‑based XSS?**
+# Q: What are the approaches for manual and automated testing of DOM‑based XSS?
 
 **A:** Manual testing approach: identify functions that directly execute or manipulate DOM content, such as `document.write`, `innerHTML` assignment, `outerHTML` assignment, `window.location` operations, writing content after `javascript:`, `eval`, `setTimeout`, `setInterval`, etc. Locate the variables involved and trace their origin to determine whether they are controllable and whether they have passed through security functions.
 
