@@ -112,6 +112,10 @@ const topicCategories = {
       {
         "text": "5. Describe your investigation process if a backdoor file has been implanted on a Windows or Linux system.",
         "link": "/cybersecurity-interview-questions/topics/systems/5-describe-investigation-process-backdoor-file-implanted-on-windows-or-linux/"
+      },
+      {
+        "text": "6. What are the methods and approaches for Windows privilege escalation?",
+        "link": "/cybersecurity-interview-questions/topics/systems/6-methods-and-approaches-for-windows-privilege-escalation/"
       }
     ]
   },
