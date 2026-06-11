@@ -106,12 +106,12 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/systems/03-default-log-directory-in-linux/"
       },
       {
-        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
-        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
+        "text": "4. What are some commands for downloading files in Windows?",
+        "link": "/cybersecurity-interview-questions/topics/systems/04-what-are-commands-for-downloading-files-in-windows/"
       },
       {
-        "text": "4. What are some commands for downloading files in Windows?",
-        "link": "/cybersecurity-interview-questions/topics/systems/4-what-are-commands-for-downloading-files-in-windows/"
+        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
+        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
       },
       {
         "text": "5. Describe your investigation process if a backdoor file has been implanted on a Windows or Linux system.",
