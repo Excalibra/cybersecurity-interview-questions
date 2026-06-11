@@ -21,7 +21,7 @@
     
     
       
-        <title>03 what is the principle of php null byte - Cybersecurity Interview Questions</title>
+        <title>Q: What is the principle of PHP null byte (%00) truncation? - Cybersecurity Interview Questions</title>
       
     
     
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              03 what is the principle of php null byte
+              Q: What is the principle of PHP null byte (%00) truncation?
             
           </span>
         </div>
@@ -397,25 +397,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#q-what-is-the-principle-of-php-null-byte-00-truncation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Q: What is the principle of PHP null byte (%00) truncation?
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -441,9 +424,7 @@
   
 
 
-  <h1>03 what is the principle of php null byte</h1>
-
-<h2 id="q-what-is-the-principle-of-php-null-byte-00-truncation"><strong>Q: What is the principle of PHP null byte (%00) truncation?</strong><a class="headerlink" href="#q-what-is-the-principle-of-php-null-byte-00-truncation" title="Permanent link">&para;</a></h2>
+<h1 id="q-what-is-the-principle-of-php-null-byte-00-truncation">Q: What is the principle of PHP null byte (%00) truncation?<a class="headerlink" href="#q-what-is-the-principle-of-php-null-byte-00-truncation" title="Permanent link">&para;</a></h1>
 <p><strong>A:</strong> In the C language, the null byte (%00) serves as a string terminator. Since PHP is written in C, it inherits this behaviour: the null byte is interpreted as an end-of-string marker, causing the parser to ignore any subsequent characters. This vulnerability exists under the conditions PHP version &lt; 5.3.29 and GPC (magic_quotes_gpc) disabled.</p>
 
 

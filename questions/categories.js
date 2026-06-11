@@ -137,7 +137,7 @@ const questionCategories = {
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/02-how-can-you-determine-the-cause-of-sql-injection-vulnerability/"
       },
       {
-        "text": "03 What Is The Principle Of Php Null Byte",
+        "text": "Q: What is the principle of PHP null byte (%00) truncation?",
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/03-what-is-the-principle-of-php-null-byte/"
       },
       {
