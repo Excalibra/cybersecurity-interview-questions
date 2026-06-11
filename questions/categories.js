@@ -66,6 +66,10 @@ const categories = {
       {
         "text": "15. In an internal network, you have permissions on a workgroup machine outside the domain, but you have no domain user. Lateral movement via vulnerabilities cannot grant you domain user permissions. However, you know for certain that a domain exists. How can you enter the domain and locate the domain controller?",
         "link": "/cybersecurity-interview-questions/questions/red-team/15-how-can-you-enter-domain-and-locate-domain-controller/"
+      },
+      {
+        "text": "16. You have gained access to an MSSQL machine within an internal network, but the host runs antivirus. As soon as you enable `xp_cmdshell`, it is blocked, and you lack even command\u2011execution privileges. How can this be bypassed?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/16-how-to-bypass-xp_cmdshell-block-in-mssql-machine-that-runs-antivirus/"
       }
     ]
   },
