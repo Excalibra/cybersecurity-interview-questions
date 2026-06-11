@@ -70,6 +70,10 @@ const categories = {
       {
         "text": "16. You have gained access to an MSSQL machine within an internal network, but the host runs antivirus. As soon as you enable `xp_cmdshell`, it is blocked, and you lack even command\u2011execution privileges. How can this be bypassed?",
         "link": "/cybersecurity-interview-questions/questions/red-team/16-how-to-bypass-xp_cmdshell-block-in-mssql-machine-that-runs-antivirus/"
+      },
+      {
+        "text": "17. What is an MSSQL stored procedure, what is its essence, and why can it execute commands?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/17-what-is-an-mssql-stored-procedure/"
       }
     ]
   },
