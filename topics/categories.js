@@ -23,6 +23,10 @@ const topicCategories = {
       {
         "text": "3. How can scanning traffic be distinguished from manual attack traffic?",
         "link": "/cybersecurity-interview-questions/topics/incident-response/3-can-scanned-traffic-be-distinguished-from-manual-attack-traffic/"
+      },
+      {
+        "text": "4. How should an internal network alert be handled, and what is the general process?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/4-how-should-internal-network-alert-be-handled/"
       }
     ]
   },
