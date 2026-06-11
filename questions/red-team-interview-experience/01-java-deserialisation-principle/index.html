@@ -443,7 +443,7 @@
 
   <h1>01 java deserialisation principle</h1>
 
-<h2 id="q-what-is-the-principle-of-java-deserialisation"><strong>Q: What is the principle of Java deserialisation?</strong><a class="headerlink" href="#q-what-is-the-principle-of-java-deserialisation" title="Permanent link">&para;</a></h2>
+<h2 id="q-what-is-the-principle-of-java-deserialisation">Q: What is the principle of Java deserialisation?<a class="headerlink" href="#q-what-is-the-principle-of-java-deserialisation" title="Permanent link">&para;</a></h2>
 <p><strong>A:</strong> If a Java application performs deserialisation on user input, i.e., untrusted data, an attacker can construct malicious input such that deserialisation produces unintended objects. During the creation of these unintended objects, arbitrary code execution may occur.</p>
 <p>In web applications written in Java, large numbers of serialised objects are typically exchanged between the application and the web server. Examples include:</p>
 <ul>
