@@ -95,7 +95,7 @@ const topicCategories = {
     "items": [
       {
         "text": "1. How can one manually determine the target operating system?",
-        "link": "/cybersecurity-interview-questions/topics/systems/1-how-to-manually-determine-target-operating-system/"
+        "link": "/cybersecurity-interview-questions/topics/systems/01-how-to-manually-determine-target-operating-system/"
       },
       {
         "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
