@@ -46,6 +46,10 @@ const categories = {
       {
         "text": "10. How to bypass `disable_functions` in PHP, and what is the underlying principle?",
         "link": "/cybersecurity-interview-questions/questions/red-team/10-bypass-disable_functions-in-php/"
+      },
+      {
+        "text": "11. In an attack\u2011defence scenario, if you have taken control of a machine but it is only a cloud host with no internal network connection and no cloud internal network, how would you further exploit this cloud host?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/11-how-would-you-exploit-cloud-host-with-no-internal-network-connection-cloud-internal-network/"
       }
     ]
   },
