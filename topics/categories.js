@@ -227,6 +227,10 @@ const topicCategories = {
       {
         "text": "4. What are the traffic characteristics of webshell interaction?",
         "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/04-traffic-characteristics-of-webshell-interaction/"
+      },
+      {
+        "text": "5. What is the approach for analysing abnormal SQL query traffic?",
+        "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/05-approach-for-analysing-abnormal-sql-query-traffic/"
       }
     ]
   },
