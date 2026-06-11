@@ -38,9 +38,7 @@ Content is organised into two main sections:
 
 - [x] **Red Team** – 30 offensive security questions (WAF bypass, deserialisation, internal network penetration, etc.)
 - [x] **Red Team Interview Experience** – 8 real‑world interview questions (Java deserialisation, SQLi detection, Fastjson, etc.)
-- [x] **Red Team – Set One (Advanced)**
-      - **Set One:** 19 questions (DPAPI, Shiro‑721, DLL hijacking, UAC bypass, in‑memory webshells, PTH, phishing, etc.)
-      - **Set Two:** 13+ questions (Certificate Transparency, Redis master‑slave RCE on Windows, JNDI injection, FastJSON gadgets, ThinkPHP RCE, phishing lateral movement, etc.)
+- [x] **Red Team – Set One (Advanced)** – **Set One:** 19 questions (DPAPI, Shiro‑721, DLL hijacking, UAC bypass, in‑memory webshells, PTH, phishing, etc.). **Set Two:** 13+ questions (Certificate Transparency, Redis master‑slave RCE on Windows, JNDI injection, FastJSON gadgets, ThinkPHP RCE, phishing lateral movement, etc.)
 - [ ] **Blue Team / Defensive Security** – Detection engineering, log analysis, incident handling
 - [ ] **Purple Team** – Collaborative exercises and metrics
 - [ ] **Cloud Security** – AWS, Azure, GCP specific questions
