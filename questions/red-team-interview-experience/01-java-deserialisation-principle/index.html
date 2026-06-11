@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#java-deserialisation-principle" class="md-skip">
+        <a href="#q-what-is-the-principle-of-java-deserialisation" class="md-skip">
           Skip to content
         </a>
       
@@ -405,10 +405,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#java-deserialisation-principle" class="md-nav__link">
+  <a href="#q-what-is-the-principle-of-java-deserialisation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Java Deserialisation – Principle
+        Q: What is the principle of Java deserialisation?
       
     </span>
   </a>
@@ -443,14 +443,14 @@
 
   <h1>01 java deserialisation principle</h1>
 
-<h2 id="java-deserialisation-principle">Java Deserialisation – Principle<a class="headerlink" href="#java-deserialisation-principle" title="Permanent link">&para;</a></h2>
-<p>If a Java application deserialises user input – i.e., untrusted data – then an attacker can craft malicious input such that deserialisation yields unexpected objects. The generation of these unexpected objects may, in turn, lead to arbitrary code execution.</p>
-<p>In web applications written in Java, the communication between the application and the web server frequently involves the transmission of large numbers of serialised objects, for example in the following contexts:</p>
+<h2 id="q-what-is-the-principle-of-java-deserialisation"><strong>Q: What is the principle of Java deserialisation?</strong><a class="headerlink" href="#q-what-is-the-principle-of-java-deserialisation" title="Permanent link">&para;</a></h2>
+<p><strong>A:</strong> If a Java application performs deserialisation on user input, i.e., untrusted data, an attacker can construct malicious input such that deserialisation produces unintended objects. During the creation of these unintended objects, arbitrary code execution may occur.</p>
+<p>In web applications written in Java, large numbers of serialised objects are typically exchanged between the application and the web server. Examples include:</p>
 <ul>
-<li>HTTP request parameters, cookies, and other parameters.</li>
-<li>The RMI protocol, which is widely used and entirely based on serialisation.</li>
-<li>JMX, which likewise processes serialised objects.</li>
-<li>Custom protocols employed to receive and send raw Java objects.</li>
+<li>Parameters, cookies and other elements of HTTP requests;</li>
+<li>The RMI protocol, which is widely used and entirely based on serialisation;</li>
+<li>JMX, which also handles serialised objects;</li>
+<li>Custom protocols designed to send and receive raw Java objects.</li>
 </ul>
 
 
