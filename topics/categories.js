@@ -47,6 +47,10 @@ const topicCategories = {
       {
         "text": "9. How can one view the commands executed after a system intrusion?",
         "link": "/cybersecurity-interview-questions/topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/"
+      },
+      {
+        "text": "10. What are the port numbers for SSH, Telnet, and SP? What is the difference between SSH and Telnet?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/10-what-port-numbers-ssh-telnet-sp/"
       }
     ]
   },
