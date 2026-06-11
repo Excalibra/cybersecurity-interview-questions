@@ -214,7 +214,7 @@ const topicCategories = {
     "items": [
       {
         "text": "1. How do you locate the attacking IP address?",
-        "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/1-how-do-you-locate-the-attacking-ip-address/"
+        "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/01-how-do-you-locate-the-attacking-ip-address/"
       }
     ]
   },
