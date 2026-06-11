@@ -39,6 +39,10 @@ const topicCategories = {
       {
         "text": "7. How can a firewall determine that traffic is a deserialisation attack?",
         "link": "/cybersecurity-interview-questions/topics/incident-response/7-how-can-firewall-determine-that-traffic-is-a-deserialisation-attack/"
+      },
+      {
+        "text": "8. How do you locate crypto\u2011mining malware during incident response? How do you trace the mining process to its associated file?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/8-locate-crypto-mining-malware-during-incident-response/"
       }
     ]
   },
