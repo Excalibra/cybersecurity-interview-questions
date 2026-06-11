@@ -133,7 +133,7 @@ const questionCategories = {
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/01-java-deserialisation-principle/"
       },
       {
-        "text": "02 How Can You Determine The Cause Of Sql Injection Vulnerability",
+        "text": "Q: How can one determine the cause of an SQL injection vulnerability, and how can it be prevented? What are the types of injection? Besides exfiltrating database data, what other exploitation methods exist?",
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/02-how-can-you-determine-the-cause-of-sql-injection-vulnerability/"
       },
       {
