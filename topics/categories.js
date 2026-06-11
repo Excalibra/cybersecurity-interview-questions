@@ -17,16 +17,16 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/incident-response/01-commonly-used-threat-intelligence-platforms/"
       },
       {
-        "text": "9. How can one view the commands executed after a system intrusion?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/"
-      },
-      {
         "text": "2. How do you handle false positives from security devices (log analysis)?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/2-handle-false-positives-from-security-devices/"
+        "link": "/cybersecurity-interview-questions/topics/incident-response/02-handle-false-positives-from-security-devices/"
       },
       {
         "text": "3. How can scanning traffic be distinguished from manual attack traffic?",
-        "link": "/cybersecurity-interview-questions/topics/incident-response/3-can-scanned-traffic-be-distinguished-from-manual-attack-traffic/"
+        "link": "/cybersecurity-interview-questions/topics/incident-response/03-can-scanned-traffic-be-distinguished-from-manual-attack-traffic/"
+      },
+      {
+        "text": "9. How can one view the commands executed after a system intrusion?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/"
       },
       {
         "text": "4. How should an internal network alert be handled, and what is the general process?",
