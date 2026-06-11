@@ -98,6 +98,10 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/systems/1-how-to-manually-determine-target-operating-system/"
       },
       {
+        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
+        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
+      },
+      {
         "text": "2. What commands are used to view open ports and running services on Windows and Linux?",
         "link": "/cybersecurity-interview-questions/topics/systems/2-commands-used-to-view-open-ports-services-windows-linux/"
       },
