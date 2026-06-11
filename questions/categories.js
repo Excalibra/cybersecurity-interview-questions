@@ -141,7 +141,7 @@ const questionCategories = {
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/03-what-is-the-principle-of-php-null-byte/"
       },
       {
-        "text": "04 Why Do Aspx Webshells Have Higher Privileges Than Asp Webshells",
+        "text": "Q: Why do ASPX webshells typically have higher privileges than ASP webshells?",
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/04-why-do-aspx-webshells-have-higher-privileges-than-asp-webshells/"
       },
       {
