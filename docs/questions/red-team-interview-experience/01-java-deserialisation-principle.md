@@ -1,4 +1,4 @@
-## **Q: What is the principle of Java deserialisation?**
+## Q: What is the principle of Java deserialisation?
 
 **A:** If a Java application performs deserialisation on user input, i.e., untrusted data, an attacker can construct malicious input such that deserialisation produces unintended objects. During the creation of these unintended objects, arbitrary code execution may occur.
 
