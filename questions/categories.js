@@ -18,6 +18,10 @@ const categories = {
       {
         "text": "3. What should one do if, when attacking a WebLogic target, the first payload is blocked by a WAF and the IP is banned?",
         "link": "/cybersecurity-interview-questions/questions/red-team/03-when-attacking-weblogic-target-what-should-one-do-if-first-payload-blocked-by-waf-ip-banned/"
+      },
+      {
+        "text": "4. Principle of JBoss deserialisation",
+        "link": "/cybersecurity-interview-questions/questions/red-team/04-principle-of-jboss-deserialisation/"
       }
     ]
   },
