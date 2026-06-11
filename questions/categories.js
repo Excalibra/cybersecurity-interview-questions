@@ -110,6 +110,10 @@ const categories = {
       {
         "text": "26. Where does the command to query domain administrators essentially look for the information, and why does entering it return results?",
         "link": "/cybersecurity-interview-questions/questions/red-team/26-where-does-command-to-query-domain-admin-look-for-information/"
+      },
+      {
+        "text": "27. In evasion, how can one bypass domestic antivirus software? What exactly are antivirus products detecting? Why can the same methods not bypass foreign antivirus software such as Kaspersky?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/27-how-can-one-bypass-domestic-antivirus-software-in-evasion/"
       }
     ]
   },
