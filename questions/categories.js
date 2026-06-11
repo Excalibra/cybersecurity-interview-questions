@@ -145,7 +145,7 @@ const questionCategories = {
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/04-why-do-aspx-webshells-have-higher-privileges-than-asp-webshells/"
       },
       {
-        "text": "05 Differences Between Mysql 5.0 And Above Vs Below 5.0 Regarding Website Injection",
+        "text": "Q: What are the differences between MySQL versions 5.0 and above versus below 5.0 regarding website injection?",
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/05-differences-between-mysql-5.0-and-above-vs-below-5.0-regarding-website-injection/"
       },
       {
