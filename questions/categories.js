@@ -157,7 +157,7 @@ const questionCategories = {
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/07-what-is-memcache-unauthorised-access/"
       },
       {
-        "text": "08 What Is Exploitation Principle Of Fastjson Vulnerability",
+        "text": "Q: What is the exploitation principle of the FastJSON vulnerability?",
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/08-what-is-exploitation-principle-of-fastjson-vulnerability/"
       }
     ]
