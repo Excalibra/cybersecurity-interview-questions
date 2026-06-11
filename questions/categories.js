@@ -58,6 +58,10 @@ const categories = {
       {
         "text": "13. Conditions and principle of the BCEL exploitation chain; have you traced the underlying code? How is it invoked?",
         "link": "/cybersecurity-interview-questions/questions/red-team/13-principle-of-bcel-exploitation-chain/"
+      },
+      {
+        "text": "14. Suppose you attacked a machine on port 17010, and the machine restarted during the attack. After it successfully restarted, you attacked it again and succeeded, but you were unable to capture the password. Why is that, and how can this problem be resolved?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/14-why-were-you-unable-to-capture-password-on-port-17010-after-restart/"
       }
     ]
   },
