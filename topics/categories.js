@@ -122,12 +122,12 @@ const topicCategories = {
         "link": "/cybersecurity-interview-questions/topics/systems/07-what-approaches-methods-for-linux-privilege-escalation/"
       },
       {
-        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
-        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
+        "text": "8. What are the methods for hardening a Windows system?",
+        "link": "/cybersecurity-interview-questions/topics/systems/08-methods-for-hardening-windows-systems/"
       },
       {
-        "text": "8. What are the methods for hardening a Windows system?",
-        "link": "/cybersecurity-interview-questions/topics/systems/8-methods-for-hardening-windows-systems/"
+        "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
+        "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
       },
       {
         "text": "9. What are the methods for hardening a Linux system?",
