@@ -1,10 +1,10 @@
-## Java Deserialisation – Principle
+## **Q: What is the principle of Java deserialisation?**
 
-If a Java application deserialises user input – i.e., untrusted data – then an attacker can craft malicious input such that deserialisation yields unexpected objects. The generation of these unexpected objects may, in turn, lead to arbitrary code execution.
+**A:** If a Java application performs deserialisation on user input, i.e., untrusted data, an attacker can construct malicious input such that deserialisation produces unintended objects. During the creation of these unintended objects, arbitrary code execution may occur.
 
-In web applications written in Java, the communication between the application and the web server frequently involves the transmission of large numbers of serialised objects, for example in the following contexts:
+In web applications written in Java, large numbers of serialised objects are typically exchanged between the application and the web server. Examples include:
 
-- HTTP request parameters, cookies, and other parameters.
-- The RMI protocol, which is widely used and entirely based on serialisation.
-- JMX, which likewise processes serialised objects.
-- Custom protocols employed to receive and send raw Java objects.
+- Parameters, cookies and other elements of HTTP requests;
+- The RMI protocol, which is widely used and entirely based on serialisation;
+- JMX, which also handles serialised objects;
+- Custom protocols designed to send and receive raw Java objects.
