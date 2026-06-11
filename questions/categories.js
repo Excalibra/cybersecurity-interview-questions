@@ -102,6 +102,10 @@ const categories = {
       {
         "text": "24. During internal network persistence maintenance, if 360 has enabled \u201cCrystal Core\u201d mode, how should one attempt to maintain persistence? What if scheduled tasks are blocked?",
         "link": "/cybersecurity-interview-questions/questions/red-team/24-how-should-you-maintain-persistence-if-360-crystal-core-mode-enabled/"
+      },
+      {
+        "text": "25. If the command `net group \u201cDomain Admins\u201d /domain` fails to return domain administrators, what might be the problem and how can it be resolved?",
+        "link": "/cybersecurity-interview-questions/questions/red-team/25-what-is-the-problem-if-command-net-group-domain-admins-fails/"
       }
     ]
   },
