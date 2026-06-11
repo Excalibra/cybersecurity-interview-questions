@@ -26,6 +26,10 @@ const categories = {
       {
         "text": "5. Principle of WebLogic deserialisation \u2013 choose any vulnerability and explain its trigger mechanism",
         "link": "/cybersecurity-interview-questions/questions/red-team/05-weblogic-deserialisation-choose-vulnerability-and-explain-its-trigger-mechanism/"
+      },
+      {
+        "text": "6. Fastjson deserialisation vulnerability",
+        "link": "/cybersecurity-interview-questions/questions/red-team/06-fastjson-deserialisation-vulnerability/"
       }
     ]
   },
