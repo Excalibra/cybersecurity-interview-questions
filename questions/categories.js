@@ -161,5 +161,14 @@ const questionCategories = {
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/08-what-is-exploitation-principle-of-fastjson-vulnerability/"
       }
     ]
+  },
+  "red-team-interview-questions-two-sets": {
+    "title": "Red Team Interview Questions Two Sets",
+    "items": [
+      {
+        "text": "Set One",
+        "link": "/cybersecurity-interview-questions/questions/red-team-interview-questions-two-sets/01-set-one/"
+      }
+    ]
   }
 };
