@@ -31,6 +31,10 @@ const topicCategories = {
       {
         "text": "5. What is the general process for incident response?",
         "link": "/cybersecurity-interview-questions/topics/incident-response/5-what-is-the-general-process-for-incident-response/"
+      },
+      {
+        "text": "6. What is your understanding of honeypots?",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/6-what-is-your-understanding-of-honeypots/"
       }
     ]
   },
