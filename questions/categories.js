@@ -30,6 +30,10 @@ const categories = {
       {
         "text": "6. Fastjson deserialisation vulnerability",
         "link": "/cybersecurity-interview-questions/questions/red-team/06-fastjson-deserialisation-vulnerability/"
+      },
+      {
+        "text": "7. How to determine Fastjson vulnerability echo \u2013 is DNS used for echo or other protocols? Why? Exploitation without echo.",
+        "link": "/cybersecurity-interview-questions/questions/red-team/07-determine-fastjson-vulnerability-echo-is-dns-used-for-echo/"
       }
     ]
   },
