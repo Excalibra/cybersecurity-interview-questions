@@ -122,6 +122,10 @@ const categories = {
       {
         "text": "29. If the defenders have discovered your activity but the webshell on vCenter remains, yet you can no longer log in to the Web console, what other exploitation methods exist?",
         "link": "/cybersecurity-interview-questions/questions/red-team/29-what-other-exploit-methods-exist-after-defenders-discover-your-activity/"
+      },
+      {
+        "text": "30. How to exploit a host compromised via phishing? The context is that only one domain user was discovered, but no password could be captured, although a domain does exist.",
+        "link": "/cybersecurity-interview-questions/questions/red-team/30-how-to-exploit-compromised-host-via-phishing/"
       }
     ]
   },
