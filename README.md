@@ -7,16 +7,6 @@ A structured, dynamic knowledge base for cybersecurity interview preparation. Th
 
 ---
 
-| Landing Page | Questions Section |
-|--------------|-------------------|
-| ![1](https://github.com/user-attachments/assets/5e423548-e3c4-4710-9cce-a9dbd1b361f7) | ![2](https://github.com/user-attachments/assets/6e0bca05-5598-4990-b849-f90dccb4a509) |
-
-| Topics Section | Dynamic Content Loading |
-|----------------|-------------------------|
-| ![3](https://github.com/user-attachments/assets/d547b2c9-0445-4f74-8736-4c92cdc9c2cf) | ![4](https://github.com/user-attachments/assets/338f46ba-9758-45dd-8488-d320e005e243) |
-
----
-
 ## Overview
 
 This repository powers a static documentation site built with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme. It is designed for:
@@ -34,11 +24,12 @@ Content is organised into two main sections:
 
 ---
 
-## Features
+| Landing Page | Questions Section |
+|--------------|-------------------|
+| ![1](https://github.com/user-attachments/assets/5e423548-e3c4-4710-9cce-a9dbd1b361f7) | ![2](https://github.com/user-attachments/assets/6e0bca05-5598-4990-b849-f90dccb4a509) |
 
-- **Dynamic category loading** – Select a topic or interview type from a dropdown, and the relevant list of items appears in the sidebar.
-- **Asynchronous content fetch** – Click any question or FAQ to load its Markdown content into the main view without reloading the page.
-- **Fully customised theme** – The default Material sidebar is hidden, and a custom two‑column layout is used.
-- **Automatic indexing** – Just drop Markdown files into subfolders; the scripts generate the necessary JavaScript.
-- **GitHub Pages ready** – The site is configured to deploy directly to GitHub Pages.
+| Topics Section | Dynamic Content Loading |
+|----------------|-------------------------|
+| ![3](https://github.com/user-attachments/assets/d547b2c9-0445-4f74-8736-4c92cdc9c2cf) | ![4](https://github.com/user-attachments/assets/338f46ba-9758-45dd-8488-d320e005e243) |
 
+---
