@@ -1,10 +1,3 @@
-# CV Writing and Memorising Interview Questions
+# Cybersecurity Interview Questions
 
-## Choose your path:
-
-### [Interview Questions](https://excalibra.github.io/cybersecurity-interview-questions/questions/)
-Structured Q&A organised by career path.
-
-### [Topics & FAQs](https://excalibra.github.io/cybersecurity-interview-questions/topics/)
-In-depth explanations and frequently asked questions.
-
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><h2>Interview Questions</h2></td><td>Structured Q&#x26;A organised by career path.</td></tr><tr><td><h3>Topics &#x26; FAQs</h3></td><td>In-depth explanations and frequently asked questions.</td></tr></tbody></table>
