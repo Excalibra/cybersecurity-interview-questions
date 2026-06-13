@@ -1,4 +1,4 @@
-# Cybersecurity CV Writing and Interview Questions
+# Cybersecurity Interview Questions
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MkDocs Material](https://img.shields.io/badge/MkDocs-Material-526CFE)](https://squidfunk.github.io/mkdocs-material/)
