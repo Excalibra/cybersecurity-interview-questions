@@ -122,6 +122,10 @@ const questionCategories = {
       {
         "text": "30. How to exploit a host compromised via phishing? The context is that only one domain user was discovered, but no password could be captured, although a domain does exist.",
         "link": "/cybersecurity-interview-questions/questions/red-team/30-how-to-exploit-compromised-host-via-phishing/"
+      },
+      {
+        "text": "red-team",
+        "link": "/cybersecurity-interview-questions/questions/red-team/README/"
       }
     ]
   },
@@ -159,6 +163,10 @@ const questionCategories = {
       {
         "text": "Q: What is the exploitation principle of the FastJSON vulnerability?",
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/08-what-is-exploitation-principle-of-fastjson-vulnerability/"
+      },
+      {
+        "text": "red-team-interview-experience",
+        "link": "/cybersecurity-interview-questions/questions/red-team-interview-experience/README/"
       }
     ]
   },
@@ -172,6 +180,10 @@ const questionCategories = {
       {
         "text": "Set Two",
         "link": "/cybersecurity-interview-questions/questions/red-team-interview-questions-two-sets/02-set-two/"
+      },
+      {
+        "text": "red-team-interview-questions-two-sets",
+        "link": "/cybersecurity-interview-questions/questions/red-team-interview-questions-two-sets/README/"
       }
     ]
   }

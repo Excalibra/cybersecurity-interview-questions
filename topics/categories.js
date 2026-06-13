@@ -6,6 +6,10 @@ const topicCategories = {
       {
         "text": "1. Describe the OSI model and the TCP/IP architecture.",
         "link": "/cybersecurity-interview-questions/topics/computer-networks/1-describe-osi-model-and-tcp-ip/"
+      },
+      {
+        "text": "computer-networks",
+        "link": "/cybersecurity-interview-questions/topics/computer-networks/README/"
       }
     ]
   },
@@ -51,6 +55,10 @@ const topicCategories = {
       {
         "text": "10. What are the port numbers for SSH, Telnet, and SP? What is the difference between SSH and Telnet?",
         "link": "/cybersecurity-interview-questions/topics/incident-response/10-what-port-numbers-ssh-telnet-sp/"
+      },
+      {
+        "text": "incident-response",
+        "link": "/cybersecurity-interview-questions/topics/incident-response/README/"
       }
     ]
   },
@@ -132,6 +140,10 @@ const topicCategories = {
       {
         "text": "19. What are the differences between PTH (Pass\u2011the\u2011Hash), PTT (Pass\u2011the\u2011Ticket), and PTK (Pass\u2011the\u2011Key)?",
         "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/19-differences-between-pth-ptt-ptk/"
+      },
+      {
+        "text": "internal-network-penetration",
+        "link": "/cybersecurity-interview-questions/topics/internal-network-penetration/README/"
       }
     ]
   },
@@ -177,6 +189,10 @@ const topicCategories = {
       {
         "text": "10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?",
         "link": "/cybersecurity-interview-questions/topics/systems/10-where-do-trojans-maintain-persistence/"
+      },
+      {
+        "text": "systems",
+        "link": "/cybersecurity-interview-questions/topics/systems/README/"
       }
     ]
   },
@@ -206,6 +222,10 @@ const topicCategories = {
       {
         "text": "6. What are the common Nmap parameters? Describe them.",
         "link": "/cybersecurity-interview-questions/topics/tools/06-common-nmap-parameters/"
+      },
+      {
+        "text": "tools",
+        "link": "/cybersecurity-interview-questions/topics/tools/README/"
       }
     ]
   },
@@ -235,6 +255,10 @@ const topicCategories = {
       {
         "text": "6. How can you batch\u2011check HTTP services?",
         "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/06-how-can-you-batch-check-http-services/"
+      },
+      {
+        "text": "traceability-and-traffic-analysis",
+        "link": "/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/README/"
       }
     ]
   },
@@ -412,6 +436,10 @@ const topicCategories = {
       {
         "text": "42. What are the methods for XSS protection? How can the HttpOnly flag be bypassed?",
         "link": "/cybersecurity-interview-questions/topics/web-security/42-methods-for-xss-protection/"
+      },
+      {
+        "text": "web-security",
+        "link": "/cybersecurity-interview-questions/topics/web-security/README/"
       }
     ]
   }

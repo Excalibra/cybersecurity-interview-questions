@@ -5,6 +5,10 @@
          <lastmod>2026-06-13</lastmod>
     </url>
     <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/SUMMARY/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/questions/</loc>
          <lastmod>2026-06-13</lastmod>
     </url>
@@ -185,7 +189,15 @@
          <lastmod>2026-06-13</lastmod>
     </url>
     <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/computer-networks/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/computer-networks/1-describe-osi-model-and-tcp-ip/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/incident-response/</loc>
          <lastmod>2026-06-13</lastmod>
     </url>
     <url>
@@ -226,6 +238,10 @@
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/incident-response/10-what-port-numbers-ssh-telnet-sp/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/internal-network-penetration/</loc>
          <lastmod>2026-06-13</lastmod>
     </url>
     <url>
@@ -305,6 +321,10 @@
          <lastmod>2026-06-13</lastmod>
     </url>
     <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/systems/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/systems/01-how-to-manually-determine-target-operating-system/</loc>
          <lastmod>2026-06-13</lastmod>
     </url>
@@ -345,6 +365,10 @@
          <lastmod>2026-06-13</lastmod>
     </url>
     <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/tools/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/tools/01-what-pentest-tools-do-you-use/</loc>
          <lastmod>2026-06-13</lastmod>
     </url>
@@ -369,6 +393,10 @@
          <lastmod>2026-06-13</lastmod>
     </url>
     <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/01-how-do-you-locate-the-attacking-ip-address/</loc>
          <lastmod>2026-06-13</lastmod>
     </url>
@@ -390,6 +418,10 @@
     </url>
     <url>
          <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/traceability-and-traffic-analysis/06-how-can-you-batch-check-http-services/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
+         <loc>https://excalibra.github.io/cybersecurity-interview-questions/topics/web-security/</loc>
          <lastmod>2026-06-13</lastmod>
     </url>
     <url>

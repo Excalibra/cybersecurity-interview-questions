@@ -1,0 +1,797 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://excalibra.github.io/cybersecurity-interview-questions/SUMMARY/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Table of contents - Cybersecurity Interview Questions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#table-of-contents" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Cybersecurity Interview Questions" class="md-header__button md-logo" aria-label="Cybersecurity Interview Questions" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cybersecurity Interview Questions
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Table of contents
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Excalibra/cybersecurity-interview-questions" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Excalibra/cybersecurity-interview-questions
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../questions/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Interview Questions
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topics/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Topics
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Cybersecurity Interview Questions" class="md-nav__button md-logo" aria-label="Cybersecurity Interview Questions" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Cybersecurity Interview Questions
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Excalibra/cybersecurity-interview-questions" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Excalibra/cybersecurity-interview-questions
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../questions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Topics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+
+                  
+
+
+  
+    <a href="https://github.com/Excalibra/cybersecurity-interview-questions/edit/master/docs/SUMMARY.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="table-of-contents">Table of contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h1>
+<ul>
+<li><a href="../">Cybersecurity Interview Questions</a></li>
+<li><a href="questions/README.md">questions</a></li>
+<li><a href="../questions/">Interview Questions</a></li>
+<li><a href="questions/red-team-interview-experience/README.md">red-team-interview-experience</a><ul>
+<li><a href="../questions/red-team-interview-experience/01-java-deserialisation-principle/">Q: What is the principle of Java deserialisation?</a></li>
+<li><a href="../questions/red-team-interview-experience/02-how-can-you-determine-the-cause-of-sql-injection-vulnerability/">Q: How can one determine the cause of an SQL injection vulnerability, and how can it be prevented? W</a></li>
+<li><a href="../questions/red-team-interview-experience/03-what-is-the-principle-of-php-null-byte/">Q: What is the principle of PHP null byte (%00) truncation?</a></li>
+<li><a href="../questions/red-team-interview-experience/04-why-do-aspx-webshells-have-higher-privileges-than-asp-webshells/">Q: Why do ASPX webshells typically have higher privileges than ASP webshells?</a></li>
+<li><a href="../questions/red-team-interview-experience/05-differences-between-mysql-5.0-and-above-vs-below-5.0-regarding-website-injection/">Q: What are the differences between MySQL versions 5.0 and above versus below 5.0 regarding website</a></li>
+<li><a href="../questions/red-team-interview-experience/06-what-are-approaches-for-testing-dom-based-xxs/">Q: What are the approaches for manual and automated testing of DOM‑based XSS?</a></li>
+<li><a href="../questions/red-team-interview-experience/07-what-is-memcache-unauthorised-access/">Q: What is Memcache unauthorised access, and how can it be exploited?</a></li>
+<li><a href="../questions/red-team-interview-experience/08-what-is-exploitation-principle-of-fastjson-vulnerability/">Q: What is the exploitation principle of the FastJSON vulnerability?</a></li>
+<li><a href="../questions/red-team-interview-experience/">Red Team Interview Experience</a></li>
+</ul>
+</li>
+<li><a href="questions/red-team-interview-questions-two-sets/README.md">red-team-interview-questions-two-sets</a><ul>
+<li><a href="../questions/red-team-interview-questions-two-sets/01-set-one/">Set One</a></li>
+<li><a href="../questions/red-team-interview-questions-two-sets/02-set-two/">Set Two</a></li>
+<li><a href="../questions/red-team-interview-questions-two-sets/">Red Team Interview Questions (Two Sets)</a></li>
+</ul>
+</li>
+<li><a href="questions/red-team/README.md">red-team</a><ul>
+<li><a href="../questions/red-team/01-how-to-bypass-waf-for-shiro/">1. How to bypass WAF for Shiro</a></li>
+<li><a href="../questions/red-team/02-how-to-determine-if-shiro-deserialisation-vulnerability-exists-if-target-cannot-initiate-outbound-connections/">2. How to determine whether a Shiro deserialisation vulnerability exists when the target cannot init</a></li>
+<li><a href="../questions/red-team/03-when-attacking-weblogic-target-what-should-one-do-if-first-payload-blocked-by-waf-ip-banned/">3. What should one do if, when attacking a WebLogic target, the first payload is blocked by a WAF an</a></li>
+<li><a href="../questions/red-team/04-principle-of-jboss-deserialisation/">4. Principle of JBoss deserialisation</a></li>
+<li><a href="../questions/red-team/05-weblogic-deserialisation-choose-vulnerability-and-explain-its-trigger-mechanism/">5. Principle of WebLogic deserialisation – choose any vulnerability and explain its trigger mechanis</a></li>
+<li><a href="../questions/red-team/06-fastjson-deserialisation-vulnerability/">6. Fastjson deserialisation vulnerability</a></li>
+<li><a href="../questions/red-team/07-determine-fastjson-vulnerability-echo-is-dns-used-for-echo/">7. How to determine Fastjson vulnerability echo – is DNS used for echo or other protocols? Why? Expl</a></li>
+<li><a href="../questions/red-team/08-code-auditing-frameworks/">8. Code auditing frameworks</a></li>
+<li><a href="../questions/red-team/09-description-of-the-code-frameworks-of-enterprise-systems/">9. Brief description of the code frameworks of enterprise systems</a></li>
+<li><a href="../questions/red-team/10-bypass-disable_functions-in-php/">10. How to bypass disable_functions in PHP, and what is the underlying principle?</a></li>
+<li><a href="../questions/red-team/11-how-would-you-exploit-cloud-host-with-no-internal-network-connection-cloud-internal-network/">11. In an attack‑defence scenario, if you have taken control of a machine but it is only a cloud hos</a></li>
+<li><a href="../questions/red-team/12-how-to-attack-redis/">12. How to attack Redis? Conditions for master‑slave replication exploitation, why can it lead to sh</a></li>
+<li><a href="../questions/red-team/13-principle-of-bcel-exploitation-chain/">13. Conditions and principle of the BCEL exploitation chain; have you traced the underlying code? Ho</a></li>
+<li><a href="../questions/red-team/14-why-were-you-unable-to-capture-password-on-port-17010-after-restart/">14. Suppose you attacked a machine on port 17010, and the machine restarted during the attack. After</a></li>
+<li><a href="../questions/red-team/15-how-can-you-enter-domain-and-locate-domain-controller/">15. In an internal network, you have permissions on a workgroup machine outside the domain, but you</a></li>
+<li><a href="../questions/red-team/16-how-to-bypass-xp_cmdshell-block-in-mssql-machine-that-runs-antivirus/">16-how-to-bypass-xp_cmdshell-block-in-mssql-machine-that-runs-antivirus</a></li>
+<li><a href="../questions/red-team/17-what-is-an-mssql-stored-procedure/">17. What is an MSSQL stored procedure, what is its essence, and why can it execute commands?</a></li>
+<li><a href="../questions/red-team/18-which-stored-procedure-permission-need-to-be-enabled-when-uploading-file-via-mssql/">18. If you wish to upload a file via MSSQL, which stored procedure’s permission needs to be enabled?</a></li>
+<li><a href="../questions/red-team/19-how-to-perform-file-deployment-in-an-internal-network/">19. How to perform file deployment in an internal network, and which commands are used? What if the</a></li>
+<li><a href="../questions/red-team/20-utilisatopm-conditions-in-ntlm-relay-with-adcs-vulnerability/">20. In internal network domain penetration, when using NTLM relay in combination with the ADCS vulne</a></li>
+<li><a href="../questions/red-team/21-utilisation-conditions-of-adcs-privilege-escalation-vulnerability/">21. In internal network domain penetration, what are the utilisation conditions and the principle of</a></li>
+<li><a href="../questions/red-team/22-how-would-you-deepen-exploitation-after-obtaining-vcenter-credentials/">22. In internal network penetration, if you have obtained a set of vCenter credentials, how would yo</a></li>
+<li><a href="../questions/red-team/23-how-can-you-exploit-locked-state-after-obtaining-admin-password-for-vcenter/">23. You have obtained the administrator password for a vCenter machine and have successfully logged</a></li>
+<li><a href="../questions/red-team/24-how-should-you-maintain-persistence-if-360-crystal-core-mode-enabled/">24. During internal network persistence maintenance, if 360 has enabled “Crystal Core” mode, how sho</a></li>
+<li><a href="../questions/red-team/25-what-is-the-problem-if-command-net-group-domain-admins-fails/">25. If the command net group “Domain Admins” /domain fails to return domain administrators, what mig</a></li>
+<li><a href="../questions/red-team/26-where-does-command-to-query-domain-admin-look-for-information/">26. Where does the command to query domain administrators essentially look for the information, and</a></li>
+<li><a href="../questions/red-team/27-how-can-one-bypass-domestic-antivirus-software-in-evasion/">27. In evasion, how can one bypass domestic antivirus software? What exactly are antivirus products</a></li>
+<li><a href="../questions/red-team/28-do-you-directly-obtain-machine-permissions-then-start-scanning/">28. In internal network lateral movement, do you directly obtain a machine’s permissions and then st</a></li>
+<li><a href="../questions/red-team/29-what-other-exploit-methods-exist-after-defenders-discover-your-activity/">29. If the defenders have discovered your activity but the webshell on vCenter remains, yet you can</a></li>
+<li><a href="../questions/red-team/30-how-to-exploit-compromised-host-via-phishing/">30. How to exploit a host compromised via phishing? The context is that only one domain user was dis</a></li>
+<li><a href="../questions/red-team/">Red Team Interview Questions</a></li>
+</ul>
+</li>
+<li><a href="topics/README.md">topics</a></li>
+<li><a href="../topics/">Topics / Frequently Asked Questions</a></li>
+<li><a href="../topics/computer-networks/">computer-networks</a><ul>
+<li><a href="../topics/computer-networks/1-describe-osi-model-and-tcp-ip/">1. Describe the OSI model and the TCP/IP architecture.</a></li>
+</ul>
+</li>
+<li><a href="../topics/incident-response/">incident-response</a><ul>
+<li><a href="../topics/incident-response/01-commonly-used-threat-intelligence-platforms/">1. What are some commonly used threat intelligence platforms?</a></li>
+<li><a href="../topics/incident-response/02-handle-false-positives-from-security-devices/">2. How do you handle false positives from security devices (log analysis)?</a></li>
+<li><a href="../topics/incident-response/03-can-scanned-traffic-be-distinguished-from-manual-attack-traffic/">3. How can scanning traffic be distinguished from manual attack traffic?</a></li>
+<li><a href="../topics/incident-response/04-how-should-internal-network-alert-be-handled/">4. How should an internal network alert be handled, and what is the general process?</a></li>
+<li><a href="../topics/incident-response/05-what-is-the-general-process-for-incident-response/">5. What is the general process for incident response?</a></li>
+<li><a href="../topics/incident-response/06-what-is-your-understanding-of-honeypots/">6. What is your understanding of honeypots?</a></li>
+<li><a href="../topics/incident-response/07-how-can-firewall-determine-that-traffic-is-a-deserialisation-attack/">7. How can a firewall determine that traffic is a deserialisation attack?</a></li>
+<li><a href="../topics/incident-response/08-locate-crypto-mining-malware-during-incident-response/">8. How do you locate crypto‑mining malware during incident response? How do you trace the mining pro</a></li>
+<li><a href="../topics/incident-response/09-how-can-one-view-commands-executed-after-system-intrusion/">9. How can one view the commands executed after a system intrusion?</a></li>
+<li><a href="../topics/incident-response/10-what-port-numbers-ssh-telnet-sp/">10. What are the port numbers for SSH, Telnet, and SP? What is the difference between SSH and Telnet</a></li>
+</ul>
+</li>
+<li><a href="../topics/internal-network-penetration/">internal-network-penetration</a><ul>
+<li><a href="../topics/internal-network-penetration/01-methods-for-lateral-movement-command-execution/">1. What are the methods for lateral movement command execution?</a></li>
+<li><a href="../topics/internal-network-penetration/02-differences-between-psexec-wmic/">2. What are the differences between psexec, wmic, and others?</a></li>
+<li><a href="../topics/internal-network-penetration/03-how-does-dcom-operate/">3. How does DCOM operate?</a></li>
+<li><a href="../topics/internal-network-penetration/04-how-would-you-capture-passwords/">4. How would you capture passwords?</a></li>
+<li><a href="../topics/internal-network-penetration/05-which-windows-version-passwords-no-longer-capture-in-plaintext/">5. After which Windows version can passwords no longer be captured in plaintext?</a></li>
+<li><a href="../topics/internal-network-penetration/06-alternatives-to-capture-passwords/">6. If you cannot capture the password, what alternatives are there?</a></li>
+<li><a href="../topics/internal-network-penetration/07-familiar-with-domain-attack-techniques/">7. Are you familiar with domain attack techniques?</a></li>
+<li><a href="../topics/internal-network-penetration/08-session-hijacking-active-administrator/">8. If a desktop has an active administrator session and you wish to perform session hijacking, how w</a></li>
+<li><a href="../topics/internal-network-penetration/09-thought-process-for-internal-network-penetration/">9. What is the thought process for internal network penetration?</a></li>
+<li><a href="../topics/internal-network-penetration/10-what-should-be-done-with-encrypted-password-file/">10. If there is an encrypted password file on the current machine, what should be done?</a></li>
+<li><a href="../topics/internal-network-penetration/11-methods-for-gaining-control-of-domain-controller/">11. What are the methods for gaining control of a domain controller?</a></li>
+<li><a href="../topics/internal-network-penetration/12-explain-golden-ticket-and-silver-ticket/">12. Please explain Golden Ticket and Silver Ticket.</a></li>
+<li><a href="../topics/internal-network-penetration/13-methods-for-maintaining-persistence-on-windows-linux/">13. What are the methods for maintaining persistence on Windows and on Linux?</a></li>
+<li><a href="../topics/internal-network-penetration/14-familiar-with-shellcode-obfuscation-evasion/">14. Are you familiar with shellcode obfuscation and evasion? What methods exist?</a></li>
+<li><a href="../topics/internal-network-penetration/15-what-is-this-approach-for-domain-information-gathering/">15. What is the approach for domain information gathering?</a></li>
+<li><a href="../topics/internal-network-penetration/16-commonly-used-tools-for-proxy-and-tunneling/">16. What are the commonly used tools for proxy and tunnelling?</a></li>
+<li><a href="../topics/internal-network-penetration/17-if-cannot-ping-external-networks-layer-protocols-how-to-establish-tunnel/">17. If the target machine cannot ping external networks and cannot utilise network‑layer protocols,</a></li>
+<li><a href="../topics/internal-network-penetration/18-how-can-one-rapidly-locate-domain-controller/">18. How can one rapidly locate a domain controller? Describe three methods.</a></li>
+<li><a href="../topics/internal-network-penetration/19-differences-between-pth-ptt-ptk/">19. What are the differences between PTH (Pass‑the‑Hash), PTT (Pass‑the‑Ticket), and PTK (Pass‑the‑K</a></li>
+</ul>
+</li>
+<li><a href="../topics/systems/">systems</a><ul>
+<li><a href="../topics/systems/01-how-to-manually-determine-target-operating-system/">1. How can one manually determine the target operating system?</a></li>
+<li><a href="../topics/systems/02-commands-used-to-view-open-ports-services-windows-linux/">2. What commands are used to view open ports and running services on Windows and Linux?</a></li>
+<li><a href="../topics/systems/03-default-log-directory-in-linux/">3. What is the default log directory in Linux?</a></li>
+<li><a href="../topics/systems/04-what-are-commands-for-downloading-files-in-windows/">4. What are some commands for downloading files in Windows?</a></li>
+<li><a href="../topics/systems/05-describe-investigation-process-backdoor-file-implanted-on-windows-or-linux/">5. Describe your investigation process if a backdoor file has been implanted on a Windows or Linux s</a></li>
+<li><a href="../topics/systems/06-methods-and-approaches-for-windows-privilege-escalation/">6. What are the methods and approaches for Windows privilege escalation?</a></li>
+<li><a href="../topics/systems/07-what-approaches-methods-for-linux-privilege-escalation/">7. What are the approaches and methods for Linux privilege escalation?</a></li>
+<li><a href="../topics/systems/08-methods-for-hardening-windows-systems/">8. What are the methods for hardening a Windows system?</a></li>
+<li><a href="../topics/systems/09-methods-for-hardening-linux-system/">9. What are the methods for hardening a Linux system?</a></li>
+<li><a href="../topics/systems/10-where-do-trojans-maintain-persistence/">10. Where do trojans typically maintain persistence (which sensitive locations should be checked)?</a></li>
+</ul>
+</li>
+<li><a href="../topics/tools/">tools</a><ul>
+<li><a href="../topics/tools/01-what-pentest-tools-do-you-use/">1. What penetration testing tools or vulnerability scanners do you commonly use?</a></li>
+<li><a href="../topics/tools/02-principle-prerequisite-for-sqlmap-os-shell/">2. What is the principle and prerequisite for sqlmap’s --os-shell?</a></li>
+<li><a href="../topics/tools/03-which-tools-for-info-gathering/">3. Which tools do you use for information gathering, and for what specific purposes?</a></li>
+<li><a href="../topics/tools/04-webshell-management-tools-similarities-differences/">4. What are the similarities and differences among the various webshell management tools available o</a></li>
+<li><a href="../topics/tools/05-familiarity-vendor-security-appliances/">5. Are you familiar with or have you used any vendor security appliances?</a></li>
+<li><a href="../topics/tools/06-common-nmap-parameters/">6. What are the common Nmap parameters? Describe them.</a></li>
+</ul>
+</li>
+<li><a href="../topics/traceability-and-traffic-analysis/">traceability-and-traffic-analysis</a><ul>
+<li><a href="../topics/traceability-and-traffic-analysis/01-how-do-you-locate-the-attacking-ip-address/">1. How do you locate the attacking IP address?</a></li>
+<li><a href="../topics/traceability-and-traffic-analysis/02-describe-thought-process-for-traffic-analysis-traceability-on-web-application-server-webshell-uploaded/">2. Suppose you discover an abnormal increase in files on a web application server and suspect a webs</a></li>
+<li><a href="../topics/traceability-and-traffic-analysis/03-what-are-some-basic-wireshark-display-filters/">3. What are some basic Wireshark display filters?</a></li>
+<li><a href="../topics/traceability-and-traffic-analysis/04-traffic-characteristics-of-webshell-interaction/">4. What are the traffic characteristics of webshell interaction?</a></li>
+<li><a href="../topics/traceability-and-traffic-analysis/05-approach-for-analysing-abnormal-sql-query-traffic/">5. What is the approach for analysing abnormal SQL query traffic?</a></li>
+<li><a href="../topics/traceability-and-traffic-analysis/06-how-can-you-batch-check-http-services/">6. How can you batch‑check HTTP services?</a></li>
+</ul>
+</li>
+<li><a href="../topics/web-security/">web-security</a><ul>
+<li><a href="../topics/web-security/01-sql-injection/">1. What are the principles and types of SQL injection? How can it be defended against? What is the p</a></li>
+<li><a href="../topics/web-security/02-xxs/">2. What are the types of XSS? What are the differences between them? How can it be remediated?</a></li>
+<li><a href="../topics/web-security/03-differences-between-xss-csrf-ssrf/">3. What are the differences between XSS, CSRF, and SSRF? (Very frequently asked)</a></li>
+<li><a href="../topics/web-security/04-xxe-vulnerabilities/">4. Are you familiar with XXE vulnerabilities?</a></li>
+<li><a href="../topics/web-security/05-php-deserialisation/">5. Are you familiar with PHP deserialisation?</a></li>
+<li><a href="../topics/web-security/05.1-java-deserialisation/">5.1 Are you familiar with Java deserialisation? Have you encountered Shiro deserialisation? (Most fr</a></li>
+<li><a href="../topics/web-security/06-logic-vulnerabilities/">6. Which logic vulnerabilities have you encountered? Given a login form, what is your general approa</a></li>
+<li><a href="../topics/web-security/07-difference-between-cdn-and-dns/">7. What is the difference between CDN and DNS? What are the approaches for bypassing CDN?</a></li>
+<li><a href="../topics/web-security/08-common-middleware-vulnerabilities/">8. What common middleware vulnerabilities are you aware of?</a></li>
+<li><a href="../topics/web-security/09-waf-bypass-techniques/">9. What WAF bypass techniques are you familiar with?</a></li>
+<li><a href="../topics/web-security/10-resolve-command-execution-issue/">10. How do you resolve the issue of command execution with no output (blind command execution)?</a></li>
+<li><a href="../topics/web-security/11-what-scenarios-port-3389-cannot-be-connected/">11. What are the scenarios in which port 3389 cannot be connected?</a></li>
+<li><a href="../topics/web-security/12-common-port-information/">12. Common port information?</a></li>
+<li><a href="../topics/web-security/13-what-is-the-penetration-testing-process/">13. What is the penetration testing process?</a></li>
+<li><a href="../topics/web-security/14-logic-vulnerability/">14. What is a logic vulnerability? Name at least three types of business logic vulnerabilities and h</a></li>
+<li><a href="../topics/web-security/15-explain-unauthorised-access/">15. Can you briefly explain unauthorised access?</a></li>
+<li><a href="../topics/web-security/16-which-vulnerabilities-do-you-use-for-initial-compromise/">16. Which vulnerabilities do you typically use for initial compromise (“scoring a hit”)?</a></li>
+<li><a href="../topics/web-security/17-how-do-you-discover-shiro-vulnerabilities/">17. How do you usually discover Shiro vulnerabilities?</a></li>
+<li><a href="../topics/web-security/18-weblogic-permission-bypass/">18. WebLogic permission bypass?</a></li>
+<li><a href="../topics/web-security/19-exploitation-principle-of-fastjson-vulnerability/">19. What is the exploitation principle of the Fastjson vulnerability?</a></li>
+<li><a href="../topics/web-security/20-what-if-you-obtain-webshell-but-target-cannot-initiate-outbound/">20. What can be done if you obtain a webshell but the target cannot initiate outbound connections?</a></li>
+<li><a href="../topics/web-security/21-dangerous-functions-for-php-code-and-php-command-execution/">21. What are the dangerous functions for PHP code execution and PHP command execution?</a></li>
+<li><a href="../topics/web-security/22-how-can-dnslog-be-utilised-when-sql-yields-no-input/">22. When SQL injection yields no visible output, how can DNSLog be utilised, and what constructs can</a></li>
+<li><a href="../topics/web-security/23-methods-to-write-a-shell-via-phpmyadmin/">23. What are the methods to write a shell via phpMyAdmin?</a></li>
+<li><a href="../topics/web-security/24-principle-of-buffer-overflow/">24. What is the principle of buffer overflow?</a></li>
+<li><a href="../topics/web-security/25-how-can-ssrf-bypass-when-127.0.0.1-is-blocked/">25. How can SSRF be bypassed when 127.0.0.1 is blocked? What protocols are supported?</a></li>
+<li><a href="../topics/web-security/26-how-can-the-phar-protocol-be-exploited/">26. How can the phar:// protocol be exploited? What is the difference between the php://input pseudo</a></li>
+<li><a href="../topics/web-security/27-how-does-ssrf-write-a-shell-using-redis/">27. How does SSRF write a shell using Redis?</a></li>
+<li><a href="../topics/web-security/28-what-tamper-scripts-of-sqlmap-are-you-aware-of/">28. What built‑in tamper scripts of sqlmap are you aware of? Have you ever written any?</a></li>
+<li><a href="../topics/web-security/29-what-is-svn-git-source-code-disclosure/">29. What is SVN/GIT source code disclosure?</a></li>
+<li><a href="../topics/web-security/30-are-you-familiar-with-privilage-escalation/">30. Are you familiar with privilege escalation? What is the principle of UDF privilege escalation?</a></li>
+<li><a href="../topics/web-security/31-describe-some-recent-vulnerabilities/">31. Describe some recent or representative vulnerabilities.</a></li>
+<li><a href="../topics/web-security/32-are-you-familiar-with-parsing-vulnerabilities/">32. Are you familiar with parsing vulnerabilities? What are the different types?</a></li>
+<li><a href="../topics/web-security/33-why-a-site-using-mysql-expose-only-port-80/">33. Why might a site using a MySQL database expose only port 80?</a></li>
+<li><a href="../topics/web-security/34-when-performing-injection-possible-to-start-order-by-without-using/">34. When performing injection, is it possible to start directly with ORDER BY without using AND, OR,</a></li>
+<li><a href="../topics/web-security/35-shell-already-obtained-how-xss-used-for-persistent-control-over-site/">35. With a shell already obtained, how can XSS be used to achieve persistent control over the target</a></li>
+<li><a href="../topics/web-security/36-why-uploaded-script-format-403-error-on-target-site/">36. A target site has no protective measures; uploaded images can be accessed normally, but accessin</a></li>
+<li><a href="../topics/web-security/37-how-to-retrieve-locally-when-access-database-file-asp-garbled-characters/">37. When an Access database file with an .asp extension is discovered and displays garbled character</a></li>
+<li><a href="../topics/web-security/38-how-to-operate-comman-line-only-shell-with-no-file-upload-support/">38. How can you operate when you possess a command‑line‑only shell that does not support direct file</a></li>
+<li><a href="../topics/web-security/39-how-can-shiro-vulnerability-exploited-if-target-cannot-initiate-outbound/">39. How can a Shiro vulnerability be exploited if the target cannot initiate outbound connections?</a></li>
+<li><a href="../topics/web-security/40-obtaining-shell-via-file-inclusion/">40. Approaches to obtaining a shell via file inclusion?</a></li>
+<li><a href="../topics/web-security/41-bypassing-waf-during-file-upload/">41. Approaches to bypassing WAF during file upload?</a></li>
+<li><a href="../topics/web-security/42-methods-for-xss-protection/">42. What are the methods for XSS protection? How can the HttpOnly flag be bypassed?</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+<style>
+  .md-sidebar--primary, .md-nav--primary, .md-sidebar__scrollwrap { display: none !important; }
+  .md-main__inner { margin-left: 0 !important; }
+
+  /* Force full width for dynamically loaded content */
+  #main-content .md-content__inner,
+  #main-content .md-typeset {
+      max-width: 100% !important;
+      margin: 0 !important;
+  }
+
+  /* Relax the main grid and content area for these pages */
+  .md-grid {
+      max-width: 100% !important;
+  }
+
+  .md-main__inner {
+      max-width: 100% !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+  }
+
+  /* Ensure the flex container can expand fully */
+  .md-content {
+      width: 100% !important;
+  }
+
+  /* Override content padding for the custom sidebar pages */
+  .md-content__inner {
+      padding: 0 !important;
+  }
+
+  .md-main {
+      padding: 0 !important;
+  }
+</style>
+
+<!-- Questions -->
+<script src="/cybersecurity-interview-questions/questions/categories.js"></script>
+<!-- Topics -->
+<script src="/cybersecurity-interview-questions/topics/categories.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const mainContent = document.getElementById('main-content');
+
+    // ==================== QUESTIONS SECTION ====================
+    const questionSelector = document.getElementById('question-selector');
+    const questionsList = document.getElementById('questions-list');
+
+    if (questionSelector && questionsList) {
+        function loadQuestionCategory(val) {
+            if (!val || typeof questionCategories === 'undefined') {
+                questionsList.innerHTML = '<p style="color:#9ca3af;">No category selected.</p>';
+                return;
+            }
+            const cat = questionCategories[val];
+            if (!cat) return;
+
+            let html = '';
+            cat.items.forEach(item => {
+                html += `<div style="margin:8px 0; padding:6px 10px; border-radius:4px;">
+                    <a href="#" class="question-link" data-url="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
+                </div>`;
+            });
+            questionsList.innerHTML = html || '<p style="color:#9ca3af;">No questions yet.</p>';
+            mainContent.innerHTML = `<h2>${cat.title}</h2><p>Select a question from the left.</p>`;
+        }
+
+        questionSelector.addEventListener('change', (e) => loadQuestionCategory(e.target.value));
+
+        questionsList.addEventListener('click', async function(e) {
+            if (e.target.classList.contains('question-link')) {
+                e.preventDefault();
+                loadPageContent(e.target);
+            }
+        });
+    }
+
+    // ==================== TOPICS SECTION ====================
+    const topicSelector = document.getElementById('topic-selector');
+    const topicsList = document.getElementById('topics-list');
+
+    if (topicSelector && topicsList) {
+        function loadTopicCategory(val) {
+            if (!val || typeof topicCategories === 'undefined') {
+                topicsList.innerHTML = '<p style="color:#9ca3af;">No topic selected.</p>';
+                return;
+            }
+            const cat = topicCategories[val];
+            if (!cat) return;
+
+            let html = '';
+            cat.items.forEach(item => {
+                html += `<div style="margin:8px 0; padding:6px 10px; border-radius:4px;">
+                    <a href="#" class="topic-link" data-url="${item.link}" style="color:#60a5fa; text-decoration:none; display:block;">${item.text}</a>
+                </div>`;
+            });
+            topicsList.innerHTML = html || '<p style="color:#9ca3af;">No FAQs yet.</p>';
+            mainContent.innerHTML = `<h2>${cat.title}</h2><p>Select an FAQ from the left.</p>`;
+        }
+
+        topicSelector.addEventListener('change', (e) => loadTopicCategory(e.target.value));
+
+        topicsList.addEventListener('click', async function(e) {
+            if (e.target.classList.contains('topic-link')) {
+                e.preventDefault();
+                loadPageContent(e.target);
+            }
+        });
+    }
+
+    // Shared content loader
+    async function loadPageContent(linkElement) {
+        const url = linkElement.getAttribute('data-url');
+        try {
+            mainContent.innerHTML = `<h2>Loading...</h2>`;
+            const res = await fetch(url);
+            const html = await res.text();
+            const doc = new DOMParser().parseFromString(html, 'text/html');
+            let content = doc.querySelector('.md-content__inner') || doc.body;
+            const h1 = content.querySelector('h1');
+            if (h1) h1.remove();
+            mainContent.innerHTML = `<h2>${linkElement.textContent}</h2>` + content.innerHTML;
+        } catch (err) {
+            mainContent.innerHTML = `<h2>Error</h2><p>Failed to load content.</p>`;
+        }
+    }
+});
+</script>
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "toc.follow", "search.highlight", "content.code.copy", "content.action.edit"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
