@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'A comprehensive guide for security professionals',
   url: 'https://excalibra.github.io',
   baseUrl: '/cybersecurity-interview-questions/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
   organizationName: 'Excalibra',
   projectName: 'cybersecurity-interview-questions',
   onBrokenLinks: 'warn',
