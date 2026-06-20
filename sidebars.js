@@ -3,7 +3,7 @@ module.exports = {
     "SUMMARY",
     {
       "type": "category",
-      "label": "questions",
+      "label": "Questions",
       "items": [
         "questions/index",
         {
