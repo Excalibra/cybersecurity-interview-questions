@@ -2,10 +2,14 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+import image1 from '@site/static/img/undraw_docusaurus_mountain.svg';
+import image2 from '@site/static/img/undraw_docusaurus_react.svg';
+import image3 from '@site/static/img/6551298.png';
+
 const FeatureList = [
   {
     title: '📋 100+ Interview Questions',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    image: image1,
     description: (
       <>
         Curated questions covering Red Team, Web Security, Incident Response,
@@ -15,7 +19,7 @@ const FeatureList = [
   },
   {
     title: '📚 Organized by Topic',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: image2,
     description: (
       <>
         Easily browse categories like Computer Networks, Systems, Tools, and
@@ -25,7 +29,7 @@ const FeatureList = [
   },
   {
     title: '🔄 Continuously Updated',
-    Svg: require('@site/static/img/6551298.png').default,
+    image: image3,
     description: (
       <>
         New questions and answers are added regularly. Stay ahead with the
@@ -35,11 +39,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={image} alt={title} className={styles.featureImage} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
