@@ -8,7 +8,7 @@ module.exports = {
         "questions/index",
         {
           "type": "category",
-          "label": "red-team",
+          "label": "Red Team",
           "items": [
             "questions/red-team/how-to-bypass-waf-for-shiro",
             "questions/red-team/how-to-determine-if-shiro-deserialisation-vulnerability-exists-if-target-cannot-initiate-outbound-connections",
