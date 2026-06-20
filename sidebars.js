@@ -82,7 +82,7 @@ module.exports = {
         },
         {
           "type": "category",
-          "label": "incident-response",
+          "label": "Incident Response",
           "items": [
             "topics/incident-response/commonly-used-threat-intelligence-platforms",
             "topics/incident-response/handle-false-positives-from-security-devices",
