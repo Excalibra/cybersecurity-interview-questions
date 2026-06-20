@@ -2,8 +2,8 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-import image1 from '@site/static/img/undraw_docusaurus_mountain.svg';
-import image2 from '@site/static/img/undraw_docusaurus_react.svg';
+import image1 from '@site/static/img/6551222.png';
+import image2 from '@site/static/img/6538657.png';
 import image3 from '@site/static/img/6551298.png';
 
 const FeatureList = [
