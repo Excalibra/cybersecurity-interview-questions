@@ -1,0 +1,25 @@
+# 1. What are the principles and types of SQL injection? How can it be defended against? What is the principle of prepared statements?
+
+## Principle
+During data interaction, data input from the front end is transmitted to the backend for processing. Because the backend does not apply sufficiently strict validation, the incoming “data” is concatenated into an SQL statement and subsequently executed as part of that statement.
+
+## Types
+- Character-based
+- Numeric
+- Boolean-based
+- Error-based
+- Time-based (delay)
+- UNION-based
+- Stacked queries
+- Wide-byte
+- X-Forwarded-For (XFF), etc.
+
+## Remediation
+- Use **prepared statements** / parameterized queries
+- Use PDO (in PHP) or equivalent in other languages
+- Regular expression / input validation
+- Web Application Firewall (WAF)
+- Enable proper escaping
+
+## Principle of Prepared Statements
+A prepared statement completes a single query via two interactions. The first interaction sends the query template, which the backend SQL engine parses into an Abstract Syntax Tree (AST) or Opcode. The second interaction sends the data, which is then substituted into the AST or Opcode for execution. Regardless of the parameters subsequently passed to the template, they are treated solely as string literals during query processing, thereby eliminating SQL injection.
