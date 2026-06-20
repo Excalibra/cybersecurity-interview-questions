@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: '🔄 Continuously Updated',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/6551298.png').default,
     description: (
       <>
         New questions and answers are added regularly. Stay ahead with the
