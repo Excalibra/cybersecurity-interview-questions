@@ -1,4 +1,4 @@
-# Cybersecurity Interview Questions – Overview
+# Overview
 
 Welcome to the **Cybersecurity Interview Questions** repository! This is your one‑stop resource for acing cybersecurity interviews.
 
