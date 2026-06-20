@@ -1,6 +1,5 @@
 module.exports = {
   "docs": [
-    "SUMMARY",
     {
       "type": "category",
       "label": "Questions",
