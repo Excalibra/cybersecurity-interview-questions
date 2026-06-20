@@ -45,7 +45,7 @@ module.exports = {
         },
         {
           "type": "category",
-          "label": "red-team-interview-experience",
+          "label": "Red Team Interview Experience",
           "items": [
             "questions/red-team-interview-experience/java-deserialisation-principle",
             "questions/red-team-interview-experience/how-can-you-determine-the-cause-of-sql-injection-vulnerability",
@@ -60,7 +60,7 @@ module.exports = {
         },
         {
           "type": "category",
-          "label": "red-team-interview-questions-two-sets",
+          "label": "Red Team Interview Experience (Two Sets)",
           "items": [
             "questions/red-team-interview-questions-two-sets/set-one",
             "questions/red-team-interview-questions-two-sets/set-two",
@@ -75,7 +75,7 @@ module.exports = {
       "items": [
         {
           "type": "category",
-          "label": "computer-networks",
+          "label": "Computer Networks",
           "items": [
             "topics/computer-networks/describe-osi-model-and-tcp-ip"
           ]
@@ -99,7 +99,7 @@ module.exports = {
         "topics/index",
         {
           "type": "category",
-          "label": "internal-network-penetration",
+          "label": "Internal Network Penetration",
           "items": [
             "topics/internal-network-penetration/methods-for-lateral-movement-command-execution",
             "topics/internal-network-penetration/differences-between-psexec-wmic",
@@ -124,7 +124,7 @@ module.exports = {
         },
         {
           "type": "category",
-          "label": "systems",
+          "label": "Systems",
           "items": [
             "topics/systems/how-to-manually-determine-target-operating-system",
             "topics/systems/commands-used-to-view-open-ports-services-windows-linux",
@@ -140,7 +140,7 @@ module.exports = {
         },
         {
           "type": "category",
-          "label": "tools",
+          "label": "Tools",
           "items": [
             "topics/tools/what-pentest-tools-do-you-use",
             "topics/tools/principle-prerequisite-for-sqlmap-os-shell",
@@ -152,7 +152,7 @@ module.exports = {
         },
         {
           "type": "category",
-          "label": "traceability-and-traffic-analysis",
+          "label": "Traceability and Traffic Analysis",
           "items": [
             "topics/traceability-and-traffic-analysis/how-do-you-locate-the-attacking-ip-address",
             "topics/traceability-and-traffic-analysis/describe-thought-process-for-traffic-analysis-traceability-on-web-application-server-webshell-uploaded",
@@ -164,7 +164,7 @@ module.exports = {
         },
         {
           "type": "category",
-          "label": "web-security",
+          "label": "Web Security",
           "items": [
             "topics/web-security/sql-injection",
             "topics/web-security/xxs",
