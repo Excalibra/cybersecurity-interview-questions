@@ -1,5 +1,6 @@
 module.exports = {
   "docs": [
+    "README",
     {
       "type": "category",
       "label": "Questions",
