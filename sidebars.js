@@ -71,7 +71,7 @@ module.exports = {
     },
     {
       "type": "category",
-      "label": "topics",
+      "label": "Topics",
       "items": [
         {
           "type": "category",
