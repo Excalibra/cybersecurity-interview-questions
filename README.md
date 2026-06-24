@@ -86,6 +86,12 @@ This project currently focuses on **Red Team** content, but **Blue Team** (defen
 > [!NOTE]
 > If you have specific Blue Team topics you'd like to see covered, please open an issue or submit a pull request.
 
+---
+
+## Preview
+
+<img width="1280" height="1296" alt="image" src="https://github.com/user-attachments/assets/472c6772-d2fe-48ea-8059-6a27356ce514" />
+
 
 ---
 
