@@ -5,7 +5,7 @@
 
 ---
 
-<img width="1280" height="913" alt="image" src="https://github.com/user-attachments/assets/48ca9c4e-1050-4972-8562-edf4322fa5a9" />
+<img width="1280" height="1295" alt="image" src="https://github.com/user-attachments/assets/898d81bb-232f-4b03-85d5-d95fab238eef" />
 
 
 ## What is this?
@@ -56,8 +56,7 @@ The entire content is available as a clean, searchable website:
 
 ## Preview
 
-<img width="1280" height="1295" alt="image" src="https://github.com/user-attachments/assets/898d81bb-232f-4b03-85d5-d95fab238eef" />
-
+<img width="1280" height="913" alt="image" src="https://github.com/user-attachments/assets/48ca9c4e-1050-4972-8562-edf4322fa5a9" />
 
 ---
 
