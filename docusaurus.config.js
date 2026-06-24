@@ -8,6 +8,17 @@ module.exports = {
   projectName: 'cybersecurity-interview-questions',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  plugins: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        indexDocs: true,
+        indexBlog: false,
+        language: 'en',
+        searchResultLimits: 8,
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
