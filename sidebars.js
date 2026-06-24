@@ -96,7 +96,6 @@ module.exports = {
             "topics/incident-response/what-port-numbers-ssh-telnet-sp"
           ]
         },
-        "topics/index",
         {
           "type": "category",
           "label": "Internal Network Penetration",
