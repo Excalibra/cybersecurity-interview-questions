@@ -90,7 +90,7 @@ This project currently focuses on **Red Team** content, but **Blue Team** (defen
 
 ## Preview
 
-<img width="1280" height="1296" alt="image" src="https://github.com/user-attachments/assets/472c6772-d2fe-48ea-8059-6a27356ce514" />
+<img width="1280" height="1296" alt="image" src="https://github.com/user-attachments/assets/406cbeb2-620e-48e7-865e-1eac4d3bf319" />
 
 
 ---
