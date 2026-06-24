@@ -7,7 +7,7 @@
 
 ---
 
-<img width="1280" height="1295" alt="Homepage Preview" src="https://github.com/user-attachments/assets/898d81bb-232f-4b03-85d5-d95fab238eef" />
+<img width="1280" height="1295" alt="image" src="https://github.com/user-attachments/assets/c889b3c8-1572-49f2-9663-41f89d36baf5" />
 
 ---
 
@@ -90,7 +90,7 @@ This project currently focuses on **Red Team** content, but **Blue Team** (defen
 
 ## Preview
 
-<img width="1280" height="913" alt="Content Preview" src="https://github.com/user-attachments/assets/48ca9c4e-1050-4972-8562-edf4322fa5a9" />
+<img width="1280" height="903" alt="image" src="https://github.com/user-attachments/assets/0bf33dbb-70ab-4377-8065-3eebb9c32661" />
 
 ---
 
