@@ -16,6 +16,7 @@
 A curated collection of **cybersecurity interview questions and answers** – built for anyone preparing for roles in:
 
 - Red Teaming / Penetration Testing
+- Blue Teaming / Defense & Security Operations
 - Incident Response
 - Web Security
 - Internal Network Security
@@ -61,6 +62,29 @@ The entire content is available as a clean, searchable website:
 | **Job Seekers** | Prepare for cybersecurity interviews with real questions and answers |
 | **Students** | Learn security concepts through structured Q&A |
 | **Professionals** | Brush up on fundamentals and stay sharp |
+
+---
+
+## Roadmap: Blue Team / Defense Topics
+
+This project currently focuses on **Red Team** content, but **Blue Team** (defensive security) topics are actively being planned. Below is the public to-do list – contributions are welcome!
+
+### Planned Blue Team Content
+
+- [ ] Security Operations Center (SOC) analyst fundamentals
+- [ ] SIEM (Security Information and Event Management) tools and queries
+- [ ] Endpoint Detection and Response (EDR) – concepts and tools (CrowdStrike, SentinelOne, Defender)
+- [ ] Network traffic analysis and anomaly detection
+- [ ] Threat hunting methodologies and frameworks (MITRE ATT&CK, Cyber Kill Chain)
+- [ ] Vulnerability management lifecycle
+- [ ] Security information sharing – STIX/TAXII, MISP
+- [ ] Cloud security monitoring (AWS, Azure, GCP)
+- [ ] Zero Trust architecture and implementation
+- [ ] Identity and Access Management (IAM) – SSO, MFA, Entra ID, Okta
+
+
+> [!NOTE]
+> If you have specific Blue Team topics you'd like to see covered, please open an issue or submit a pull request.
 
 ---
 
