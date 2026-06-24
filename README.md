@@ -26,11 +26,11 @@ A curated collection of **cybersecurity interview questions and answers** – bu
 
 ---
 
-## Read Online
+## How to Use This Repository
 
-The entire content is available as a clean, searchable website:
-
-**[excalibra.github.io/cybersecurity-interview-questions](https://excalibra.github.io/cybersecurity-interview-questions/)**
+1. Browse the **[live site](https://excalibra.github.io/cybersecurity-interview-questions/)** for the best reading experience.
+2. For offline use, clone the repository and open any `.md` file in your preferred editor.
+3. Use the search bar on the live site to find specific questions or topics.
 
 ---
 
