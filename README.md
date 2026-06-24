@@ -5,6 +5,9 @@
 
 ---
 
+<img width="1280" height="913" alt="image" src="https://github.com/user-attachments/assets/2af7d5ad-24d2-4cdf-88e3-96b55225674e" />
+
+
 ## What is this?
 
 A curated collection of **cybersecurity interview questions and answers** – built for anyone preparing for roles in:
@@ -53,8 +56,8 @@ The entire content is available as a clean, searchable website:
 
 ## 📸 Preview
 
+<img width="1280" height="1295" alt="image" src="https://github.com/user-attachments/assets/898d81bb-232f-4b03-85d5-d95fab238eef" />
 
-<img width="2560" height="1295" alt="image" src="https://github.com/user-attachments/assets/d2c48436-33a4-4de0-b680-641a7464592a" />
 
 ---
 
