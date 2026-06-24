@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity Interview Questions
+# Cybersecurity Interview Questions
 
 [![Live Site](https://img.shields.io/badge/🌐-Read_Online-4CAF50?style=for-the-badge)](https://excalibra.github.io/cybersecurity-interview-questions/)
 [![GitHub stars](https://img.shields.io/github/stars/Excalibra/cybersecurity-interview-questions?style=for-the-badge)](https://github.com/Excalibra/cybersecurity-interview-questions/stargazers)
@@ -22,7 +22,7 @@ No fluff. Just questions, answers, and practical knowledge.
 
 ---
 
-## 📖 Read Online
+## Read Online
 
 The entire content is available as a clean, searchable website:
 
@@ -30,7 +30,7 @@ The entire content is available as a clean, searchable website:
 
 ---
 
-## 📚 What's inside
+## What's inside
 
 | Section | What you'll find |
 |---|---|
@@ -46,7 +46,7 @@ The entire content is available as a clean, searchable website:
 
 ---
 
-## 🎯 Who this is for
+## Who this is for
 
 - **Job seekers** – preparing for cybersecurity interviews
 - **Students** – learning security concepts through Q&A
@@ -54,21 +54,21 @@ The entire content is available as a clean, searchable website:
 
 ---
 
-## 📸 Preview
+## Preview
 
 <img width="1280" height="1295" alt="image" src="https://github.com/user-attachments/assets/898d81bb-232f-4b03-85d5-d95fab238eef" />
 
 
 ---
 
-## 🤝 Contribute
+## Contribute
 
 Found a mistake or want to add a question?  
 Open an issue or submit a pull request – contributions are welcome!
 
 ---
 
-## 📬 Contact
+## Contact
 
 - **Author:** [Excalibra](https://github.com/Excalibra)
 - **Live Site:** [excalibra.github.io/cybersecurity-interview-questions](https://excalibra.github.io/cybersecurity-interview-questions/)
