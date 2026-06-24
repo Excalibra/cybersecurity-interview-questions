@@ -1,14 +1,17 @@
 # Cybersecurity Interview Questions
 
-[![Live Site](https://img.shields.io/badge/🌐-Read_Online-4CAF50?style=for-the-badge)](https://excalibra.github.io/cybersecurity-interview-questions/)
-[![GitHub stars](https://img.shields.io/github/stars/Excalibra/cybersecurity-interview-questions?style=for-the-badge)](https://github.com/Excalibra/cybersecurity-interview-questions/stargazers)
+[![Live Site](https://img.shields.io/badge/Read_Online-4CAF50?style=for-the-badge&logo=githubpages&logoColor=white)](https://excalibra.github.io/cybersecurity-interview-questions/)
+[![GitHub stars](https://img.shields.io/github/stars/Excalibra/cybersecurity-interview-questions?style=for-the-badge&color=FFD700)](https://github.com/Excalibra/cybersecurity-interview-questions/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Excalibra/cybersecurity-interview-questions?style=for-the-badge&color=4FC3F7)](https://github.com/Excalibra/cybersecurity-interview-questions/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Excalibra/cybersecurity-interview-questions?style=for-the-badge&color=FF6B6B)](https://github.com/Excalibra/cybersecurity-interview-questions/issues)
 
 ---
 
-<img width="1280" height="1295" alt="image" src="https://github.com/user-attachments/assets/898d81bb-232f-4b03-85d5-d95fab238eef" />
+<img width="1280" height="1295" alt="Homepage Preview" src="https://github.com/user-attachments/assets/898d81bb-232f-4b03-85d5-d95fab238eef" />
 
+---
 
-## What is this?
+## Overview
 
 A curated collection of **cybersecurity interview questions and answers** – built for anyone preparing for roles in:
 
@@ -18,7 +21,7 @@ A curated collection of **cybersecurity interview questions and answers** – bu
 - Internal Network Security
 - Systems Hardening
 
-No fluff. Just questions, answers, and practical knowledge.
+> **No fluff.** Just questions, answers, and practical knowledge.
 
 ---
 
@@ -26,14 +29,17 @@ No fluff. Just questions, answers, and practical knowledge.
 
 The entire content is available as a clean, searchable website:
 
-👉 **[excalibra.github.io/cybersecurity-interview-questions](https://excalibra.github.io/cybersecurity-interview-questions/)**
+**[excalibra.github.io/cybersecurity-interview-questions](https://excalibra.github.io/cybersecurity-interview-questions/)**
 
 ---
 
-## What's inside
+## Content Breakdown
 
-| Section | What you'll find |
-|---|---|
+<details>
+<summary><strong>Click to expand</strong> – full list of topics covered</summary>
+
+| Section | Topics Covered |
+|:--------|:---------------|
 | **Red Team** | Exploitation, evasion, deserialization, WAF bypass, domain attacks, persistence |
 | **Red Team Interview Experience** | Real questions and lessons from actual interviews |
 | **Web Security** | SQLi, XSS, CSRF, SSRF, deserialization, file uploads, logic flaws |
@@ -44,35 +50,45 @@ The entire content is available as a clean, searchable website:
 | **Computer Networks** | OSI model, TCP/IP fundamentals |
 | **Traceability & Traffic Analysis** | Wireshark, traffic patterns, attack attribution |
 
+</details>
+
 ---
 
-## Who this is for
+## Who This Is For
 
-- **Job seekers** – preparing for cybersecurity interviews
-- **Students** – learning security concepts through Q&A
-- **Professionals** – brushing up on fundamentals
+| Audience | Benefit |
+|:---------|:--------|
+| **Job Seekers** | Prepare for cybersecurity interviews with real questions and answers |
+| **Students** | Learn security concepts through structured Q&A |
+| **Professionals** | Brush up on fundamentals and stay sharp |
 
 ---
 
 ## Preview
 
-<img width="1280" height="913" alt="image" src="https://github.com/user-attachments/assets/48ca9c4e-1050-4972-8562-edf4322fa5a9" />
+<img width="1280" height="913" alt="Content Preview" src="https://github.com/user-attachments/assets/48ca9c4e-1050-4972-8562-edf4322fa5a9" />
 
 ---
 
-## Contribute
+## Contributing
 
-Found a mistake or want to add a question?  
-Open an issue or submit a pull request – contributions are welcome!
+> [!NOTE]
+> Contributions are welcome!
+
+Found a mistake? Have a question to add?  
+Open an [issue](https://github.com/Excalibra/cybersecurity-interview-questions/issues) or submit a [pull request](https://github.com/Excalibra/cybersecurity-interview-questions/pulls).
 
 ---
 
 ## Contact
 
-- **Author:** [Excalibra](https://github.com/Excalibra)
-- **Live Site:** [excalibra.github.io/cybersecurity-interview-questions](https://excalibra.github.io/cybersecurity-interview-questions/)
+| | |
+|:---|:---|
+| **Author** | [Excalibra](https://github.com/Excalibra) |
+| **Live Site** | [excalibra.github.io/cybersecurity-interview-questions](https://excalibra.github.io/cybersecurity-interview-questions/) |
 
 ---
 
-⭐ **If this helped you, star the repo!** ⭐
-
+<p align="center">
+  <strong>If this project helped you, consider starring the repository.</strong>
+</p>
