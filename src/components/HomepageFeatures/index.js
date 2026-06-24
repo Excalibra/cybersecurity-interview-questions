@@ -8,7 +8,7 @@ import image3 from '@site/static/img/6551298.png';
 
 const FeatureList = [
   {
-    title: '📋 100+ Interview Questions',
+    title: '100+ Interview Questions',
     image: image1,
     description: (
       <>
@@ -18,7 +18,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '📚 Organized by Topic',
+    title: 'Organized by Topic',
     image: image2,
     description: (
       <>
@@ -28,7 +28,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '🔄 Continuously Updated',
+    title: 'Continuously Updated',
     image: image3,
     description: (
       <>
