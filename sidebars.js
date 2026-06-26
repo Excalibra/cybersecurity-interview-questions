@@ -46,7 +46,6 @@ module.exports = {
             "questions/red-team/do-you-directly-obtain-machine-permissions-then-start-scanning",
             "questions/red-team/what-other-exploit-methods-exist-after-defenders-discover-your-activity",
             "questions/red-team/how-to-exploit-compromised-host-via-phishing",
-            "questions/red-team/index"
           ]
         },
         {
