@@ -74,7 +74,6 @@ module.exports = {
           items: [
             "questions/red-team-interview-questions-two-sets/set-one",
             "questions/red-team-interview-questions-two-sets/set-two",
-            "questions/red-team-interview-questions-two-sets/index"
           ]
         },
         {
