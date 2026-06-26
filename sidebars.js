@@ -51,6 +51,9 @@ module.exports = {
         {
           type: "category",
           label: "Red Team Interview Experience",
+          link: { 
+            type: "doc", 
+            id: "questions/red-team-interview-experience/index" },
           items: [
             "questions/red-team-interview-experience/java-deserialisation-principle",
             "questions/red-team-interview-experience/how-can-you-determine-the-cause-of-sql-injection-vulnerability",
@@ -60,12 +63,14 @@ module.exports = {
             "questions/red-team-interview-experience/what-are-approaches-for-testing-dom-based-xxs",
             "questions/red-team-interview-experience/what-is-memcache-unauthorised-access",
             "questions/red-team-interview-experience/what-is-exploitation-principle-of-fastjson-vulnerability",
-            "questions/red-team-interview-experience/index"
           ]
         },
         {
           type: "category",
           label: "Red Team Interview Experience (Two Sets)",
+          link: { 
+            type: "doc", 
+            id: "questions/red-team-interview-questions-two-sets/index" },
           items: [
             "questions/red-team-interview-questions-two-sets/set-one",
             "questions/red-team-interview-questions-two-sets/set-two",
