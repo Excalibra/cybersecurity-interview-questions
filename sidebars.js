@@ -103,7 +103,7 @@ module.exports = {
             "questions/network-security/30-what-is-a-virtual-machine-escape",
             "questions/network-security/31-what-is-a-man-in-the-middle-mitm-attack",
             "questions/network-security/32-what-are-the-three-steps-of-the-tcp-three-way-handshake",
-            "questions/network-security/33-what-are-the-seven-layers-of-the-osi-model",
+            "questions/network-security/33-osi-model-seven-layers-summary",
             "questions/network-security/34-what-is-your-understanding-of-cloud-security",
             "questions/network-security/35-do-you-know-about-websocket-what-is-it",
             "questions/network-security/36-what-is-ddos-what-are-its-types-what-is-a-cc-attack-and-what-are-the-differences",
