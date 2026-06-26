@@ -1,18 +1,18 @@
 module.exports = {
-  "docs": [
+  docs: [
     "README",
     {
-      "type": "category",
-      "label": "Questions",
-      "link": {
-        "type": "doc",
-        "id": "questions/index"
+      type: "category",
+      label: "Questions",
+      link: {
+        type: "doc",
+        id: "questions/index"
       },
-      "items": [
+      items: [
         {
-          "type": "category",
-          "label": "Red Team",
-          "items": [
+          type: "category",
+          label: "Red Team",
+          items: [
             "questions/red-team/how-to-bypass-waf-for-shiro",
             "questions/red-team/how-to-determine-if-shiro-deserialisation-vulnerability-exists-if-target-cannot-initiate-outbound-connections",
             "questions/red-team/when-attacking-weblogic-target-what-should-one-do-if-first-payload-blocked-by-waf-ip-banned",
@@ -47,9 +47,9 @@ module.exports = {
           ]
         },
         {
-          "type": "category",
-          "label": "Red Team Interview Experience",
-          "items": [
+          type: "category",
+          label: "Red Team Interview Experience",
+          items: [
             "questions/red-team-interview-experience/java-deserialisation-principle",
             "questions/red-team-interview-experience/how-can-you-determine-the-cause-of-sql-injection-vulnerability",
             "questions/red-team-interview-experience/what-is-the-principle-of-php-null-byte",
@@ -62,22 +62,22 @@ module.exports = {
           ]
         },
         {
-          "type": "category",
-          "label": "Red Team Interview Experience (Two Sets)",
-          "items": [
+          type: "category",
+          label: "Red Team Interview Experience (Two Sets)",
+          items: [
             "questions/red-team-interview-questions-two-sets/set-one",
             "questions/red-team-interview-questions-two-sets/set-two",
             "questions/red-team-interview-questions-two-sets/index"
           ]
         },
         {
-          "type": "category",
-          "label": "Network Security",
-          "link": {
-            "type": "doc",
-            "id": "questions/network-security-interview/important-protocol-stack-overview"
+          type: "category",
+          label: "Network Security",
+          link: {
+            type: "doc",
+            id: "questions/network-security-interview/important-protocol-stack-overview"
           },
-          "items": [
+          items: [
             "questions/network-security-interview/what-is-sql-injection-attack",
             "questions/network-security-interview/what-is-xss-cross-site-scripting-attack",
             "questions/network-security-interview/what-is-csrf-cross-site-request-forgery-attack",
@@ -176,20 +176,24 @@ module.exports = {
       ]
     },
     {
-      "type": "category",
-      "label": "Topics",
-      "items": [
+      type: "category",
+      label: "Topics",
+      link: {
+        type: "doc",
+        id: "topics/index"
+      },
+      items: [
         {
-          "type": "category",
-          "label": "Computer Networks",
-          "items": [
+          type: "category",
+          label: "Computer Networks",
+          items: [
             "topics/computer-networks/describe-osi-model-and-tcp-ip"
           ]
         },
         {
-          "type": "category",
-          "label": "Incident Response",
-          "items": [
+          type: "category",
+          label: "Incident Response",
+          items: [
             "topics/incident-response/commonly-used-threat-intelligence-platforms",
             "topics/incident-response/handle-false-positives-from-security-devices",
             "topics/incident-response/can-scanned-traffic-be-distinguished-from-manual-attack-traffic",
@@ -203,9 +207,9 @@ module.exports = {
           ]
         },
         {
-          "type": "category",
-          "label": "Internal Network Penetration",
-          "items": [
+          type: "category",
+          label: "Internal Network Penetration",
+          items: [
             "topics/internal-network-penetration/methods-for-lateral-movement-command-execution",
             "topics/internal-network-penetration/differences-between-psexec-wmic",
             "topics/internal-network-penetration/how-does-dcom-operate",
@@ -228,9 +232,9 @@ module.exports = {
           ]
         },
         {
-          "type": "category",
-          "label": "Systems",
-          "items": [
+          type: "category",
+          label: "Systems",
+          items: [
             "topics/systems/how-to-manually-determine-target-operating-system",
             "topics/systems/commands-used-to-view-open-ports-services-windows-linux",
             "topics/systems/default-log-directory-in-linux",
@@ -244,9 +248,9 @@ module.exports = {
           ]
         },
         {
-          "type": "category",
-          "label": "Tools",
-          "items": [
+          type: "category",
+          label: "Tools",
+          items: [
             "topics/tools/what-pentest-tools-do-you-use",
             "topics/tools/principle-prerequisite-for-sqlmap-os-shell",
             "topics/tools/which-tools-for-info-gathering",
@@ -256,9 +260,9 @@ module.exports = {
           ]
         },
         {
-          "type": "category",
-          "label": "Traceability and Traffic Analysis",
-          "items": [
+          type: "category",
+          label: "Traceability and Traffic Analysis",
+          items: [
             "topics/traceability-and-traffic-analysis/how-do-you-locate-the-attacking-ip-address",
             "topics/traceability-and-traffic-analysis/describe-thought-process-for-traffic-analysis-traceability-on-web-application-server-webshell-uploaded",
             "topics/traceability-and-traffic-analysis/what-are-some-basic-wireshark-display-filters",
@@ -268,9 +272,9 @@ module.exports = {
           ]
         },
         {
-          "type": "category",
-          "label": "Web Security",
-          "items": [
+          type: "category",
+          label: "Web Security",
+          items: [
             "topics/web-security/sql-injection",
             "topics/web-security/xxs",
             "topics/web-security/differences-between-xss-csrf-ssrf",
