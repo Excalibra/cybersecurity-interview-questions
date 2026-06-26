@@ -1,28 +1,29 @@
 # Cybersecurity Interview Questions
+## A Free, Open‑Source Collection for Red Team, Blue Team, Web Security, Incident Response & More
 
-[![Live Site](https://img.shields.io/badge/Read_Online-4CAF50?style=for-the-badge&logo=githubpages&logoColor=white)](https://excalibra.github.io/cybersecurity-interview-questions/)
 [![GitHub stars](https://img.shields.io/github/stars/Excalibra/cybersecurity-interview-questions?style=for-the-badge&color=FFD700)](https://github.com/Excalibra/cybersecurity-interview-questions/stargazers)
+[![Live Site](https://img.shields.io/badge/Read_Online-4CAF50?style=for-the-badge&logo=githubpages&logoColor=white)](https://excalibra.github.io/cybersecurity-interview-questions/)
 [![GitHub forks](https://img.shields.io/github/forks/Excalibra/cybersecurity-interview-questions?style=for-the-badge&color=4FC3F7)](https://github.com/Excalibra/cybersecurity-interview-questions/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/Excalibra/cybersecurity-interview-questions?style=for-the-badge&color=FF6B6B)](https://github.com/Excalibra/cybersecurity-interview-questions/issues)
 
 ---
 
-<img width="1280" height="1296" alt="image" src="https://github.com/user-attachments/assets/35df3648-54ed-4522-9e9b-0ac766a948f2" />
+<img width="1280" height="1296" alt="Cybersecurity Interview Questions – Homepage Preview" src="https://github.com/user-attachments/assets/35df3648-54ed-4522-9e9b-0ac766a948f2" />
 
 ---
 
 ## Overview
 
-A curated collection of **cybersecurity interview questions and answers** – built for anyone preparing for roles in:
+This repository is a **curated collection of cybersecurity interview questions and answers** – designed for anyone preparing for roles in:
 
-- Red Teaming / Penetration Testing
-- Blue Teaming / Defense & Security Operations
-- Incident Response
-- Web Security
-- Internal Network Security
-- Systems Hardening
+- **Red Teaming / Penetration Testing** – Exploitation, evasion, and persistence.
+- **Blue Teaming / Defense & Security Operations** – Detection, response, and hardening.
+- **Incident Response** – Threat intelligence, log analysis, and malware detection.
+- **Web Security** – SQLi, XSS, CSRF, SSRF, and file upload attacks.
+- **Internal Network Security** – Lateral movement, domain attacks, and tunneling.
+- **Systems Hardening** – Windows and Linux security, privilege escalation.
 
-> **No fluff.** Just questions, answers, and practical knowledge.
+> **No fluff.** Just practical questions, answers, and knowledge you can apply.
 
 ---
 
@@ -43,6 +44,7 @@ A curated collection of **cybersecurity interview questions and answers** – bu
 |:--------|:---------------|
 | **Red Team** | Exploitation, evasion, deserialization, WAF bypass, domain attacks, persistence |
 | **Red Team Interview Experience** | Real questions and lessons from actual interviews |
+| **Network Security** | ARP, DNS, TCP/UDP, DDoS, OSI model, routing protocols, firewalls, SSL/TLS |
 | **Web Security** | SQLi, XSS, CSRF, SSRF, deserialization, file uploads, logic flaws |
 | **Incident Response** | Threat intelligence, log analysis, malware detection, honeypots |
 | **Internal Network Penetration** | Lateral movement, domain controller attacks, golden/silver tickets, tunneling |
@@ -67,7 +69,7 @@ A curated collection of **cybersecurity interview questions and answers** – bu
 
 ## Roadmap: Blue Team / Defense Topics
 
-This project currently focuses on **Red Team** content, but **Blue Team** (defensive security) topics are actively being planned. Below is the public to-do list – contributions are welcome!
+This project currently focuses on **Red Team** content, but **Blue Team** (defensive security) topics are actively being planned. Below is the public to‑do list – contributions are welcome!
 
 ### Planned Blue Team Content
 
@@ -82,7 +84,6 @@ This project currently focuses on **Red Team** content, but **Blue Team** (defen
 - [ ] Zero Trust architecture and implementation
 - [ ] Identity and Access Management (IAM) – SSO, MFA, Entra ID, Okta
 
-
 > [!NOTE]
 > If you have specific Blue Team topics you'd like to see covered, please open an issue or submit a pull request.
 
@@ -90,8 +91,7 @@ This project currently focuses on **Red Team** content, but **Blue Team** (defen
 
 ## Preview
 
-<img width="1280" height="1296" alt="image" src="https://github.com/user-attachments/assets/406cbeb2-620e-48e7-865e-1eac4d3bf319" />
-
+<img width="1280" height="1296" alt="Content Preview" src="https://github.com/user-attachments/assets/406cbeb2-620e-48e7-865e-1eac4d3bf319" />
 
 ---
 
@@ -115,5 +115,5 @@ Open an [issue](https://github.com/Excalibra/cybersecurity-interview-questions/i
 ---
 
 <p align="center">
-  <strong>If this project helped you, consider starring the repository.</strong>
+  <strong>⭐ If this project helped you, please consider giving it a star. It helps others discover it too!</strong>
 </p>
