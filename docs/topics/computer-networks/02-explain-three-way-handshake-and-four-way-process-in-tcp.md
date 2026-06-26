@@ -1,0 +1,7 @@
+# 2. Explain the three-way handshake and four-way handshake processes in TCP. Why are they necessary?
+
+*Three-way handshake:* When a client wishes to connect to a server, it first sends a SYN packet (connection request) to the server, enquiring whether a connection can be established. If the server agrees, it replies with a SYN+ACK packet. Upon receipt, the client responds with an ACK packet, and the connection is established. Because three packets are exchanged, it is termed a three-way handshake.
+
+*Four-way handshake:* Either a connected client or server can initiate a connection close. Assuming the client initiates closure, it first sends a FIN packet to the server, indicating its intent to close the connection, and enters the FIN-WAIT-1 state (first wave). Upon receiving the FIN, the server sends an ACK packet, entering the CLOSE-WAIT state, while the client enters FIN-WAIT-2 (second wave). The server may still send remaining data, and the client may still receive data. Once all data has been sent, the server sends a FIN packet to the client and enters the LAST-ACK state (third wave). The client receives this, sends an ACK packet, and enters a TIME-WAIT state. After the timeout period, the connection is closed. The server closes the connection immediately upon receiving the ACK (fourth wave).
+
+*Reason:* To resolve the unreliability of the network channel and to establish a reliable connection over an inherently unreliable medium.
