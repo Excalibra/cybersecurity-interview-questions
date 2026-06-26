@@ -1,82 +1,85 @@
-{
-  "type": "category",
-  "label": "Questions",
-  "link": {
-    "type": "doc",
-    "id": "questions/index"
-  },
-  "items": [
+module.exports = {
+  "docs": [
+    "README",
     {
       "type": "category",
-      "label": "Red Team",
-      "items": [
-        "questions/red-team/how-to-bypass-waf-for-shiro",
-        "questions/red-team/how-to-determine-if-shiro-deserialisation-vulnerability-exists-if-target-cannot-initiate-outbound-connections",
-        "questions/red-team/when-attacking-weblogic-target-what-should-one-do-if-first-payload-blocked-by-waf-ip-banned",
-        "questions/red-team/principle-of-jboss-deserialisation",
-        "questions/red-team/weblogic-deserialisation-choose-vulnerability-and-explain-its-trigger-mechanism",
-        "questions/red-team/fastjson-deserialisation-vulnerability",
-        "questions/red-team/determine-fastjson-vulnerability-echo-is-dns-used-for-echo",
-        "questions/red-team/code-auditing-frameworks",
-        "questions/red-team/description-of-the-code-frameworks-of-enterprise-systems",
-        "questions/red-team/bypass-disable_functions-in-php",
-        "questions/red-team/how-would-you-exploit-cloud-host-with-no-internal-network-connection-cloud-internal-network",
-        "questions/red-team/how-to-attack-redis",
-        "questions/red-team/principle-of-bcel-exploitation-chain",
-        "questions/red-team/why-were-you-unable-to-capture-password-on-port-17010-after-restart",
-        "questions/red-team/how-can-you-enter-domain-and-locate-domain-controller",
-        "questions/red-team/how-to-bypass-xp_cmdshell-block-in-mssql-machine-that-runs-antivirus",
-        "questions/red-team/what-is-an-mssql-stored-procedure",
-        "questions/red-team/which-stored-procedure-permission-need-to-be-enabled-when-uploading-file-via-mssql",
-        "questions/red-team/how-to-perform-file-deployment-in-an-internal-network",
-        "questions/red-team/utilisatopm-conditions-in-ntlm-relay-with-adcs-vulnerability",
-        "questions/red-team/utilisation-conditions-of-adcs-privilege-escalation-vulnerability",
-        "questions/red-team/how-would-you-deepen-exploitation-after-obtaining-vcenter-credentials",
-        "questions/red-team/how-can-you-exploit-locked-state-after-obtaining-admin-password-for-vcenter",
-        "questions/red-team/how-should-you-maintain-persistence-if-360-crystal-core-mode-enabled",
-        "questions/red-team/what-is-the-problem-if-command-net-group-domain-admins-fails",
-        "questions/red-team/where-does-command-to-query-domain-admin-look-for-information",
-        "questions/red-team/how-can-one-bypass-domestic-antivirus-software-in-evasion",
-        "questions/red-team/do-you-directly-obtain-machine-permissions-then-start-scanning",
-        "questions/red-team/what-other-exploit-methods-exist-after-defenders-discover-your-activity",
-        "questions/red-team/how-to-exploit-compromised-host-via-phishing",
-        "questions/red-team/index"
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Red Team Interview Experience",
-      "items": [
-        "questions/red-team-interview-experience/java-deserialisation-principle",
-        "questions/red-team-interview-experience/how-can-you-determine-the-cause-of-sql-injection-vulnerability",
-        "questions/red-team-interview-experience/what-is-the-principle-of-php-null-byte",
-        "questions/red-team-interview-experience/why-do-aspx-webshells-have-higher-privileges-than-asp-webshells",
-        "questions/red-team-interview-experience/differences-between-mysql-5.0-and-above-vs-below-5.0-regarding-website-injection",
-        "questions/red-team-interview-experience/what-are-approaches-for-testing-dom-based-xxs",
-        "questions/red-team-interview-experience/what-is-memcache-unauthorised-access",
-        "questions/red-team-interview-experience/what-is-exploitation-principle-of-fastjson-vulnerability",
-        "questions/red-team-interview-experience/index"
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Red Team Interview Experience (Two Sets)",
-      "items": [
-        "questions/red-team-interview-questions-two-sets/set-one",
-        "questions/red-team-interview-questions-two-sets/set-two",
-        "questions/red-team-interview-questions-two-sets/index"
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Network Security",
+      "label": "Questions",
       "link": {
         "type": "doc",
-        "id": "questions/network-security-interview/important-protocol-stack-overview"
+        "id": "questions/index"
       },
       "items": [
-        "questions/network-security-interview/what-is-sql-injection-attack",
-        "questions/network-security-interview/what-is-xss-cross-site-scripting-attack",
+        {
+          "type": "category",
+          "label": "Red Team",
+          "items": [
+            "questions/red-team/how-to-bypass-waf-for-shiro",
+            "questions/red-team/how-to-determine-if-shiro-deserialisation-vulnerability-exists-if-target-cannot-initiate-outbound-connections",
+            "questions/red-team/when-attacking-weblogic-target-what-should-one-do-if-first-payload-blocked-by-waf-ip-banned",
+            "questions/red-team/principle-of-jboss-deserialisation",
+            "questions/red-team/weblogic-deserialisation-choose-vulnerability-and-explain-its-trigger-mechanism",
+            "questions/red-team/fastjson-deserialisation-vulnerability",
+            "questions/red-team/determine-fastjson-vulnerability-echo-is-dns-used-for-echo",
+            "questions/red-team/code-auditing-frameworks",
+            "questions/red-team/description-of-the-code-frameworks-of-enterprise-systems",
+            "questions/red-team/bypass-disable_functions-in-php",
+            "questions/red-team/how-would-you-exploit-cloud-host-with-no-internal-network-connection-cloud-internal-network",
+            "questions/red-team/how-to-attack-redis",
+            "questions/red-team/principle-of-bcel-exploitation-chain",
+            "questions/red-team/why-were-you-unable-to-capture-password-on-port-17010-after-restart",
+            "questions/red-team/how-can-you-enter-domain-and-locate-domain-controller",
+            "questions/red-team/how-to-bypass-xp_cmdshell-block-in-mssql-machine-that-runs-antivirus",
+            "questions/red-team/what-is-an-mssql-stored-procedure",
+            "questions/red-team/which-stored-procedure-permission-need-to-be-enabled-when-uploading-file-via-mssql",
+            "questions/red-team/how-to-perform-file-deployment-in-an-internal-network",
+            "questions/red-team/utilisatopm-conditions-in-ntlm-relay-with-adcs-vulnerability",
+            "questions/red-team/utilisation-conditions-of-adcs-privilege-escalation-vulnerability",
+            "questions/red-team/how-would-you-deepen-exploitation-after-obtaining-vcenter-credentials",
+            "questions/red-team/how-can-you-exploit-locked-state-after-obtaining-admin-password-for-vcenter",
+            "questions/red-team/how-should-you-maintain-persistence-if-360-crystal-core-mode-enabled",
+            "questions/red-team/what-is-the-problem-if-command-net-group-domain-admins-fails",
+            "questions/red-team/where-does-command-to-query-domain-admin-look-for-information",
+            "questions/red-team/how-can-one-bypass-domestic-antivirus-software-in-evasion",
+            "questions/red-team/do-you-directly-obtain-machine-permissions-then-start-scanning",
+            "questions/red-team/what-other-exploit-methods-exist-after-defenders-discover-your-activity",
+            "questions/red-team/how-to-exploit-compromised-host-via-phishing",
+            "questions/red-team/index"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Red Team Interview Experience",
+          "items": [
+            "questions/red-team-interview-experience/java-deserialisation-principle",
+            "questions/red-team-interview-experience/how-can-you-determine-the-cause-of-sql-injection-vulnerability",
+            "questions/red-team-interview-experience/what-is-the-principle-of-php-null-byte",
+            "questions/red-team-interview-experience/why-do-aspx-webshells-have-higher-privileges-than-asp-webshells",
+            "questions/red-team-interview-experience/differences-between-mysql-5.0-and-above-vs-below-5.0-regarding-website-injection",
+            "questions/red-team-interview-experience/what-are-approaches-for-testing-dom-based-xxs",
+            "questions/red-team-interview-experience/what-is-memcache-unauthorised-access",
+            "questions/red-team-interview-experience/what-is-exploitation-principle-of-fastjson-vulnerability",
+            "questions/red-team-interview-experience/index"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Red Team Interview Experience (Two Sets)",
+          "items": [
+            "questions/red-team-interview-questions-two-sets/set-one",
+            "questions/red-team-interview-questions-two-sets/set-two",
+            "questions/red-team-interview-questions-two-sets/index"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Network Security",
+          "link": {
+            "type": "doc",
+            "id": "questions/network-security-interview/important-protocol-stack-overview"
+          },
+          "items": [
+            "questions/network-security-interview/what-is-sql-injection-attack",
+            "questions/network-security-interview/what-is-xss-cross-site-scripting-attack",
             "questions/network-security-interview/what-is-csrf-cross-site-request-forgery-attack",
             "questions/network-security-interview/what-is-a-file-upload-vulnerability",
             "questions/network-security-interview/what-is-a-ddos-distributed-denial-of-service-attack",
