@@ -12,9 +12,10 @@ module.exports = {
         {
           type: "category",
           label: "Red Team",
-          link: { 
-            type: "doc", 
-            id: "questions/red-team/index" },
+          link: {
+            type: "doc",
+            id: "questions/red-team/index"
+          },
           items: [
             "questions/red-team/how-to-bypass-waf-for-shiro",
             "questions/red-team/how-to-determine-if-shiro-deserialisation-vulnerability-exists-if-target-cannot-initiate-outbound-connections",
@@ -46,14 +47,16 @@ module.exports = {
             "questions/red-team/do-you-directly-obtain-machine-permissions-then-start-scanning",
             "questions/red-team/what-other-exploit-methods-exist-after-defenders-discover-your-activity",
             "questions/red-team/how-to-exploit-compromised-host-via-phishing",
+            "questions/red-team/index"
           ]
         },
         {
           type: "category",
           label: "Red Team Interview Experience",
-          link: { 
-            type: "doc", 
-            id: "questions/red-team-interview-experience/index" },
+          link: {
+            type: "doc",
+            id: "questions/red-team-interview-experience/index"
+          },
           items: [
             "questions/red-team-interview-experience/java-deserialisation-principle",
             "questions/red-team-interview-experience/how-can-you-determine-the-cause-of-sql-injection-vulnerability",
@@ -63,17 +66,20 @@ module.exports = {
             "questions/red-team-interview-experience/what-are-approaches-for-testing-dom-based-xxs",
             "questions/red-team-interview-experience/what-is-memcache-unauthorised-access",
             "questions/red-team-interview-experience/what-is-exploitation-principle-of-fastjson-vulnerability",
+            "questions/red-team-interview-experience/index"
           ]
         },
         {
           type: "category",
           label: "Red Team Interview Experience (Two Sets)",
-          link: { 
-            type: "doc", 
-            id: "questions/red-team-interview-questions-two-sets/index" },
+          link: {
+            type: "doc",
+            id: "questions/red-team-interview-questions-two-sets/index"
+          },
           items: [
             "questions/red-team-interview-questions-two-sets/set-one",
             "questions/red-team-interview-questions-two-sets/set-two",
+            "questions/red-team-interview-questions-two-sets/index"
           ]
         },
         {
@@ -192,8 +198,18 @@ module.exports = {
         {
           type: "category",
           label: "Computer Networks",
+          link: {
+            type: "doc",
+            id: "topics/computer-networks/describe-osi-model-and-tcp-ip-architecture"
+          },
           items: [
-            "topics/computer-networks/describe-osi-model-and-tcp-ip"
+            "topics/computer-networks/describe-osi-model-and-tcp-ip-architecture",
+            "topics/computer-networks/explain-three-way-handshake-and-four-way-handshake",
+            "topics/computer-networks/what-is-private-ip-address-range-allocation",
+            "topics/computer-networks/what-are-differences-between-udp-and-tcp",
+            "topics/computer-networks/what-is-difference-between-forward-shell-and-reverse-shell",
+            "topics/computer-networks/what-is-difference-between-forward-proxy-and-reverse-proxy",
+            "topics/computer-networks/what-are-common-types-of-firewalls"
           ]
         },
         {
