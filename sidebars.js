@@ -12,6 +12,9 @@ module.exports = {
         {
           type: "category",
           label: "Red Team",
+          link: { 
+            type: "doc", 
+            id: "questions/red-team/index" },
           items: [
             "questions/red-team/how-to-bypass-waf-for-shiro",
             "questions/red-team/how-to-determine-if-shiro-deserialisation-vulnerability-exists-if-target-cannot-initiate-outbound-connections",
