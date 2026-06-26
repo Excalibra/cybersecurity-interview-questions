@@ -7,7 +7,7 @@ Browse curated interview questions organized by role and experience level:
 - [Red Team](/docs/questions/red-team)
 - [Red Team Interview Experience](/docs/questions/red-team-interview-experience)
 - [Red Team Interview Questions (Two Sets)](/docs/questions/red-team-interview-questions-two-sets)
-- [Network Security Interview](/docs/questions/network-security-interview)
+- [Network Security Interview](/docs/questions/network-security-interview/important-protocol-stack-overview)
 
 ## Topics
 Deep‑dive into foundational security topics:
