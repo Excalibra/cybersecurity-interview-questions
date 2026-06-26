@@ -1,4 +1,4 @@
-# Q: What are the seven layers of the OSI model?
+# Q: What are the seven layers of the OSI model? (Summary)
 
 **A:** The seven layers are:
 
