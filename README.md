@@ -8,7 +8,7 @@
 
 ---
 
-<img width="1280" height="1296" alt="Cybersecurity Interview Questions – Homepage Preview" src="https://github.com/user-attachments/assets/35df3648-54ed-4522-9e9b-0ac766a948f2" />
+<img width="1280" height="1296" alt="image" src="https://github.com/user-attachments/assets/1a85cf7e-303f-4088-b08c-1af98b52e94f" />
 
 ---
 
