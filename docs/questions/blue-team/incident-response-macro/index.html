@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-questions/blue-team/incident-response-macro" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.1">
+<title data-rh="true">Incident Response – Macro Questions | Cybersecurity Interview Questions</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://excalibra.github.io/cybersecurity-interview-questions/docs/questions/blue-team/incident-response-macro"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Incident Response – Macro Questions | Cybersecurity Interview Questions"><meta data-rh="true" name="description" content="Q: What is the basic incident response process?"><meta data-rh="true" property="og:description" content="Q: What is the basic incident response process?"><link data-rh="true" rel="icon" href="/cybersecurity-interview-questions/img/logo.svg"><link data-rh="true" rel="canonical" href="https://excalibra.github.io/cybersecurity-interview-questions/docs/questions/blue-team/incident-response-macro"><link data-rh="true" rel="alternate" href="https://excalibra.github.io/cybersecurity-interview-questions/docs/questions/blue-team/incident-response-macro" hreflang="en"><link data-rh="true" rel="alternate" href="https://excalibra.github.io/cybersecurity-interview-questions/docs/questions/blue-team/incident-response-macro" hreflang="x-default"><link rel="stylesheet" href="/cybersecurity-interview-questions/assets/css/styles.717376c8.css">
+<script src="/cybersecurity-interview-questions/assets/js/runtime~main.62495fac.js" defer="defer"></script>
+<script src="/cybersecurity-interview-questions/assets/js/main.3c92e4de.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/cybersecurity-interview-questions/"><div class="navbar__logo"><img src="/cybersecurity-interview-questions/img/logo.svg" alt="Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/cybersecurity-interview-questions/img/logo.svg" alt="Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Cybersecurity Interview Questions</b></a><a class="navbar__item navbar__link" href="/cybersecurity-interview-questions/docs/">Docs</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/Excalibra/cybersecurity-interview-questions" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><main class="docMainContainer_TBSr docMainContainerEnhanced_lQrH"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Incident Response – Macro Questions</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-the-basic-incident-response-process">Q: What is the basic incident response process?<a href="#q-what-is-the-basic-incident-response-process" class="hash-link" aria-label="Direct link to Q: What is the basic incident response process?" title="Direct link to Q: What is the basic incident response process?" translate="no">​</a></h2>
+<p><strong>A:</strong> The process typically follows these steps:</p>
+<ol>
+<li class=""><strong>Information Gathering:</strong> Collect customer information and host details, including samples.</li>
+<li class=""><strong>Type Determination:</strong> Determine whether a security incident has occurred and what type – ransomware, crypto-mining, network outage, DoS, etc.</li>
+<li class=""><strong>Containment:</strong> Isolate the affected systems to prevent the impact from spreading.</li>
+<li class=""><strong>In-Depth Analysis:</strong> Analyse logs, processes, startup items, and samples to facilitate later traceability.</li>
+<li class=""><strong>Clean-up and Disposal:</strong> Kill malicious processes, delete malicious files, apply patches, remove abnormal system services and backdoor accounts to prevent further escalation. Restore production after remediation.</li>
+<li class=""><strong>Report Generation:</strong> Compile and produce a comprehensive security incident report.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-the-approach-for-windows-intrusion-investigation">Q: What is the approach for Windows intrusion investigation?<a href="#q-what-is-the-approach-for-windows-intrusion-investigation" class="hash-link" aria-label="Direct link to Q: What is the approach for Windows intrusion investigation?" title="Direct link to Q: What is the approach for Windows intrusion investigation?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<ol>
+<li class=""><strong>Check System Account Security:</strong></li>
+</ol>
+<ul>
+<li class="">Check for weak passwords and whether remote management ports are exposed to the internet (using <code>netstat -ano</code> or by asking the server administrator).</li>
+<li class="">Use <code>lusrmgr.msc</code> to check for suspicious or newly created accounts. Disable or delete any new accounts in the <code>Administrators</code> group.</li>
+<li class="">Use tools like D-Shield or the Registry to check for hidden or cloned accounts.</li>
+<li class="">Analyse logs (Event Viewer → Windows Logs → Security) to identify anomalous login times or usernames.</li>
+</ul>
+<ol start="2">
+<li class=""><strong>Check Ports and Processes:</strong></li>
+</ol>
+<ul>
+<li class="">Use <code>netstat -ano</code> to check for remote or suspicious connections.</li>
+<li class="">Review processes in Task Manager.</li>
+</ul>
+<ol start="3">
+<li class="">
+<p><strong>Check Startup Items, Scheduled Tasks, and Services.</strong></p>
+</li>
+<li class="">
+<p><strong>Check System Information:</strong></p>
+</li>
+</ol>
+<ul>
+<li class="">Review system version and patch information.</li>
+<li class="">Search for suspicious directories and files.</li>
+</ul>
+<ol start="5">
+<li class=""><strong>Log Analysis.</strong></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-the-approach-for-linux-intrusion-investigation">Q: What is the approach for Linux intrusion investigation?<a href="#q-what-is-the-approach-for-linux-intrusion-investigation" class="hash-link" aria-label="Direct link to Q: What is the approach for Linux intrusion investigation?" title="Direct link to Q: What is the approach for Linux intrusion investigation?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<ol>
+<li class=""><strong>Account Security:</strong></li>
+</ol>
+<ul>
+<li class=""><code>who</code> – view currently logged-in users (tty for local, pts for remote).</li>
+<li class=""><code>w</code> – view system information and user behaviour.</li>
+<li class=""><code>uptime</code> – view how long the system has been running, number of users, and load.</li>
+<li class="">Examine <code>/etc/passwd</code> (user information) and <code>/etc/shadow</code> (password information) for anomalies.</li>
+<li class="">Check for accounts that have no password or are allowed to log in remotely without proper restrictions.</li>
+</ul>
+<ol start="2">
+<li class=""><strong>Command History:</strong></li>
+</ol>
+<ul>
+<li class="">Check root history via <code>history</code>.</li>
+<li class="">Check histories in <code>/home/*/.bash_history</code> for each user.</li>
+</ul>
+<ol start="3">
+<li class=""><strong>Check Ports:</strong></li>
+</ol>
+<ul>
+<li class=""><code>netstat -antlp | more</code> – list all connections and listening ports.</li>
+<li class="">Use <code>ls -l /proc/$PID/exe</code> or <code>file /proc/$PID/exe</code> to find the process file path.</li>
+</ul>
+<ol start="4">
+<li class=""><strong>Check Processes:</strong></li>
+</ol>
+<ul>
+<li class=""><code>ps aux | grep &lt;pid&gt;</code>.</li>
+</ul>
+<ol start="5">
+<li class=""><strong>Check Startup Items:</strong></li>
+</ol>
+<ul>
+<li class="">Check <code>/etc/rc.local</code>, <code>/etc/rc.d/rc[0~6].d</code>.</li>
+</ul>
+<ol start="6">
+<li class=""><strong>Check Scheduled Tasks (Cron):</strong></li>
+</ol>
+<ul>
+<li class=""><code>crontab -l</code> – list cron jobs.</li>
+<li class=""><code>crontab -r</code> – remove all cron jobs (use with caution).</li>
+<li class=""><code>crontab -e</code> – edit cron jobs.</li>
+<li class="">Check key locations: <code>/var/spool/cron/*</code>, <code>/etc/crontab</code>, <code>/etc/cron.d/*</code>, <code>/etc/cron.daily/*</code>, <code>/etc/cron.hourly/*</code>, <code>/etc/cron.monthly/*</code>, <code>/etc/cron.weekly/*</code>, <code>/etc/anacrontab</code>, <code>/var/spool/anacron/*</code>.</li>
+</ul>
+<ol start="7">
+<li class=""><strong>Check Services:</strong></li>
+</ol>
+<ul>
+<li class=""><code>chkconfig --list</code>.</li>
+</ul>
+<ol start="8">
+<li class="">
+<p><strong>Check Anomalous Files.</strong></p>
+</li>
+<li class="">
+<p><strong>Check System Logs:</strong></p>
+</li>
+</ol>
+<ul>
+<li class="">Default log location: <code>/var/log/</code>.</li>
+<li class="">Check login logs: <code>lastlog</code> (all users), <code>last</code> (recent logins), <code>who</code> (current sessions).</li>
+<li class=""><code>/var/log/wtmp</code> – successful logins, <code>/var/log/btmp</code> – failed logins, <code>/var/log/utmp</code> – current sessions.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-common-linux-baseline-security-standards">Q: What are common Linux baseline security standards?<a href="#q-what-are-common-linux-baseline-security-standards" class="hash-link" aria-label="Direct link to Q: What are common Linux baseline security standards?" title="Direct link to Q: What are common Linux baseline security standards?" translate="no">​</a></h2>
+<p><strong>A:</strong> Baseline security standards typically cover five areas:</p>
+<ol>
+<li class=""><strong>Account Management and Authorisation:</strong></li>
+</ol>
+<ul>
+<li class="">Check for special accounts, empty passwords, and root-privileged accounts.</li>
+<li class="">Disable or delete unused accounts.</li>
+<li class="">Enforce password policies (<code>/etc/login.defs</code>): set password expiration, minimum length (8 characters), and max age (30 days).</li>
+<li class="">Disable root remote login.</li>
+<li class="">Restrict <code>su</code> privilege escalation (e.g., to <code>wheel</code> group).</li>
+</ul>
+<ol start="2">
+<li class=""><strong>Services:</strong></li>
+</ol>
+<ul>
+<li class="">Disable unnecessary services.</li>
+<li class="">Secure SSH: <code>PermitRootLogin no</code>, use protocol version 2, set <code>MaxAuthTries 3</code>.</li>
+</ul>
+<ol start="3">
+<li class=""><strong>File System:</strong></li>
+</ol>
+<ul>
+<li class="">Set <code>umask 027</code> in <code>/etc/profile</code>.</li>
+<li class="">Set idle session timeout: <code>TMOUT=180</code>.</li>
+</ul>
+<ol start="4">
+<li class=""><strong>Logging:</strong></li>
+</ol>
+<ul>
+<li class="">Enable <code>syslogd</code>, configure log directory permissions and server.</li>
+<li class="">Log all user logins and operations.</li>
+</ul>
+<ol start="5">
+<li class=""><strong>IP Protocol Security:</strong></li>
+</ol>
+<ul>
+<li class="">Use SSH over Telnet.</li>
+<li class="">Configure <code>/etc/hosts.allow</code> and <code>/etc/hosts.deny</code>.</li>
+<li class="">Disable ICMP redirects and source routing.</li>
+<li class="">Use <code>iptables</code> and <code>denyhost</code> to prevent SSH brute-forcing.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-windows-baseline-security-standards">Q: What are Windows baseline security standards?<a href="#q-what-are-windows-baseline-security-standards" class="hash-link" aria-label="Direct link to Q: What are Windows baseline security standards?" title="Direct link to Q: What are Windows baseline security standards?" translate="no">​</a></h2>
+<p><strong>A:</strong> Windows baseline security standards cover five areas:</p>
+<ol>
+<li class=""><strong>Identity Authentication:</strong></li>
+</ol>
+<ul>
+<li class="">Change default accounts.</li>
+<li class="">Disable the Guest account.</li>
+<li class="">Enforce password complexity and minimum length (8 characters).</li>
+</ul>
+<ol start="2">
+<li class=""><strong>Access Control:</strong></li>
+</ol>
+<ul>
+<li class="">Check for shared accounts.</li>
+<li class="">Control remote and local shutdown authorisation.</li>
+</ul>
+<ol start="3">
+<li class=""><strong>Security Auditing:</strong></li>
+</ol>
+<ul>
+<li class="">Log user logins.</li>
+<li class="">Ensure log completeness.</li>
+<li class="">Enforce session timeouts.</li>
+</ul>
+<ol start="4">
+<li class=""><strong>Resource Control:</strong></li>
+</ol>
+<ul>
+<li class="">Session timeouts.</li>
+<li class="">Remote session timeouts.</li>
+</ul>
+<ol start="5">
+<li class=""><strong>Residual Information Protection:</strong></li>
+</ol>
+<ul>
+<li class="">Do not display the last username.</li>
+<li class="">Clear virtual memory before shutdown.</li>
+<li class="">Do not store passwords using reversible encryption.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-the-baseline-standards-for-middleware-eg-apache">Q: What are the baseline standards for middleware (e.g., Apache)?<a href="#q-what-are-the-baseline-standards-for-middleware-eg-apache" class="hash-link" aria-label="Direct link to Q: What are the baseline standards for middleware (e.g., Apache)?" title="Direct link to Q: What are the baseline standards for middleware (e.g., Apache)?" translate="no">​</a></h2>
+<p><strong>A:</strong> Middleware baseline standards include:</p>
+<ul>
+<li class=""><strong>Configuration:</strong> Account management, authorisation, logging, session timeout (to prevent DoS), and binding IP addresses.</li>
+<li class=""><strong>Prohibitions:</strong> Restrict directory permissions, access to external files, CGI, and dangerous HTTP methods (PUT, DELETE).</li>
+<li class=""><strong>Hiding:</strong> Hide server version numbers and redirect error pages.</li>
+<li class=""><strong>Deletion:</strong> Remove default configuration files and unnecessary installation files.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-common-middleware-vulnerabilities">Q: What are common middleware vulnerabilities?<a href="#q-what-are-common-middleware-vulnerabilities" class="hash-link" aria-label="Direct link to Q: What are common middleware vulnerabilities?" title="Direct link to Q: What are common middleware vulnerabilities?" translate="no">​</a></h2>
+<p><strong>A:</strong> Common middleware vulnerabilities include:</p>
+<p><strong>IIS:</strong></p>
+<ul>
+<li class="">PUT vulnerability</li>
+<li class="">Short filename disclosure</li>
+<li class="">Remote code execution</li>
+<li class="">Parsing vulnerability</li>
+</ul>
+<p><strong>Apache:</strong></p>
+<ul>
+<li class="">Parsing vulnerability</li>
+<li class="">Directory traversal</li>
+</ul>
+<p><strong>Nginx:</strong></p>
+<ul>
+<li class="">File parsing vulnerability</li>
+<li class="">Directory traversal</li>
+<li class="">CRLF injection</li>
+<li class="">Directory traversal</li>
+</ul>
+<p><strong>Tomcat:</strong></p>
+<ul>
+<li class="">Remote code execution</li>
+<li class="">WAR backdoor deployment</li>
+</ul>
+<p><strong>JBoss:</strong></p>
+<ul>
+<li class="">Deserialisation vulnerability</li>
+<li class="">WAR backdoor deployment</li>
+</ul>
+<p><strong>WebLogic:</strong></p>
+<ul>
+<li class="">Deserialisation vulnerability</li>
+<li class="">SSRF</li>
+<li class="">Arbitrary file upload</li>
+<li class="">WAR backdoor deployment</li>
+</ul>
+<p><strong>Others:</strong></p>
+<ul>
+<li class="">FastCGI unauthorised access and command execution</li>
+<li class="">PHPCGI remote code execution</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-the-key-considerations-for-securing-iis-and-linux-servers">Q: What are the key considerations for securing IIS and Linux servers?<a href="#q-what-are-the-key-considerations-for-securing-iis-and-linux-servers" class="hash-link" aria-label="Direct link to Q: What are the key considerations for securing IIS and Linux servers?" title="Direct link to Q: What are the key considerations for securing IIS and Linux servers?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>IIS Server Protection:</strong></p>
+<ul>
+<li class="">Keep Windows updated.</li>
+<li class="">Use IIS protection tools.</li>
+<li class="">Remove the default website.</li>
+<li class="">Uninstall FTP and SMTP if not needed.</li>
+<li class="">Regularly check administrator groups and services.</li>
+<li class="">Control server write access.</li>
+<li class="">Set strong passwords.</li>
+<li class="">Disable NetBIOS over TCP/IP.</li>
+<li class="">Block TCP ports.</li>
+<li class="">Monitor <code>.bat</code> and <code>.exe</code> files weekly.</li>
+<li class="">Manage IIS directory security.</li>
+<li class="">Use NTFS security.</li>
+<li class="">Manage user accounts.</li>
+<li class="">Audit the web server.</li>
+</ul>
+<p><strong>Linux System Hardening:</strong></p>
+<ul>
+<li class="">Close unnecessary services.</li>
+<li class="">Change the default SSH port.</li>
+<li class="">Disable root SSH login.</li>
+<li class="">Restrict <code>su</code> command usage.</li>
+<li class="">Enforce password complexity.</li>
+<li class="">Restrict password reuse.</li>
+<li class="">Check for empty password accounts.</li>
+<li class="">Disable Ctrl+Alt+Del reboot.</li>
+<li class="">Disable Telnet service.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-some-common-framework-and-command-injection-vulnerabilities">Q: What are some common framework and command injection vulnerabilities?<a href="#q-what-are-some-common-framework-and-command-injection-vulnerabilities" class="hash-link" aria-label="Direct link to Q: What are some common framework and command injection vulnerabilities?" title="Direct link to Q: What are some common framework and command injection vulnerabilities?" translate="no">​</a></h2>
+<p><strong>A:</strong> Common vulnerabilities include:</p>
+<ul>
+<li class=""><strong>Struts2:</strong> OGNL injection.</li>
+<li class=""><strong>WebLogic:</strong> Deserialisation vulnerabilities.</li>
+<li class=""><strong>Fastjson:</strong> Deserialisation vulnerabilities.</li>
+<li class=""><strong>ThinkPHP5:</strong> Remote code execution.</li>
+<li class=""><strong>Laravel:</strong> Debug mode remote code execution (CVE-2021-3129).</li>
+<li class=""><strong>Spring:</strong> SPEL expression injection, Spring Security Oauth2 remote code execution.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-common-security-tools-and-devices">Q: What are common security tools and devices?<a href="#q-what-are-common-security-tools-and-devices" class="hash-link" aria-label="Direct link to Q: What are common security tools and devices?" title="Direct link to Q: What are common security tools and devices?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>Tools:</strong></p>
+<ul>
+<li class=""><strong>Port &amp; Vulnerability Scanning:</strong> Nmap, Masscan.</li>
+<li class=""><strong>Packet Capture:</strong> Wireshark, Burp Suite, Fiddler, HttpCanary.</li>
+<li class=""><strong>Web Automated Security Scanning:</strong> Nessus, AWVS, AppScan, Xray.</li>
+<li class=""><strong>Information Gathering:</strong> Oneforall, Hole.</li>
+<li class=""><strong>Exploitation:</strong> Metasploit, Cobalt Strike.</li>
+<li class=""><strong>Webshell Management:</strong> China Chopper, AntSword, Behinder, Godzilla.</li>
+</ul>
+<p><strong>Devices:</strong></p>
+<ul>
+<li class=""><strong>NGAF/NGFW:</strong> Next-Generation Web Application Firewall.</li>
+<li class=""><strong>IDS:</strong> Host-based (HIDS) and Network-based (NIDS) Intrusion Detection Systems.</li>
+<li class=""><strong>IPS:</strong> Intrusion Prevention System.</li>
+<li class=""><strong>AV:</strong> Antivirus.</li>
+<li class=""><strong>EDR:</strong> Endpoint Detection and Response.</li>
+<li class=""><strong>SAS:</strong> Bastion host / jump server.</li>
+<li class=""><strong>DAS:</strong> Database Security Audit Platform.</li>
+<li class=""><strong>LAS:</strong> Log Audit Security Platform.</li>
+<li class=""><strong>AC:</strong> Access Control / Web Filtering.</li>
+<li class=""><strong>Honeypot / Deception System.</strong></li>
+<li class=""><strong>SIP:</strong> Security Information Platform (Situational Awareness).</li>
+</ul>
+<p><strong>Cloud Security Components:</strong></p>
+<ul>
+<li class="">Cloud host security.</li>
+<li class="">Cloud firewall.</li>
+<li class="">Cloud bastion host.</li>
+<li class="">Cloud honeypot.</li>
+<li class="">Cloud DDoS protection.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-your-experience-with-vulnerability-databases">Q: What is your experience with vulnerability databases?<a href="#q-what-is-your-experience-with-vulnerability-databases" class="hash-link" aria-label="Direct link to Q: What is your experience with vulnerability databases?" title="Direct link to Q: What is your experience with vulnerability databases?" translate="no">​</a></h2>
+<p><strong>A:</strong> As a security service engineer, my work has included:</p>
+<ul>
+<li class="">Conducting penetration testing, local services, and security exercises.</li>
+<li class="">Performing detailed penetration tests on client assets.</li>
+<li class="">Reporting vulnerabilities immediately upon discovery so clients can remediate promptly.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-the-typical-groups-and-process-flow-for-large-scale-security-exercises">Q: What are the typical groups and process flow for large-scale security exercises?<a href="#q-what-are-the-typical-groups-and-process-flow-for-large-scale-security-exercises" class="hash-link" aria-label="Direct link to Q: What are the typical groups and process flow for large-scale security exercises?" title="Direct link to Q: What are the typical groups and process flow for large-scale security exercises?" translate="no">​</a></h2>
+<p><strong>A:</strong> The groups are typically structured with:</p>
+<ul>
+<li class=""><strong>Protection/Detection Group</strong></li>
+<li class=""><strong>Comprehensive Analysis and Judgement Group</strong></li>
+<li class=""><strong>Emergency Traceability Group</strong></li>
+</ul>
+<p>The process flow has three phases:</p>
+<ol>
+<li class=""><strong>Preparation Phase:</strong></li>
+</ol>
+<ul>
+<li class="">Reduce the attack surface (asset inventory, reducing exposure).</li>
+<li class="">Identify risks (vulnerability scanning, penetration testing, weak password checks).</li>
+</ul>
+<ol start="2">
+<li class=""><strong>Pre-War Phase:</strong></li>
+</ol>
+<ul>
+<li class="">Conduct internal drills to find and fix gaps.</li>
+<li class="">Consider adding security devices (WAF, IPS, IDS, SOC, bastion host, etc.).</li>
+</ul>
+<ol start="3">
+<li class=""><strong>Combat Phase:</strong></li>
+</ol>
+<ul>
+<li class="">Monitor, report, and escalate issues.</li>
+<li class="">Follow instructions, optimise defence, and continuously remediate.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-can-you-describe-your-experience-in-a-blue-team-role-during-a-security-exercise">Q: Can you describe your experience in a Blue Team role during a security exercise?<a href="#q-can-you-describe-your-experience-in-a-blue-team-role-during-a-security-exercise" class="hash-link" aria-label="Direct link to Q: Can you describe your experience in a Blue Team role during a security exercise?" title="Direct link to Q: Can you describe your experience in a Blue Team role during a security exercise?" translate="no">​</a></h2>
+<p><strong>A:</strong> I participated as a Blue Team member, primarily responsible for incident analysis using IPS and IDS for traffic monitoring and log analysis to determine whether security events were false positives.</p>
+<p><strong>Key tasks included:</strong></p>
+<ul>
+<li class="">Monitoring, analysis, response, and traceability.</li>
+<li class="">Investigating and responding to situational awareness alerts.</li>
+<li class="">Processing block/unblock requests.</li>
+<li class="">Providing regular status updates and device health reports.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-the-approach-for-blue-team-analysis-and-judgement">Q: What is the approach for Blue Team analysis and judgement?<a href="#q-what-is-the-approach-for-blue-team-analysis-and-judgement" class="hash-link" aria-label="Direct link to Q: What is the approach for Blue Team analysis and judgement?" title="Direct link to Q: What is the approach for Blue Team analysis and judgement?" translate="no">​</a></h2>
+<p><strong>A:</strong> The analysis and judgement process involves:</p>
+<ol>
+<li class=""><strong>Leveraging Existing Security Devices:</strong> Understanding the customer&#x27;s network topology and deployed equipment.</li>
+<li class=""><strong>Analysing Recent Alerts:</strong> Filtering logs (source IP, destination IP, port, event name, time, rule ID, occurrence count) based on judgement criteria.</li>
+<li class=""><strong>Filtering Events:</strong> Excluding likely non-malicious events (e.g., crypto-mining, worms, viruses, DoS).</li>
+<li class=""><strong>Checking Threat Intelligence:</strong> Using platforms like ThreatBook, VirusTotal, or other threat intelligence feeds to analyse source IP addresses.</li>
+<li class=""><strong>Validating Internal Assets:</strong> Checking if the IP belongs to the customer&#x27;s internal network.</li>
+<li class=""><strong>Checking for Duplicate Reports:</strong> Verifying if others have already reported the event.</li>
+<li class=""><strong>Analysing Traffic:</strong> Examining request and response packets for false positives (paying attention to <code>X-Forwarded-For</code> and <code>x-real-ip</code> headers).</li>
+<li class=""><strong>Submitting Reports:</strong> Providing complete screenshots (source IP, destination IP, request packets, response packets) for traceability.</li>
+</ol>
+<blockquote>
+<p><strong>Note:</strong> Do not ignore internal network alerts; extend the investigation time window if necessary.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-the-detection-and-response-approach-for-sql-injection">Q: What is the detection and response approach for SQL injection?<a href="#q-what-is-the-detection-and-response-approach-for-sql-injection" class="hash-link" aria-label="Direct link to Q: What is the detection and response approach for SQL injection?" title="Direct link to Q: What is the detection and response approach for SQL injection?" translate="no">​</a></h2>
+<p><strong>A:</strong> SQL injection attack detection can be performed before or after an incident:</p>
+<ul>
+<li class=""><strong>Pre-Attack:</strong> Detect and block malicious payloads before they reach the database.</li>
+<li class=""><strong>Post-Attack:</strong> Examine database, application, and web server logs (e.g., IIS logs).</li>
+</ul>
+<p>Traditional detection methods use rule-based signature matching. More modern approaches use machine learning to detect SQL injection patterns.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-the-response-and-prevention-approach-for-ddos-and-cc-attacks">Q: What is the response and prevention approach for DDoS and CC attacks?<a href="#q-what-is-the-response-and-prevention-approach-for-ddos-and-cc-attacks" class="hash-link" aria-label="Direct link to Q: What is the response and prevention approach for DDoS and CC attacks?" title="Direct link to Q: What is the response and prevention approach for DDoS and CC attacks?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>DDoS Mitigation (Layer 3/4):</strong></p>
+<ul>
+<li class="">Drop the first SYN packet.</li>
+<li class="">Deploy traffic scrubbing devices.</li>
+<li class="">Use a WAF to block offending IP addresses.</li>
+</ul>
+<p><strong>CC Attack Mitigation (Layer 7):</strong></p>
+<ul>
+<li class="">Optimise resource-intensive code.</li>
+<li class="">Add hardware capacity.</li>
+<li class="">Move to the cloud.</li>
+<li class="">Purchase professional DDoS protection services.</li>
+<li class="">Hide the real server IP, use cloud WAF, CDN, or load balancing.</li>
+<li class="">Temporarily redirect DNS to a safe site (e.g., law enforcement).</li>
+</ul>
+<p><strong>Preventative Measures:</strong></p>
+<ul>
+<li class="">Patch system vulnerabilities.</li>
+<li class="">Optimise system resources.</li>
+<li class="">Filter unnecessary services and ports.</li>
+<li class="">Restrict specific traffic based on source.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-how-do-you-detect-investigate-and-remove-crypto-mining-malware">Q: How do you detect, investigate, and remove crypto-mining malware?<a href="#q-how-do-you-detect-investigate-and-remove-crypto-mining-malware" class="hash-link" aria-label="Direct link to Q: How do you detect, investigate, and remove crypto-mining malware?" title="Direct link to Q: How do you detect, investigate, and remove crypto-mining malware?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>Symptoms:</strong></p>
+<ul>
+<li class="">Slow system response.</li>
+<li class="">High CPU/GPU usage.</li>
+<li class="">High memory/bandwidth consumption.</li>
+</ul>
+<p><strong>Detection:</strong></p>
+<ul>
+<li class="">Check processes (system commands may be replaced).</li>
+<li class="">Examine logs and system users.</li>
+<li class="">Look for anomalous files.</li>
+</ul>
+<p><strong>Common Entry Vectors:</strong></p>
+<ul>
+<li class="">Unauthorised access or weak credentials (Redis, Docker, Hadoop Yarn, NFS, PostgreSQL, Tomcat, SSH, Telnet, RDP).</li>
+<li class="">Remote command execution vulnerabilities (WebLogic, Jenkins, Jboss, Spring, ElasticSearch, EternalBlue, Struts2).</li>
+<li class="">Newly disclosed critical vulnerabilities.</li>
+</ul>
+<p><strong>Removal Steps:</strong></p>
+<ol>
+<li class=""><strong>Isolate the Host:</strong> Prevent worm-like propagation within the network.</li>
+<li class=""><strong>Block Communication:</strong> Use <code>iptables</code> to block communication with mining pools.</li>
+<li class=""><strong>Clear Scheduled Tasks:</strong> Remove cron jobs that re-download or execute mining scripts.</li>
+<li class=""><strong>Clear Startup Items:</strong> Check and remove malicious startup entries.</li>
+<li class=""><strong>Kill Processes:</strong> Terminate the mining processes (first kill any daemon processes).</li>
+<li class=""><strong>Remove SSH Keys:</strong> Delete any suspicious <code>authorized_keys</code> files.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-the-process-if-a-server-has-a-webshell">Q: What is the process if a server has a webshell?<a href="#q-what-is-the-process-if-a-server-has-a-webshell" class="hash-link" aria-label="Direct link to Q: What is the process if a server has a webshell?" title="Direct link to Q: What is the process if a server has a webshell?" translate="no">​</a></h2>
+<p><strong>A:</strong> If a server is found to have a webshell:</p>
+<ol>
+<li class=""><strong>Isolate the Host:</strong> Prevent the attacker from using it as a pivot.</li>
+<li class=""><strong>Scope the Incident:</strong> Determine the webshell file&#x27;s creation time and take a sample.</li>
+<li class=""><strong>Trace the Attack:</strong> Use the creation time to analyse logs and identify the vulnerability and user account used.</li>
+<li class=""><strong>Clean-up:</strong> Remove the webshell and any other malicious files.</li>
+<li class=""><strong>Remediate:</strong> Patch the vulnerability.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-commands-are-used-to-detect-webshells">Q: What commands are used to detect webshells?<a href="#q-what-commands-are-used-to-detect-webshells" class="hash-link" aria-label="Direct link to Q: What commands are used to detect webshells?" title="Direct link to Q: What commands are used to detect webshells?" translate="no">​</a></h2>
+<p><strong>A:</strong> The <code>find</code> command is commonly used. For example:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">find /var/www/html -name &quot;*.php&quot; | xargs egrep &#x27;assert|eval|phpinfo\(\)|base64_decode|shell_exec|passthru|file_put_contents&#x27;</span><br></div></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-the-methods-for-detecting-webshells">Q: What are the methods for detecting webshells?<a href="#q-what-are-the-methods-for-detecting-webshells" class="hash-link" aria-label="Direct link to Q: What are the methods for detecting webshells?" title="Direct link to Q: What are the methods for detecting webshells?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>Host-Level Detection:</strong></p>
+<ul>
+<li class=""><strong>Static Detection:</strong> Signature-based scanning for known webshell patterns, functions, and values.</li>
+<li class=""><strong>Dynamic Detection:</strong> Monitoring system calls, file operations, and database activity.</li>
+<li class=""><strong>Log Analysis:</strong> Checking web logs for accesses and data submissions to suspicious pages.</li>
+<li class=""><strong>Syntax Analysis:</strong> Parsing code to identify dangerous functions and variable usage.</li>
+</ul>
+<p><strong>Traffic-Level Detection:</strong></p>
+<ul>
+<li class=""><strong>China Chopper:</strong> Uses URL encoding and Base64, parameter <code>z0</code>, and the string <code>ini_set(&quot;display_errors&quot;,&quot;0&quot;)</code>.</li>
+<li class=""><strong>AntSword:</strong> Two requests with URL-encoded payloads; one to disable error reporting and fetch system info, another to list directories.</li>
+<li class=""><strong>Behinder v2.0:</strong> Uses AES encryption; three requests for key exchange and communication.</li>
+<li class=""><strong>Behinder v3.0:</strong> Uses AES encryption; two requests, using an MD5 of the password as the key.</li>
+<li class=""><strong>Godzilla:</strong> Supports multiple encryption methods; three requests for session establishment and confirmation.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-common-ports-and-their-associated-vulnerabilities">Q: What are common ports and their associated vulnerabilities?<a href="#q-what-are-common-ports-and-their-associated-vulnerabilities" class="hash-link" aria-label="Direct link to Q: What are common ports and their associated vulnerabilities?" title="Direct link to Q: What are common ports and their associated vulnerabilities?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>Database Ports (Weak Passwords):</strong></p>
+<ul>
+<li class="">1433: MSSQL</li>
+<li class="">1521: Oracle</li>
+<li class="">3306: MySQL</li>
+<li class="">5432: PostgreSQL</li>
+</ul>
+<p><strong>Special Services (Unauthorised Access / Command Execution):</strong></p>
+<ul>
+<li class="">443: SSL Heartbleed</li>
+<li class="">873: Rsync unauthorised</li>
+<li class="">5984: CouchDB</li>
+<li class="">6379: Redis unauthorised</li>
+<li class="">7001/7002: WebLogic default credentials</li>
+<li class="">8088: Hadoop Yarn unauthorised</li>
+<li class="">8161: Apache ActiveMQ unauthorised</li>
+<li class="">9200/9300: Elasticsearch command execution</li>
+<li class="">11211: Memcache unauthorised</li>
+<li class="">27017/27018: MongoDB unauthorised</li>
+<li class="">50000: SAP command execution</li>
+<li class="">50070/50030: Hadoop unauthorised</li>
+</ul>
+<p><strong>Common Service Ports (Weak Passwords / Brute Force):</strong></p>
+<ul>
+<li class="">21: FTP</li>
+<li class="">25: SMTP</li>
+<li class="">23: Telnet</li>
+<li class="">22: SSH</li>
+<li class="">53: DNS</li>
+<li class="">139: NetBIOS Session Service</li>
+<li class="">445: SMB (EternalBlue, EternalRomance, IPC$ attacks)</li>
+<li class="">2601/2604: Zebra (default password: zebra)</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-the-tcp-three-way-handshake-and-four-way-wave">Q: What is the TCP three-way handshake and four-way wave?<a href="#q-what-is-the-tcp-three-way-handshake-and-four-way-wave" class="hash-link" aria-label="Direct link to Q: What is the TCP three-way handshake and four-way wave?" title="Direct link to Q: What is the TCP three-way handshake and four-way wave?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>Three-Way Handshake (Establishing a Connection):</strong></p>
+<ol>
+<li class="">The client sends a SYN packet and enters the <code>SYN_SENT</code> state.</li>
+<li class="">The server responds with a SYN+ACK packet and enters <code>SYN_RCVD</code>.</li>
+<li class="">The client sends an ACK packet; both parties enter the <code>ESTABLISHED</code> state.</li>
+</ol>
+<p><strong>Four-Way Wave (Terminating a Connection):</strong></p>
+<ol>
+<li class="">The client sends a FIN packet and enters <code>FIN_WAIT_1</code>.</li>
+<li class="">The server responds with an ACK and enters <code>CLOSE_WAIT</code>.</li>
+<li class="">The server sends a FIN packet and enters <code>LAST_ACK</code>.</li>
+<li class="">The client sends an ACK and enters <code>TIME_WAIT</code>; the server enters <code>CLOSED</code>.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-how-would-you-respond-if-a-widely-impactful-0-day-vulnerability-is-disclosed">Q: How would you respond if a widely impactful 0-day vulnerability is disclosed?<a href="#q-how-would-you-respond-if-a-widely-impactful-0-day-vulnerability-is-disclosed" class="hash-link" aria-label="Direct link to Q: How would you respond if a widely impactful 0-day vulnerability is disclosed?" title="Direct link to Q: How would you respond if a widely impactful 0-day vulnerability is disclosed?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<ol>
+<li class=""><strong>Assess Impact:</strong> Evaluate the vulnerability&#x27;s exploitability (attack vector, required interactions, CIA impact, availability of PoC, and whether affected systems are exposed to the internet).</li>
+<li class=""><strong>Develop Detection:</strong> If a PoC is available, analyse what traces it leaves (e.g., Windows event ID 4769 for NTLM relay) and write detection rules for your SIEM or log analysis platform.</li>
+<li class=""><strong>Establish a Defence:</strong> Use your layered security architecture to detect and respond to attacks.</li>
+<li class=""><strong>Monitor and Adapt:</strong> Continuously monitor for exploitation attempts and adjust defences accordingly.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-how-do-you-detect-if-a-server-has-been-compromised">Q: How do you detect if a server has been compromised?<a href="#q-how-do-you-detect-if-a-server-has-been-compromised" class="hash-link" aria-label="Direct link to Q: How do you detect if a server has been compromised?" title="Direct link to Q: How do you detect if a server has been compromised?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>For a Website:</strong></p>
+<ul>
+<li class="">Redirected to malicious sites.</li>
+<li class="">Homepage defacement.</li>
+<li class="">Baidu snapshot altered.</li>
+<li class="">Webshell detection.</li>
+<li class="">DDoS/CC attack.</li>
+</ul>
+<p><strong>For a Server:</strong></p>
+<ul>
+<li class="">Trojan/malware infection.</li>
+<li class="">Administrator password changed.</li>
+<li class="">Unauthorised remote control.</li>
+<li class="">Unexpected outbound traffic.</li>
+<li class="">DoS/DDoS attack.</li>
+</ul>
+<p><strong>General:</strong></p>
+<ul>
+<li class="">Analyse login records, system logs, and web logs.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-the-steps-for-server-os-security-hardening">Q: What are the steps for server OS security hardening?<a href="#q-what-are-the-steps-for-server-os-security-hardening" class="hash-link" aria-label="Direct link to Q: What are the steps for server OS security hardening?" title="Direct link to Q: What are the steps for server OS security hardening?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<ol>
+<li class=""><strong>Stop Unnecessary Software:</strong> Prevent potential entry points.</li>
+<li class=""><strong>Patch Management:</strong> Stay informed about vulnerabilities, apply patches, and test them.</li>
+<li class=""><strong>Restrict Ports and Services:</strong> Limit access to externally facing services.</li>
+<li class=""><strong>Strengthen Authentication:</strong> Enforce strong passwords and multi-factor authentication.</li>
+</ol></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/Excalibra/cybersecurity-interview-questions/edit/main/docs/questions/blue-team/01-incident-response-macro.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#q-what-is-the-basic-incident-response-process" class="table-of-contents__link toc-highlight">Q: What is the basic incident response process?</a></li><li><a href="#q-what-is-the-approach-for-windows-intrusion-investigation" class="table-of-contents__link toc-highlight">Q: What is the approach for Windows intrusion investigation?</a></li><li><a href="#q-what-is-the-approach-for-linux-intrusion-investigation" class="table-of-contents__link toc-highlight">Q: What is the approach for Linux intrusion investigation?</a></li><li><a href="#q-what-are-common-linux-baseline-security-standards" class="table-of-contents__link toc-highlight">Q: What are common Linux baseline security standards?</a></li><li><a href="#q-what-are-windows-baseline-security-standards" class="table-of-contents__link toc-highlight">Q: What are Windows baseline security standards?</a></li><li><a href="#q-what-are-the-baseline-standards-for-middleware-eg-apache" class="table-of-contents__link toc-highlight">Q: What are the baseline standards for middleware (e.g., Apache)?</a></li><li><a href="#q-what-are-common-middleware-vulnerabilities" class="table-of-contents__link toc-highlight">Q: What are common middleware vulnerabilities?</a></li><li><a href="#q-what-are-the-key-considerations-for-securing-iis-and-linux-servers" class="table-of-contents__link toc-highlight">Q: What are the key considerations for securing IIS and Linux servers?</a></li><li><a href="#q-what-are-some-common-framework-and-command-injection-vulnerabilities" class="table-of-contents__link toc-highlight">Q: What are some common framework and command injection vulnerabilities?</a></li><li><a href="#q-what-are-common-security-tools-and-devices" class="table-of-contents__link toc-highlight">Q: What are common security tools and devices?</a></li><li><a href="#q-what-is-your-experience-with-vulnerability-databases" class="table-of-contents__link toc-highlight">Q: What is your experience with vulnerability databases?</a></li><li><a href="#q-what-are-the-typical-groups-and-process-flow-for-large-scale-security-exercises" class="table-of-contents__link toc-highlight">Q: What are the typical groups and process flow for large-scale security exercises?</a></li><li><a href="#q-can-you-describe-your-experience-in-a-blue-team-role-during-a-security-exercise" class="table-of-contents__link toc-highlight">Q: Can you describe your experience in a Blue Team role during a security exercise?</a></li><li><a href="#q-what-is-the-approach-for-blue-team-analysis-and-judgement" class="table-of-contents__link toc-highlight">Q: What is the approach for Blue Team analysis and judgement?</a></li><li><a href="#q-what-is-the-detection-and-response-approach-for-sql-injection" class="table-of-contents__link toc-highlight">Q: What is the detection and response approach for SQL injection?</a></li><li><a href="#q-what-is-the-response-and-prevention-approach-for-ddos-and-cc-attacks" class="table-of-contents__link toc-highlight">Q: What is the response and prevention approach for DDoS and CC attacks?</a></li><li><a href="#q-how-do-you-detect-investigate-and-remove-crypto-mining-malware" class="table-of-contents__link toc-highlight">Q: How do you detect, investigate, and remove crypto-mining malware?</a></li><li><a href="#q-what-is-the-process-if-a-server-has-a-webshell" class="table-of-contents__link toc-highlight">Q: What is the process if a server has a webshell?</a></li><li><a href="#q-what-commands-are-used-to-detect-webshells" class="table-of-contents__link toc-highlight">Q: What commands are used to detect webshells?</a></li><li><a href="#q-what-are-the-methods-for-detecting-webshells" class="table-of-contents__link toc-highlight">Q: What are the methods for detecting webshells?</a></li><li><a href="#q-what-are-common-ports-and-their-associated-vulnerabilities" class="table-of-contents__link toc-highlight">Q: What are common ports and their associated vulnerabilities?</a></li><li><a href="#q-what-is-the-tcp-three-way-handshake-and-four-way-wave" class="table-of-contents__link toc-highlight">Q: What is the TCP three-way handshake and four-way wave?</a></li><li><a href="#q-how-would-you-respond-if-a-widely-impactful-0-day-vulnerability-is-disclosed" class="table-of-contents__link toc-highlight">Q: How would you respond if a widely impactful 0-day vulnerability is disclosed?</a></li><li><a href="#q-how-do-you-detect-if-a-server-has-been-compromised" class="table-of-contents__link toc-highlight">Q: How do you detect if a server has been compromised?</a></li><li><a href="#q-what-are-the-steps-for-server-os-security-hardening" class="table-of-contents__link toc-highlight">Q: What are the steps for server OS security hardening?</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Excalibra.</div></div></div></footer></div>
+</body>
+</html>
