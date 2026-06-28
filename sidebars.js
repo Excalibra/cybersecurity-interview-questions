@@ -11,6 +11,21 @@ module.exports = {
       items: [
         {
           type: "category",
+          label: "Blue Team",
+          link: {
+            type: "doc",
+            id: "questions/blue-team/index"
+          },
+          items: [
+            "questions/blue-team/01-incident-response-macro",
+            "questions/blue-team/02-incident-response-details",
+            "questions/blue-team/03-intrusion-detection-and-prevention",
+            "questions/blue-team/04-traceability",
+            "questions/blue-team/05-other-topics"
+          ]
+        },
+        {
+          type: "category",
           label: "Red Team",
           link: {
             type: "doc",
