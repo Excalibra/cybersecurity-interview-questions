@@ -11,21 +11,6 @@ module.exports = {
       items: [
         {
           type: "category",
-          label: "Blue Team",
-          link: {
-            type: "doc",
-            id: "questions/blue-team/index"
-          },
-          items: [
-            "questions/blue-team/01-incident-response-macro",
-            "questions/blue-team/02-incident-response-details",
-            "questions/blue-team/03-intrusion-detection-and-prevention",
-            "questions/blue-team/04-traceability",
-            "questions/blue-team/05-other-topics"
-          ]
-        },
-        {
-          type: "category",
           label: "Red Team",
           link: {
             type: "doc",
@@ -102,7 +87,7 @@ module.exports = {
           label: "Network Security",
           link: {
             type: "doc",
-            id: "questions/network-security-interview/index"
+            id: "questions/network-security-interview/important-protocol-stack-overview"
           },
           items: [
             "questions/network-security-interview/what-is-sql-injection-attack",
@@ -198,6 +183,21 @@ module.exports = {
             "questions/network-security-interview/what-vulnerabilities-can-be-tested-with-json-data-payloads",
             "questions/network-security-interview/how-can-you-perform-information-gathering-on-an-internal-network-server",
             "questions/network-security-interview/after-compromising-a-machine-on-the-internal-network-how-can-you-identify-other-hosts-to-target"
+          ]
+        },
+        {
+          type: "category",
+          label: "Blue Team",
+          link: {
+            type: "doc",
+            id: "questions/blue-team/index"
+          },
+          items: [
+            "questions/blue-team/incident-response-macro",
+            "questions/blue-team/incident-response-details",
+            "questions/blue-team/intrusion-detection-and-prevention",
+            "questions/blue-team/traceability",
+            "questions/blue-team/other-topics"
           ]
         }
       ]
