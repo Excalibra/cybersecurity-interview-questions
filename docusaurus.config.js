@@ -19,6 +19,16 @@ module.exports = {
       },
     ],
   ],
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        defer: true,
+        src: 'https://cloud.umami.is/script.js',
+        'data-website-id': '03e4dc18-2dfd-496e-a937-725a016e3312',
+      },
+    },
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
