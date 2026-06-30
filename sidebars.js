@@ -87,7 +87,7 @@ module.exports = {
           label: "Network Security",
           link: {
             type: "doc",
-            id: "questions/network-security-interview/"
+            id: "questions/network-security-interview/index"
           },
           items: [
             "questions/network-security-interview/what-is-sql-injection-attack",
