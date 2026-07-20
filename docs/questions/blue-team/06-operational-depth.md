@@ -48,15 +48,17 @@ You can use Wireshark filters (e.g., `http contains "xxx"`) to search for keywor
 
 ---
 
-## Q: What are some common enterprise collaboration platforms (OA systems) that are often targeted?
+## Q: What are some common enterprise collaboration platforms and applications that attackers frequently target?
 
-**A:** 
+**A:** Attackers often target widely used enterprise platforms because they provide a high-value entry point into an organisation's network. Common targets include:
 
-- **PHP‑based:** Tongda OA, WeOffice Eoffice.
-- **Java‑based:** WeOffice OA/Cloud Bridge, Zhiyuan OA, Lanling OA, Yongyou OA.
-- **ASP‑based:** Qilai OA.
+- **Productivity and Collaboration:** Microsoft 365, Google Workspace, Slack, Teams, SharePoint.
+- **CRM and Business Platforms:** Salesforce, HubSpot, SAP, Oracle.
+- **IT Service Management:** ServiceNow, Jira, Confluence.
+- **Legacy or Unpatched Systems:** Outdated versions of Windows Server, Linux distributions, or custom-built applications.
+- **Third‑Party Integrations:** Plugins, APIs, and middleware that may have known vulnerabilities.
 
-These are commonly used in enterprise environments and are frequent targets for attackers.
+These platforms are attractive because they often hold sensitive data and can be used as a pivot point for lateral movement within an organisation's network.
 
 ---
 
