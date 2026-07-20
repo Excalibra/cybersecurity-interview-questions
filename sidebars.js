@@ -197,8 +197,8 @@ module.exports = {
             "questions/blue-team/incident-response-details",
             "questions/blue-team/intrusion-detection-and-prevention",
             "questions/blue-team/traceability",
-            "questions/blue-team/other-topics",
-            "questions/blue-team/operational-depth"
+            "questions/blue-team/operational-depth",
+            "questions/blue-team/other-topics"
           ]
         }
       ]
