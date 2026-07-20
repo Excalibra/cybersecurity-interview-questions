@@ -1,4 +1,4 @@
-# Operational Depth for Blue Teams
+# Operational Depth
 
 ---
 
