@@ -23,8 +23,6 @@ This repository is a **curated collection of 200+ cybersecurity interview questi
 - **Internal Network Security** – Lateral movement, domain attacks, and tunneling.
 - **Systems Hardening** – Windows and Linux security, privilege escalation.
 
-> **No fluff.** Just practical questions, answers, and knowledge you can apply.
-
 ---
 
 ## How to Use This Repository
