@@ -14,7 +14,7 @@
 
 ## Overview
 
-This repository is a **curated collection of cybersecurity interview questions and answers** – designed for anyone preparing for roles in:
+This repository is a **curated collection of 200+ cybersecurity interview questions and answers** – designed for anyone preparing for roles in:
 
 - **Red Teaming / Penetration Testing** – Exploitation, evasion, and persistence.
 - **Blue Teaming / Defense & Security Operations** – Detection, response, and hardening.
@@ -44,6 +44,7 @@ This repository is a **curated collection of cybersecurity interview questions a
 |:--------|:---------------|
 | **Red Team** | Exploitation, evasion, deserialization, WAF bypass, domain attacks, persistence |
 | **Red Team Interview Experience** | Real questions and lessons from actual interviews |
+| **Blue Team** | Incident response, log analysis, intrusion detection, traceability, operational depth, security devices, and system hardening |
 | **Network Security** | ARP, DNS, TCP/UDP, DDoS, OSI model, routing protocols, firewalls, SSL/TLS |
 | **Web Security** | SQLi, XSS, CSRF, SSRF, deserialization, file uploads, logic flaws |
 | **Incident Response** | Threat intelligence, log analysis, malware detection, honeypots |
@@ -67,9 +68,9 @@ This repository is a **curated collection of cybersecurity interview questions a
 
 ---
 
-## Roadmap: Blue Team / Defense Topics
+## Roadmap & In Progress
 
-This project currently focuses on **Red Team** content, but **Blue Team** (defensive security) topics are actively being planned. Below is the public to‑do list – contributions are welcome!
+This project now includes a dedicated **Blue Team** section with 70+ questions, covering incident response, log analysis, intrusion detection, and traceability. Additional topics are actively being added, and contributions are welcome!
 
 ### Planned Blue Team Content
 
